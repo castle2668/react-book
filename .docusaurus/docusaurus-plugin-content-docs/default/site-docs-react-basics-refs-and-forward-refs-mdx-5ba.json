@@ -2,7 +2,7 @@
   "unversionedId": "react-basics/refs-and-forward-refs",
   "id": "react-basics/refs-and-forward-refs",
   "title": "Refs & Forward Refs",
-  "description": "⚓ useRef Hook",
+  "description": "What is Ref",
   "source": "@site/docs/react-basics/refs-and-forward-refs.mdx",
   "sourceDirName": "react-basics",
   "slug": "/react-basics/refs-and-forward-refs",

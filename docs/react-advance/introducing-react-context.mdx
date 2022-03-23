@@ -17,6 +17,7 @@ sidebar_position: 3
 ### 前置 1：React.createContext
 
 在 src 下建立 store 資料夾，並新增一個 Context，它會用來管理與登入授權相關的狀態。
+
 這個 AuthContext 本身並不是一個組件，它是用來包著組件的一個物件。
 
 ```jsx
@@ -30,6 +31,7 @@ export default AuthContext;
 ```
 
 如果在某個子元件會用到 Context，那就是用 AuthContext 包住那一個子元件。
+
 如果整個 App 到處都會用到，那也可以選擇用 AuthContext 包住整個 App 的內容，如同接下來的範例。
 
 ### 前置 2：Context.Provider
@@ -53,6 +55,7 @@ return (
 ### 用法 1：使用 Context.Consumer
 
 React.Context.Consumer 組件本身自帶一個 `{child}`，並且是一個函式 `(ctx) ⇒ {}` 的形式。
+
 參數 `ctx` 就是指向剛才 Store 裡面的資料，像是 `{ isLoggedIn: false }`，而函式的最後會 return 要存取這個資料的 JSX 程式碼。
 
 ```jsx
@@ -158,6 +161,7 @@ return (
 ### 用法 2: ⚓ useContext Hook
 
 除了透過 Context.Consumer 來存取 Store 之外，我們也可以用 useContext 來取用 AuthContext。
+
 可以發現 useContext 的寫法真的簡潔優雅很多，大推 👍
 
 ```jsx
@@ -198,6 +202,7 @@ export default Navigation;
 > 除了傳遞 Values 像是 String 或 Object 之外，Context 也能傳遞 Function
 
 如果子元件有實際使用到函式，而非單純轉發的話，繼續使用 Props 來傳遞是完全沒有問題的。
+
 像是 Login 元件有用到 onLogin 函式，Home 元件也有實際使用到 onLogout 函式。
 
 ```jsx
@@ -239,7 +244,10 @@ const Navigation = () => {
 
 > Props vs. Context?
 
-一般情況下我們使用 Props 居多，因為這樣才能讓組件具有複用性。因為如果使用 Context，那麼該組件就會永遠是那一個功能，便會失去它的複用性。
+一般情況下我們使用 Props 居多，因為這樣才能讓組件具有複用性。
+
+因為如果使用 Context，那麼該組件就會永遠是那一個功能，便會失去它的複用性。
+
 通常只有當我們要轉發的資料，需要越過很多元件，或是該元件有一個明確、具體的作用時，我們才會使用到 Context。
 
 ### (Optional) Better IDE support and autocomplete
@@ -304,11 +312,8 @@ ReactDOM.render(
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
-- 進階 JavaScript 程式設計中非常重要的閉包的概念
-- 藉由閉包的經典範例瞭解閉包與自由變數的概念
-- 使用 ES6 的 let 處理閉包造成的情況
-- 在 ES5 使用立即函式處理閉包造成的情況
+- React Context
 
 ## References
 
-- [JavaScript: Understanding the Weird Parts](https://www.udemy.com/course/understand-javascript/)
+- [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)

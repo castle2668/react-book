@@ -6,7 +6,9 @@ sidebar_position: 7
 
 ## ⚓ useMemo Hook
 
-記憶任何類型的數據。
+可以記憶任何類型的數據。
+
+通常用在重新渲染時，不希望某些複雜的計算再次執行，以優化效能。
 
 ```jsx
 // 使用 useMemo 來記憶陣列
@@ -22,13 +24,13 @@ const items = useMemo(() => {
 }, []);
 ```
 
-記憶 Function 的 useCallback 其實比較需要，也常常用到。而 useMemo 雖然可以記憶 Array，但同時也會佔用內存，因此只適合用於需要性能運算的資料。
+範例中，useMemo 雖然可以記憶 Array，但同時也佔用了內存，因此只適合用於非常需要性能運算的資料上面。
 
 ## 回顧
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
-- React
+- useMemo Hook
 
 ## References
 

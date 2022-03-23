@@ -4,12 +4,14 @@ sidebar_position: 2
 
 # The Component Lifecycle
 
-The Component Lifecycle is Class-based Components Only!
+> The Component Lifecycle is Class-based Components Only!
 
 ## componentDidMount()
 
 元件渲染完成後執行一次。
+
 = 等於 Vue.js `mounted` Hook
+
 = 等於 React `useEffect` Hook 的 `useEffect(..., [])` 形式
 
 Example: Get loaded data from server
@@ -27,7 +29,9 @@ componentDidMount() {
 ## componentDidUpdate()
 
 當有狀態 (State) 被修改時執行（在元件更新完成、執行完 `render()` 重新繪製後）。
+
 = 等於 Vue.js `updated` Hook
+
 = 等於 React `useEffect` Hook 的 `useEffect(..., [someValue])` 形式
 
 Example: Replace useEffect with componentDidUpdate
@@ -49,7 +53,9 @@ componentDidUpdate(prevProps, prevState) {
 ## componentWillUnmount()
 
 當元件即將從 DOM 被移除前（重新渲染前），還需要執行一些事情的時候，就會執行一次。這也是每次 `useEffect` 運行前都會運行的清理功能 (Cleanup Function)。
+
 = 等於 Vue.js `beforeUnmount` Hook
+
 = 等於 React `useEffect` Hook 的 Cleanup Function `useEffect(() => {return () => {...}}, [])`
 
 ```jsx
@@ -62,11 +68,8 @@ componentWillUnmount() {
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
-- 進階 JavaScript 程式設計中非常重要的閉包的概念
-- 藉由閉包的經典範例瞭解閉包與自由變數的概念
-- 使用 ES6 的 let 處理閉包造成的情況
-- 在 ES5 使用立即函式處理閉包造成的情況
+- Class-based Components Lifecycle
 
 ## References
 
-- [JavaScript: Understanding the Weird Parts](https://www.udemy.com/course/understand-javascript/)
+- [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)

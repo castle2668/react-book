@@ -2,7 +2,7 @@
   "unversionedId": "building-a-multi-page-spa-with-react-router/introducing-react-router",
   "id": "building-a-multi-page-spa-with-react-router/introducing-react-router",
   "title": "Introducing React Router",
-  "description": "SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。",
+  "description": "react-router-v5",
   "source": "@site/docs/building-a-multi-page-spa-with-react-router/introducing-react-router.mdx",
   "sourceDirName": "building-a-multi-page-spa-with-react-router",
   "slug": "/building-a-multi-page-spa-with-react-router/introducing-react-router",

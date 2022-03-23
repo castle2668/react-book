@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','2b0'),
+    component: ComponentCreator('/','eca'),
     routes: [
       {
         path: '/',
@@ -78,8 +78,8 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/building-a-multi-page-spa-with-react-router/introducing-react-router',
-        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/introducing-react-router','b07'),
+        path: '/building-a-multi-page-spa-with-react-router/introducing-react-router-v5',
+        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/introducing-react-router-v5','c60'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -164,12 +164,6 @@ export default [
       {
         path: '/react-advance/introducing-use-reducer',
         component: ComponentCreator('/react-advance/introducing-use-reducer','323'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/react-basics/introducing-jsx',
-        component: ComponentCreator('/react-basics/introducing-jsx','54d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

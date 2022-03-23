@@ -25,7 +25,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-2b0": {
+  "/-eca": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -49,9 +49,9 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---an-alternativ-way-of-building-components-the-component-lifecycle-225-3f3"
   },
-  "/building-a-multi-page-spa-with-react-router/introducing-react-router-b07": {
+  "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5-c60": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---building-a-multi-page-spa-with-react-router-introducing-react-router-35-d-087"
+    "content": "content---building-a-multi-page-spa-with-react-router-introducing-react-router-v-583-a-f1c"
   },
   "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6-92f": {
     "component": "component---theme-doc-item-178-a40",
@@ -108,10 +108,6 @@
   "/react-advance/introducing-use-reducer-323": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---react-advance-introducing-use-reducer-7-af-c98"
-  },
-  "/react-basics/introducing-jsx-54d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-introducing-jsxe-5-a-eaf"
   },
   "/react-basics/refs-and-forward-refs-9db": {
     "component": "component---theme-doc-item-178-a40",

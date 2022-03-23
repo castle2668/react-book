@@ -40,8 +40,8 @@
                 "permalink": "/diving-into-redux/introducing-redux-toolkit"
               },
               "next": {
-                "title": "Introducing React Router",
-                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router"
+                "title": "Introducing React Router v5",
+                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
               }
             },
             {
@@ -123,15 +123,15 @@
               }
             },
             {
-              "unversionedId": "building-a-multi-page-spa-with-react-router/introducing-react-router",
-              "id": "building-a-multi-page-spa-with-react-router/introducing-react-router",
-              "title": "Introducing React Router",
+              "unversionedId": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+              "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+              "title": "Introducing React Router v5",
               "description": "SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。",
-              "source": "@site/docs/building-a-multi-page-spa-with-react-router/introducing-react-router.mdx",
+              "source": "@site/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
               "sourceDirName": "building-a-multi-page-spa-with-react-router",
-              "slug": "/building-a-multi-page-spa-with-react-router/introducing-react-router",
-              "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/introducing-react-router.mdx",
+              "slug": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+              "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -166,8 +166,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introducing React Router",
-                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router"
+                "title": "Introducing React Router v5",
+                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
               },
               "next": {
                 "title": "Upload Production Code to Server",
@@ -178,7 +178,7 @@
               "unversionedId": "building-custom-react-hooks/using-custom-hooks",
               "id": "building-custom-react-hooks/using-custom-hooks",
               "title": "Using Custom Hooks",
-              "description": "💡 可以使用 React Hooks 與 State 的函式",
+              "description": "Custom Hooks: 可以使用 React Hooks 與 State 的函式",
               "source": "@site/docs/building-custom-react-hooks/using-custom-hooks.mdx",
               "sourceDirName": "building-custom-react-hooks",
               "slug": "/building-custom-react-hooks/using-custom-hooks",
@@ -345,8 +345,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Introducing JSX",
-                "permalink": "/react-basics/introducing-jsx"
+                "title": "Working with State",
+                "permalink": "/react-basics/working-with-state"
               }
             },
             {
@@ -431,7 +431,7 @@
               "unversionedId": "react-advance/introducing-use-effect",
               "id": "react-advance/introducing-use-effect",
               "title": "Introducing useEffect",
-              "description": "⚓ useEffect Hook",
+              "description": "Effect (Side Effect): the tasks happen outside of the normal component evaluation. For example, HTTP Request.",
               "source": "@site/docs/react-advance/introducing-use-effect.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/introducing-use-effect",
@@ -532,36 +532,10 @@
               }
             },
             {
-              "unversionedId": "react-basics/introducing-jsx",
-              "id": "react-basics/introducing-jsx",
-              "title": "Introducing JSX",
-              "description": "JSX",
-              "source": "@site/docs/react-basics/introducing-jsx.mdx",
-              "sourceDirName": "react-basics",
-              "slug": "/react-basics/introducing-jsx",
-              "permalink": "/react-basics/introducing-jsx",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/introducing-jsx.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Getting Started",
-                "permalink": "/"
-              },
-              "next": {
-                "title": "Working with State",
-                "permalink": "/react-basics/working-with-state"
-              }
-            },
-            {
               "unversionedId": "react-basics/refs-and-forward-refs",
               "id": "react-basics/refs-and-forward-refs",
               "title": "Refs & Forward Refs",
-              "description": "⚓ useRef Hook",
+              "description": "What is Ref",
               "source": "@site/docs/react-basics/refs-and-forward-refs.mdx",
               "sourceDirName": "react-basics",
               "slug": "/react-basics/refs-and-forward-refs",
@@ -587,7 +561,7 @@
               "unversionedId": "react-basics/styling-react-components",
               "id": "react-basics/styling-react-components",
               "title": "Styling React Components",
-              "description": "Styled Components",
+              "description": "Inline Style",
               "source": "@site/docs/react-basics/styling-react-components.mdx",
               "sourceDirName": "react-basics",
               "slug": "/react-basics/styling-react-components",
@@ -595,9 +569,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/styling-react-components.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -613,7 +587,7 @@
               "unversionedId": "react-basics/working-with-portals",
               "id": "react-basics/working-with-portals",
               "title": "Working with Portals",
-              "description": "React Portals",
+              "description": "React Fragments",
               "source": "@site/docs/react-basics/working-with-portals.mdx",
               "sourceDirName": "react-basics",
               "slug": "/react-basics/working-with-portals",
@@ -621,9 +595,9 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/working-with-portals.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -647,14 +621,14 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/working-with-state.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introducing JSX",
-                "permalink": "/react-basics/introducing-jsx"
+                "title": "Getting Started",
+                "permalink": "/"
               },
               "next": {
                 "title": "Styling React Components",
@@ -700,10 +674,6 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
-                  {
-                    "type": "doc",
-                    "id": "react-basics/introducing-jsx"
-                  },
                   {
                     "type": "doc",
                     "id": "react-basics/working-with-state"
@@ -846,7 +816,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "building-a-multi-page-spa-with-react-router/introducing-react-router"
+                    "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
                   },
                   {
                     "type": "doc",

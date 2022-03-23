@@ -2,7 +2,7 @@
   "unversionedId": "building-custom-react-hooks/using-custom-hooks",
   "id": "building-custom-react-hooks/using-custom-hooks",
   "title": "Using Custom Hooks",
-  "description": "💡 可以使用 React Hooks 與 State 的函式",
+  "description": "Custom Hooks: 可以使用 React Hooks 與 State 的函式",
   "source": "@site/docs/building-custom-react-hooks/using-custom-hooks.mdx",
   "sourceDirName": "building-custom-react-hooks",
   "slug": "/building-custom-react-hooks/using-custom-hooks",

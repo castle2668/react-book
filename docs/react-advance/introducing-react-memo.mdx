@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ## React.memo
 
-> Avoid unnecessary re-rendering
+> 偵測 Props 有沒有修改，減少元件不必要的渲染。
 
 只要在輸出 Component 時套上 `React.memo()` 即可。（限 Functional Component 使用，Class Component 不能用）
 
@@ -26,13 +26,13 @@ export default React.memo(DemoOutput);
 // {} === {} // false
 ```
 
-這代表只要 Props 是物件 React.memo 就沒用了嗎？此時我們需要搭配 useCallback 來解決這個問題！
+這代表只要 Props 是物件 React.memo 就沒用了嗎？此時我們需要搭配下一篇介紹的 useCallback 來解決這個問題！
 
 ## 回顧
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
-- React
+- React.memo
 
 ## References
 

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+  "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+  "title": "Introducing React Router v5",
+  "description": "SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。",
+  "source": "@site/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
+  "sourceDirName": "building-a-multi-page-spa-with-react-router",
+  "slug": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+  "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Asynchronous code in Redux",
+    "permalink": "/advanced-redux/asynchronous-code-in-redux"
+  },
+  "next": {
+    "title": "Upgrading To React Router v6",
+    "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+  }
+}

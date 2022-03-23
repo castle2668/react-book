@@ -31,8 +31,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "building-a-multi-page-spa-with-react-router/introducing-react-router",
-              "path": "/building-a-multi-page-spa-with-react-router/introducing-react-router",
+              "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+              "path": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -108,11 +108,6 @@
             {
               "id": "react-advance/introducing-use-reducer",
               "path": "/react-advance/introducing-use-reducer",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "react-basics/introducing-jsx",
-              "path": "/react-basics/introducing-jsx",
               "sidebar": "tutorialSidebar"
             },
             {

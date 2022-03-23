@@ -2,7 +2,7 @@
   "unversionedId": "react-advance/introducing-use-effect",
   "id": "react-advance/introducing-use-effect",
   "title": "Introducing useEffect",
-  "description": "⚓ useEffect Hook",
+  "description": "Effect (Side Effect): the tasks happen outside of the normal component evaluation. For example, HTTP Request.",
   "source": "@site/docs/react-advance/introducing-use-effect.mdx",
   "sourceDirName": "react-advance",
   "slug": "/react-advance/introducing-use-effect",

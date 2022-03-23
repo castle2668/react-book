@@ -8,7 +8,9 @@ sidebar_position: 1
 
 千萬不要在 Reducer 執行 Call API 這種會造成 Side Effect 的非同步行為！除此之外，也不要在 Reducer 以外的地方 mutate 任何的 state！
 
-那究竟該怎麼做呢？我們可以在**元件**中的 `useEffect` 執行非同步行為，或是透過 Redux 的 **Action creator** 來執行。
+那究竟該怎麼做呢？
+
+我們可以在**元件**中的 `useEffect` 執行非同步行為，或是透過 Redux 的 **Action creator** 來執行。
 
 ## Where should our logic (code) go
 
@@ -24,11 +26,13 @@ For example: First, we update our Redux store. Then, we select the updated store
 ## Action Creator Thunk
 
 > IMO this is similar to `actions` in Vuex
-> 非同步的 Code 可以放在 Component 或是 Redux Thunks
 
-- Thunk: 只是一個函式，為了將某一個動作，延後到其他事情完成後。
+非同步的 Code 可以放在 Component 或是 Redux Thunks
 
-如果一個 Action Creator 是 Thunk，那麼這個 Action Creator 不會回傳 Action 物件，而是會回傳一個函式（這個函式才會返回 Action 物件）。
+- Thunk: 只是一個函式，為了將某一個動作，延後到其他事情完成後
+
+  如果一個 Action Creator 是 Thunk，那麼這個 Action Creator 不會回傳 Action 物件，而是會回傳一個函式（這個函式才會返回 Action 物件）。
+
 例如：想要在 Dispatch 之前，先完成一些事情。
 
 ```jsx
@@ -89,11 +93,8 @@ Both two approaches are great, but I prefer this way more!
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
-- 進階 JavaScript 程式設計中非常重要的閉包的概念
-- 藉由閉包的經典範例瞭解閉包與自由變數的概念
-- 使用 ES6 的 let 處理閉包造成的情況
-- 在 ES5 使用立即函式處理閉包造成的情況
+- Action Creator Thunk
 
 ## References
 
-- [JavaScript: Understanding the Weird Parts](https://www.udemy.com/course/understand-javascript/)
+- [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)

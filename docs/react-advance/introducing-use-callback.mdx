@@ -8,13 +8,16 @@ sidebar_position: 6
 
 > Avoid unnecessary re-rendering "when Props is Object type"
 
-useCallback 允許我們儲存跨組件執行的「函式」，它會把函式儲存在 React 內存記憶體，讓使用時的物件位址都是指向同一個地方。
+useCallback 允許我們儲存跨組件執行的「函式」，它會把函式儲存在 React 內存記憶體，讓使用時的物件位址都是指向同一個地方，這時候 React.memo 就能夠知道傳入的函式是相同的物件。
+
+所以 Props 的 Object 在父元件重新渲染時，就不會重新分配記憶體位址，因此能夠減少不必要的重新渲染。
+
+### Dependencies
+
 useCallback 與 useEffect 都一樣要傳入 dependency array，要放入我們在函式中使用到的（相關於組件的）任何東西。
 
-這時候剛才的 React.memo 就能夠知道傳入的函式是相同的物件。
-
 ```jsx
-// 用到 setState 可以不用放入 dependency（因為它其實也不會變化）
+// 這裡用到 setState 但是不用放入 dependency，因為 React 保證 setState 不會變化
 const toggleParagraphHandler = useCallback(() => {
   setShowParagraph((prevShowParagraph) => !prevShowParagraph);
 }, []);
@@ -36,7 +39,7 @@ const toggleParagraphHandler = useCallback(() => {
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
-- React
+- useCallback Hook
 
 ## References
 

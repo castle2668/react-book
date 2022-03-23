@@ -22,12 +22,6 @@
         "items": [
           {
             "type": "link",
-            "label": "Introducing JSX",
-            "href": "/react-basics/introducing-jsx",
-            "docId": "react-basics/introducing-jsx"
-          },
-          {
-            "type": "link",
             "label": "Working with State",
             "href": "/react-basics/working-with-state",
             "docId": "react-basics/working-with-state"
@@ -210,9 +204,9 @@
         "items": [
           {
             "type": "link",
-            "label": "Introducing React Router",
-            "href": "/building-a-multi-page-spa-with-react-router/introducing-react-router",
-            "docId": "building-a-multi-page-spa-with-react-router/introducing-react-router"
+            "label": "Introducing React Router v5",
+            "href": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+            "docId": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
           },
           {
             "type": "link",
@@ -263,9 +257,9 @@
       "description": "The Component Lifecycle is Class-based Components Only!",
       "sidebar": "tutorialSidebar"
     },
-    "building-a-multi-page-spa-with-react-router/introducing-react-router": {
-      "id": "building-a-multi-page-spa-with-react-router/introducing-react-router",
-      "title": "Introducing React Router",
+    "building-a-multi-page-spa-with-react-router/introducing-react-router-v5": {
+      "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+      "title": "Introducing React Router v5",
       "description": "SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。",
       "sidebar": "tutorialSidebar"
     },
@@ -278,7 +272,7 @@
     "building-custom-react-hooks/using-custom-hooks": {
       "id": "building-custom-react-hooks/using-custom-hooks",
       "title": "Using Custom Hooks",
-      "description": "💡 可以使用 React Hooks 與 State 的函式",
+      "description": "Custom Hooks: 可以使用 React Hooks 與 State 的函式",
       "sidebar": "tutorialSidebar"
     },
     "deploying-react-apps/upload-production-code-to-server": {
@@ -338,7 +332,7 @@
     "react-advance/introducing-use-effect": {
       "id": "react-advance/introducing-use-effect",
       "title": "Introducing useEffect",
-      "description": "⚓ useEffect Hook",
+      "description": "Effect (Side Effect): the tasks happen outside of the normal component evaluation. For example, HTTP Request.",
       "sidebar": "tutorialSidebar"
     },
     "react-advance/introducing-use-imperative-handle": {
@@ -359,28 +353,22 @@
       "description": "⚓ useReducer Hook",
       "sidebar": "tutorialSidebar"
     },
-    "react-basics/introducing-jsx": {
-      "id": "react-basics/introducing-jsx",
-      "title": "Introducing JSX",
-      "description": "JSX",
-      "sidebar": "tutorialSidebar"
-    },
     "react-basics/refs-and-forward-refs": {
       "id": "react-basics/refs-and-forward-refs",
       "title": "Refs & Forward Refs",
-      "description": "⚓ useRef Hook",
+      "description": "What is Ref",
       "sidebar": "tutorialSidebar"
     },
     "react-basics/styling-react-components": {
       "id": "react-basics/styling-react-components",
       "title": "Styling React Components",
-      "description": "Styled Components",
+      "description": "Inline Style",
       "sidebar": "tutorialSidebar"
     },
     "react-basics/working-with-portals": {
       "id": "react-basics/working-with-portals",
       "title": "Working with Portals",
-      "description": "React Portals",
+      "description": "React Fragments",
       "sidebar": "tutorialSidebar"
     },
     "react-basics/working-with-state": {

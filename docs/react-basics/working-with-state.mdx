@@ -1,16 +1,20 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Working with State
 
 ## ⚓ useState Hook
 
-> 💡 單向綁定
-> 💡 除非 DOM 移除，否則 useState 管理的 state 都不會重新初始化，只會在第一次載入時初始化。
+### 初始化
 
-進行 setState 時並不會馬上更改狀態，而是會進入排程，優先完成更重要的工作，不過 React 還是會確保我們改變 State 的順序是正確的。
-但是會發生以下問題，如果排程了多個 setState，則會到最後才按照排程順序執行狀態改變，結果就會是 Book。
+State 只會在第一次載入時初始化，除非 DOM 移除，否則 `useState` 管理的 State 都不會重新初始化。
+
+### 更改狀態
+
+進行 `setState` 時並不會馬上更改狀態，而是會進入排程，優先完成更重要的工作，不過 React 還是會確保我們改變 State 的順序是正確的。
+
+例如：以下排程多個 `setState`，React 會到最後才按照排程順序執行狀態改變，結果 State 就會得到 Book。
 
 ```jsx
 const [state, setState] = useState('DVD');
@@ -19,26 +23,32 @@ setState('Pencil');
 setState('Book'); // 最後的狀態會變成 Book
 ```
 
-但有時候我們需要馬上取得改變的結果去做一些應用或計算，我們就可以用函式的形式，讓狀態更新可以依賴於之前的狀態快照 (snapshot)。
-這樣我們就能得到基於狀態快照的新狀態，而不是永遠都只會拿到最新的那一個狀態哩！
+### 取得狀態快照
 
-👇 Updating State That Depends On The Previous State.
-Safer way: Ensure the Latest state snapshot (If it depends on the previous state)
+然而，有時候我們需要馬上取得改變的結果，方便去做一些應用或計算。這時候我們可以透過「函式」的形式，讓狀態更新可以依賴於之前的狀態快照 (Snapshot)。
 
-```jsx=
+這樣我們就能得到基於狀態快照 (Snapshot) 的新狀態，而不是永遠都只會拿到最新的那一個狀態哩！
+
+```jsx
+// 👇 Updating State That Depends On The Previous State.
+// Safer way: Ensure the Latest state snapshot (If it depends on the previous state)
+
 setUserInput((prevState) => {
   return { ...prevState, enteredTitle: event.target.value };
 });
 ```
 
-我們也可以使用 useEffect，它跟函式形式一樣都會去看依賴的狀態有沒有改變，如果改變了就會馬上執行 setState，不會錯過狀態改變，能夠確保取得最新的狀態。
-因此，在 useEffect 裡使用的 setState 即使不是函式的形式，也會即時更新狀態。
+除了上面的方法，我們也可以使用 `useEffect`，它跟函式形式一樣都會去看依賴的狀態有沒有改變，如果改變了就會馬上執行 `setState`，因而不會錯過狀態改變，能夠確保取得最新的狀態。
 
-## Lifting The State Up (Emit, from child to parent)
+因此，在 `useEffect` 裡使用的 `setState` 的話，即使不是函式的形式，也會即時更新狀態喔！
 
-> 💡 Parent component needs data generated in Child component.
+## Lifting The State Up
 
-Step 1: 在 Parent 建立一個函式，用來作為一個要傳給 Child 的 Props `onXxx` 的 Value (type: Function)。
+> 觀念近似 Vue 的 Emit (From Child to Parent)
+
+當 Parent component 需要取得由 Child component 生成的 data 時，我們可以使用 Lifting The State Up 的技巧。
+
+Step 1: 在 Parent component 建立一個函式，將它作為 Child component 的 Props (`onXxx`) 的 Value。
 
 ```jsx
 // Inside of the "ParentComponent" component function
@@ -51,7 +61,7 @@ const xxxHandler = () => {
 <ChildComponent onXXX={xxxHandler} />;
 ```
 
-Step 2: 在 Child 執行函式 `props.onXxx`，此時等同於執行了 Parent 的 `xxxHandler` 函式，因為它們傳遞的是 **Pointer (By Reference)**。
+Step 2: 在 Child component 執行函式 `props.onXxx` 等同於執行了 Parent component 的 `xxxHandler` 函式，因為函式傳遞的是 **Pointer (By Reference)**。
 
 ```jsx
 // Inside of the "ChildComponent" component function
@@ -59,7 +69,7 @@ Step 2: 在 Child 執行函式 `props.onXxx`，此時等同於執行了 Parent �
 props.onXxx();
 ```
 
-Step 3: 從 Child 放入參數傳回 Parent，Parent 從參數獲得 Child 的 Data，此即完成 Emit 的動作。
+Step 3: 從 Child component 放入參數傳回 Parent component，讓 Parent component 可以從參數獲得 Child component 的 data，這樣就完成 Lifting The State Up (Emit) 的動作了。
 
 ```jsx
 // Inside of the "ChildComponent" component function
@@ -73,7 +83,7 @@ props.onXxx(childData);
 ```
 
 ```jsx
-// Inside of the "ChildComponent" component function
+// Inside of the "ParentComponent" component function
 
 const xxxHandler = (enteredChildData) => {
   // do something...
@@ -89,7 +99,8 @@ const xxxHandler = (enteredChildData) => {
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
-- React
+- useState Hook
+- Lifting The State Up
 
 ## References
 

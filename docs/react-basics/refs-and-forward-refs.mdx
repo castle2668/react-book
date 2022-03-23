@@ -4,13 +4,15 @@ sidebar_position: 5
 
 # Refs & Forward Refs
 
+## What is Ref
+
+Ref 就是 Reference 的意思，它是一個「唯讀屬性」，只能 Read 不能 Write。
+
+因此，如果我們只想要 Read 一個值，可以使用 `ref` 就好，不需要使用到 State。
+
 ## ⚓ useRef Hook
 
-> 💡 唯讀屬性
-> ref = Reference
-> If you just want to **read** the value, you can use ref instead of state.
-
-如果只是要取得送出的值，而非操作修改值的話，其實不必使用到 useState + onChange 來監控每一次輸入的變化，我們可以使用 useRef 來處理這個情況。
+如果只是要取得送出的值，不需要操作、修改值的話，我們其實不必使用到 `useState` 與 `onChange` 來監控每一次輸入的變化，我們可以使用 `useRef` 來處理這個情況。
 
 ```jsx
 // Add useRef to HTML Input Tag
@@ -19,27 +21,39 @@ const nameInputRef = useRef();
 
 // useRef.current is pointed to the <input> element
 console.log(nameInputRef.current); // <input id="username" type="text">
+```
 
-// 注意 value 取得的值會是 String 型別，即使 input type 設定為 number 也一樣
+要特別注意，`useRef.current.value` 取得的值會是 String 型別，即使 Input 的 `type` 設定為 `number` 也一樣喔。
+
+```jsx
 console.log(nameInputRef.current.value); // "1"
 console.log(+amountInputRef.current.value); // Convert a numbered "String" to a "Number"
 ```
 
-But there is an edge case of manipulating the DOM. This line of code is the regular DOM API for setting the value of an input DOM node.
-This is also called "Uncontrolled" component, cause this is not controlled with React.
+如果透過 `ref` 操作 DOM，只建議進行一些簡單的動作，因為 DOM 的部分又稱為 **Uncontrolled** component，也就是不受到 React 控制的意思。
+
+話雖如此，但是以下這種清空輸入欄的動作其實還是可接受的，因為我們並沒有透過 `useRef` 來新增 DOM，如果只是單純更改輸入欄位的值，其實影響不大，還在可接受的範圍內。
 
 ```jsx
 // Manipulating the DOM
 nameInputRef.current.value = '';
 ```
 
-> 不過上面這個清空輸入欄的動作是可以接受的，因為我們並沒有透過 useRef 來新增 DOM，如果只是單純更改輸入欄位的值，我覺得影響應該不大，算是在可接受的範圍內！
+## React.forwardRef
 
-## forwardRef
+如果不是原生的 HTML 標籤，而是自己寫的元件的話，我們沒辦法直接使用 `ref`。
 
-如果不是原生的 HTML 標籤，而是自己寫的元件，我們沒辦法直接使用 `ref`，必須要透過 forwardRef 把元件包裝起來往前傳，如此一來才能把 `ref` 當成 Props 來傳遞使用。
+```jsx
+// 沒辦法直接使用 ref
 
-使用 forwardRef 包裝後，元件就可以使用參數 `ref` 哩。
+<Input ref={xxxRef} />
+```
+
+我們必須要透過 `forwardRef` 把元件包裝起來，藉由 `<forwardInput>` 來把 `<Input>` 往前傳遞。
+
+使用 `forwardRef` 包裝的 `<Input>` 元件能夠取用 `ref` 這個參數，我們把 `ref` 當成 Props 來傳遞給裡面的 HTML `<input>` 使用。
+
+> 注意，此時在父元件當中，我們仍然是使用 `<Input>` 而非 `<forwardInput>`。
 
 ```jsx
 const Input = (props, ref) => {
@@ -52,15 +66,18 @@ const Input = (props, ref) => {
 };
 
 const forwardInput = React.forwardRef(Input);
+
+export default forwardInput;
 ```
 
-[https://youtu.be/ScT4ElKd6eo](https://youtu.be/ScT4ElKd6eo)
+> 實際使用範例可參考 [React Hook useRef and forwarding refs with forwardRef](https://youtu.be/ScT4ElKd6eo) 這部影片。
 
 ## 回顧
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
-- React
+- useRef Hook
+- React.forwardRef
 
 ## References
 
