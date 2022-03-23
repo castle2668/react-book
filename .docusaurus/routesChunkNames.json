@@ -25,7 +25,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-4d6": {
+  "/-2b0": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -33,84 +33,104 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---0-e-3-279"
   },
-  "/bonus/tostring-typeof-instanceof-97b": {
+  "/advanced-redux/asynchronous-code-in-redux-678": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---bonus-tostring-typeof-instanceofc-5-b-538"
+    "content": "content---advanced-redux-asynchronous-code-in-redux-6-fe-560"
   },
-  "/functions-extras/bind-call-apply-e92": {
+  "/an-alternativ-way-of-building-components/class-based-component-basic-usage-cec": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---functions-extras-bind-call-apply-11-f-cea"
+    "content": "content---an-alternativ-way-of-building-components-class-based-component-basic-usage-395-2be"
   },
-  "/functions-extras/callback-function-a71": {
+  "/an-alternativ-way-of-building-components/error-boundary-71b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---functions-extras-callback-functionbf-0-082"
+    "content": "content---an-alternativ-way-of-building-components-error-boundary-9-af-522"
   },
-  "/functions-extras/closure-fac": {
+  "/an-alternativ-way-of-building-components/the-component-lifecycle-b1e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---functions-extras-closureb-37-140"
+    "content": "content---an-alternativ-way-of-building-components-the-component-lifecycle-225-3f3"
   },
-  "/functions-extras/function-factory-151": {
+  "/building-a-multi-page-spa-with-react-router/introducing-react-router-b07": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---functions-extras-function-factoryc-64-df3"
+    "content": "content---building-a-multi-page-spa-with-react-router-introducing-react-router-35-d-087"
   },
-  "/functions-extras/functional-programming-eae": {
+  "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6-92f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---functions-extras-functional-programmingf-23-4a6"
+    "content": "content---building-a-multi-page-spa-with-react-router-upgrading-to-react-router-v-6423-dac"
   },
-  "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor-c1e": {
+  "/building-custom-react-hooks/using-custom-hooks-5eb": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---object-oriented-javascript-and-prototypal-inheritance-built-in-function-constructord-28-d18"
+    "content": "content---building-custom-react-hooks-using-custom-hooks-61-f-43a"
   },
-  "/object-oriented-javascript-and-prototypal-inheritance/classes-f88": {
+  "/deploying-react-apps/upload-production-code-to-server-119": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---object-oriented-javascript-and-prototypal-inheritance-classesb-05-b73"
+    "content": "content---deploying-react-apps-upload-production-code-to-serverc-23-b81"
   },
-  "/object-oriented-javascript-and-prototypal-inheritance/function-constructor-2bf": {
+  "/diving-into-redux/introducing-redux-296": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---object-oriented-javascript-and-prototypal-inheritance-function-constructor-52-a-3f5"
+    "content": "content---diving-into-redux-introducing-redux-021-b5d"
   },
-  "/object-oriented-javascript-and-prototypal-inheritance/object-create-e2b": {
+  "/diving-into-redux/introducing-redux-toolkit-cc3": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---object-oriented-javascript-and-prototypal-inheritance-object-createbda-7ea"
+    "content": "content---diving-into-redux-introducing-redux-toolkit-0-f-9-92f"
   },
-  "/object-oriented-javascript-and-prototypal-inheritance/prototype-2f6": {
+  "/diving-into-redux/redux-with-class-based-components-e49": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---object-oriented-javascript-and-prototypal-inheritance-prototype-33-c-068"
+    "content": "content---diving-into-redux-redux-with-class-based-components-8-d-7-425"
   },
-  "/objects-and-functions/arguments-spread-e36": {
+  "/diving-into-redux/redux-with-functional-components-eb2": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---objects-and-functions-arguments-spread-601-b01"
+    "content": "content---diving-into-redux-redux-with-functional-componentscfa-93b"
   },
-  "/objects-and-functions/function-object-ff2": {
+  "/react-advance/introducing-react-context-785": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---objects-and-functions-function-object-2-ad-359"
+    "content": "content---react-advance-introducing-react-contextbb-9-382"
   },
-  "/objects-and-functions/iife-safe-code-141": {
+  "/react-advance/introducing-react-memo-a17": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---objects-and-functions-iife-safe-code-41-d-8df"
+    "content": "content---react-advance-introducing-react-memoc-3-d-a48"
   },
-  "/objects-and-functions/object-literal-f0c": {
+  "/react-advance/introducing-use-callback-799": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---objects-and-functions-object-literal-5-d-9-40c"
+    "content": "content---react-advance-introducing-use-callbackb-92-638"
   },
-  "/objects-and-functions/this-b5b": {
+  "/react-advance/introducing-use-effect-352": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---objects-and-functions-this-305-f79"
+    "content": "content---react-advance-introducing-use-effect-35-e-dbc"
   },
-  "/objects-and-functions/value-reference-bb1": {
+  "/react-advance/introducing-use-imperative-handle-4ea": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---objects-and-functions-value-referencea-42-45f"
+    "content": "content---react-advance-introducing-use-imperative-handle-16-d-c06"
   },
-  "/react-basics-working-with-components/introducing-jsx-a21": {
+  "/react-advance/introducing-use-memo-cf8": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-working-with-components-introducing-jsx-6-f-9-e23"
+    "content": "content---react-advance-introducing-use-memob-82-18f"
   },
-  "/types-and-operators/operators-641": {
+  "/react-advance/introducing-use-reducer-323": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---types-and-operators-operators-26-b-2c8"
+    "content": "content---react-advance-introducing-use-reducer-7-af-c98"
   },
-  "/types-and-operators/types-97f": {
+  "/react-basics/introducing-jsx-54d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---types-and-operators-types-0-d-3-a34"
+    "content": "content---react-basics-introducing-jsxe-5-a-eaf"
+  },
+  "/react-basics/refs-and-forward-refs-9db": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---react-basics-refs-and-forward-refs-5-ba-55e"
+  },
+  "/react-basics/styling-react-components-b07": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---react-basics-styling-react-componentsacd-410"
+  },
+  "/react-basics/working-with-portals-8eb": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---react-basics-working-with-portals-8-df-45f"
+  },
+  "/react-basics/working-with-state-d05": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---react-basics-working-with-statebdd-126"
+  },
+  "/sending-http-request/using-the-star-wars-api-71e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---sending-http-request-using-the-star-wars-api-5-f-9-68e"
   }
 }

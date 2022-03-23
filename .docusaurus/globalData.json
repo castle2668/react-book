@@ -11,33 +11,63 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "bonus/tostring-typeof-instanceof",
-              "path": "/bonus/tostring-typeof-instanceof",
+              "id": "advanced-redux/asynchronous-code-in-redux",
+              "path": "/advanced-redux/asynchronous-code-in-redux",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "functions-extras/bind-call-apply",
-              "path": "/functions-extras/bind-call-apply",
+              "id": "an-alternativ-way-of-building-components/class-based-component-basic-usage",
+              "path": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "functions-extras/callback-function",
-              "path": "/functions-extras/callback-function",
+              "id": "an-alternativ-way-of-building-components/error-boundary",
+              "path": "/an-alternativ-way-of-building-components/error-boundary",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "functions-extras/closure",
-              "path": "/functions-extras/closure",
+              "id": "an-alternativ-way-of-building-components/the-component-lifecycle",
+              "path": "/an-alternativ-way-of-building-components/the-component-lifecycle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "functions-extras/function-factory",
-              "path": "/functions-extras/function-factory",
+              "id": "building-a-multi-page-spa-with-react-router/introducing-react-router",
+              "path": "/building-a-multi-page-spa-with-react-router/introducing-react-router",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "functions-extras/functional-programming",
-              "path": "/functions-extras/functional-programming",
+              "id": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+              "path": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-custom-react-hooks/using-custom-hooks",
+              "path": "/building-custom-react-hooks/using-custom-hooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "deploying-react-apps/upload-production-code-to-server",
+              "path": "/deploying-react-apps/upload-production-code-to-server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "diving-into-redux/introducing-redux",
+              "path": "/diving-into-redux/introducing-redux",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "diving-into-redux/introducing-redux-toolkit",
+              "path": "/diving-into-redux/introducing-redux-toolkit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "diving-into-redux/redux-with-class-based-components",
+              "path": "/diving-into-redux/redux-with-class-based-components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "diving-into-redux/redux-with-functional-components",
+              "path": "/diving-into-redux/redux-with-functional-components",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -46,73 +76,68 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
-              "path": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
+              "id": "react-advance/introducing-react-context",
+              "path": "/react-advance/introducing-react-context",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "object-oriented-javascript-and-prototypal-inheritance/classes",
-              "path": "/object-oriented-javascript-and-prototypal-inheritance/classes",
+              "id": "react-advance/introducing-react-memo",
+              "path": "/react-advance/introducing-react-memo",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "object-oriented-javascript-and-prototypal-inheritance/function-constructor",
-              "path": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor",
+              "id": "react-advance/introducing-use-callback",
+              "path": "/react-advance/introducing-use-callback",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "object-oriented-javascript-and-prototypal-inheritance/object-create",
-              "path": "/object-oriented-javascript-and-prototypal-inheritance/object-create",
+              "id": "react-advance/introducing-use-effect",
+              "path": "/react-advance/introducing-use-effect",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "object-oriented-javascript-and-prototypal-inheritance/prototype",
-              "path": "/object-oriented-javascript-and-prototypal-inheritance/prototype",
+              "id": "react-advance/introducing-use-imperative-handle",
+              "path": "/react-advance/introducing-use-imperative-handle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "objects-and-functions/arguments-spread",
-              "path": "/objects-and-functions/arguments-spread",
+              "id": "react-advance/introducing-use-memo",
+              "path": "/react-advance/introducing-use-memo",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "objects-and-functions/function-object",
-              "path": "/objects-and-functions/function-object",
+              "id": "react-advance/introducing-use-reducer",
+              "path": "/react-advance/introducing-use-reducer",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "objects-and-functions/iife-safe-code",
-              "path": "/objects-and-functions/iife-safe-code",
+              "id": "react-basics/introducing-jsx",
+              "path": "/react-basics/introducing-jsx",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "objects-and-functions/object-literal",
-              "path": "/objects-and-functions/object-literal",
+              "id": "react-basics/refs-and-forward-refs",
+              "path": "/react-basics/refs-and-forward-refs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "objects-and-functions/this",
-              "path": "/objects-and-functions/this",
+              "id": "react-basics/styling-react-components",
+              "path": "/react-basics/styling-react-components",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "objects-and-functions/value-reference",
-              "path": "/objects-and-functions/value-reference",
+              "id": "react-basics/working-with-portals",
+              "path": "/react-basics/working-with-portals",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-basics-working-with-components/introducing-jsx",
-              "path": "/react-basics-working-with-components/introducing-jsx",
+              "id": "react-basics/working-with-state",
+              "path": "/react-basics/working-with-state",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "types-and-operators/operators",
-              "path": "/types-and-operators/operators",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "types-and-operators/types",
-              "path": "/types-and-operators/types",
+              "id": "sending-http-request/using-the-star-wars-api",
+              "path": "/sending-http-request/using-the-star-wars-api",
               "sidebar": "tutorialSidebar"
             }
           ],

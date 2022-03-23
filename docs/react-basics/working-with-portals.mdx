@@ -1,0 +1,32 @@
+---
+sidebar_position: 4
+---
+
+# Working with Portals
+
+## React Portals
+
+Portal (or move) the rendered HTML content to somewhere else.
+
+```jsx
+ReactDOM.createPortal(
+  <Backdrop onConfirm={props.onConfirm} />, // What to portal
+  document.getElementById('backdrop-root') // Where to portal
+);
+```
+
+舉例來說，Modal 應該放在整個頁面的最外層，為什麼呢？
+
+Semantically，也就是從更加乾淨的 HTML Outline 結構上來看，Modal 是整個頁面的一個 Overlay，它並不應該被包在層層元素之中，也因此我們會在 Element UI 的 el-dialog 元件中，發現像是 `append-to-body` 等屬性提供讓我們去把 Modal 提到更高的層級。
+
+這些細節其實格外重要，因為在一些閱讀裝置上 HTML 結構其實是非常有用的。
+
+## 回顧
+
+看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
+
+- React
+
+## References
+
+- [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)

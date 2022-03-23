@@ -1,0 +1,26 @@
+{
+  "unversionedId": "react-basics/refs-and-forward-ref",
+  "id": "react-basics/refs-and-forward-ref",
+  "title": "Working with Portals",
+  "description": "React Portals",
+  "source": "@site/docs/react-basics/refs-and-forward-ref.mdx",
+  "sourceDirName": "react-basics",
+  "slug": "/react-basics/refs-and-forward-ref",
+  "permalink": "/react-basics/refs-and-forward-ref",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/refs-and-forward-ref.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Working with Portals",
+    "permalink": "/react-basics/react-portals"
+  },
+  "next": {
+    "title": "閉包 (Closure)",
+    "permalink": "/functions-extras/closure"
+  }
+}

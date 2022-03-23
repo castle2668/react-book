@@ -16,11 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "bind()、call() 與 apply()",
-    "permalink": "/functions-extras/bind-call-apply"
-  },
-  "next": {
-    "title": "物件導向與原型繼承",
-    "permalink": "/object-oriented-javascript-and-prototypal-inheritance/prototype"
+    "title": "回呼函式 (Callback Function)",
+    "permalink": "/functions-extras/callback-function"
   }
 }

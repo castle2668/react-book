@@ -2,7 +2,7 @@
   "unversionedId": "react-basics-working-with-components/introducing-jsx",
   "id": "react-basics-working-with-components/introducing-jsx",
   "title": "Introducing JSX",
-  "description": "- Style 要放一個物件，所以寫起來會有兩對括號：style={{background '16'}}",
+  "description": "JSX",
   "source": "@site/docs/react-basics-working-with-components/introducing-jsx.mdx",
   "sourceDirName": "react-basics-working-with-components",
   "slug": "/react-basics-working-with-components/introducing-jsx",
@@ -20,7 +20,7 @@
     "permalink": "/"
   },
   "next": {
-    "title": "型別 (Types)",
-    "permalink": "/types-and-operators/types"
+    "title": "Working with State",
+    "permalink": "/react-state-working-with-events/working-with-state"
   }
 }

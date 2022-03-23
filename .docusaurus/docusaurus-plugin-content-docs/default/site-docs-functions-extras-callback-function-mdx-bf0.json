@@ -16,11 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "函式工廠 (Function Factory)",
-    "permalink": "/functions-extras/function-factory"
-  },
-  "next": {
-    "title": "bind()、call() 與 apply()",
-    "permalink": "/functions-extras/bind-call-apply"
+    "title": "閉包 (Closure)",
+    "permalink": "/functions-extras/closure"
   }
 }

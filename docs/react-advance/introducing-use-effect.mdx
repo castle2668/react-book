@@ -1,0 +1,153 @@
+---
+sidebar_position: 1
+---
+
+# Introducing useEffect
+
+## ⚓ useEffect Hook
+
+> 💡 根據依賴項目，它的運行方式會有所不同：
+
+- No array as a dependency = it'll run every time the component is rendered
+- Empty array as a dependency = will run only once when the component is first rendered
+- someValue inside the array as a dependency = will trigger every time someValue changes
+
+Effect (Side Effect): the tasks happen outside of the normal component evaluation. For example, HTTP Request.
+
+```jsx
+// -------- 副作用代碼, 指定依賴項
+useEffect(() => {...), [dependencies]);
+```
+
+只有當指定依賴項發生變化時，才會執行副作用代碼，而不是當元件重新渲染時就執行。
+
+## Not to add as Dependencies
+
+- **DON'T need to add state updating functions**
+  - e.g. setFormIsValid
+  - React guarantees that those functions never change, hence you don't need to add them as dependencies (you could though)
+- **DON'T need to add "built-in" APIs or functions** (functions and features built-into the browser and hence available globally)
+  - e.g. fetch(), localStorage
+  - These browser APIs / global functions are not related to the React component render cycle and they also never change
+- **DON'T need to add variables or functions** you might've **defined OUTSIDE of your components**
+  - e.g. if you create a new helper function in a separate file
+  - Such functions or variables also are not created inside of a component function and hence changing them won't affect your components (components won't be re-evaluated if such variables or functions change and vice-versa)
+
+## Cleanup Function & Debounce
+
+> 💡 When will the Cleanup Function run?
+>
+> 1. Cleanup Function 會在該 Component 即將從畫面離開前被呼叫到 (componentWillUnmount)
+> 2. Cleanup Function 會在每次 Component 要重新渲染前被呼叫（componentDidUpdate 的最前面）
+>
+> 💡 When does "not" the Cleanup Function run?
+> Ans: 第一次執行 useEffect 的時候不會執行 Cleanup Function
+
+### Debounce
+
+Debounce: Execute function only on pause, but not on every keystroke.
+
+使用 setTimeout 與清除 Timer 的方式，當狀態改變時會觸發 setTimeout 延遲 500 毫秒後才去驗證格式。
+
+在 Timer 期間，如果使用者繼續打字更改狀態，就會清除現有的 Timer，進入一個新的 Timer，因此只有使用者最後停止輸入的那一個 Timer 會跑完 500 毫秒並且進行驗證。
+
+總之就是使用者停止輸入以前都不會進行驗證。
+
+### Cleanup Function
+
+在 useEffect 中如何實現 Debounce 的概念呢？
+
+如果在 useEffect 的最後 return 一個函式，它會作為一個「清除函式」，除了第一次運行之外，「每一次 useEffect 運行**之前**」都會再運行這個清理功能。
+
+Cleanup Function 在第一次運行 useEffect 時不會執行，也就是初次畫面渲染時不會執行，而是要在第二次以後才會執行。
+
+```jsx
+useEffect(() => {
+  setTimeout(() => {
+    console.log('Checking form validity!');
+    setFormIsValid(
+      enteredEmail.includes('@') && enteredPassword.trim().length > 6
+    );
+  }, 500);
+
+  // CLEANUP
+  return () => {
+    console.log('CLEANUP');
+  };
+}, [enteredEmail, enteredPassword]);
+
+// First init...
+// "Checking form validity!"
+
+// After typing...
+// "CLEANUP"
+// "Checking form validity!"
+```
+
+接著我們把 Cleanup Function 的內容改成清除計時器。
+如此一來，當使用者在更動表單資料時，每一次 useEffect 都會先透過 Cleanup Function 清除過去的 Timer，讓最後的 `setFormIsValid` 只會執行一次。
+
+```jsx
+useEffect(() => {
+  const identifier = setTimeout(() => {
+    console.log('Checking form validity!');
+    setFormIsValid(
+      enteredEmail.includes('@') && enteredPassword.trim().length > 6
+    );
+  }, 500);
+
+  // CLEANUP
+  return () => {
+    console.log('CLEANUP');
+    clearTimeout(identifier);
+  };
+}, [enteredEmail, enteredPassword]);
+```
+
+這個功能在發送 HTTP 請求時會特別有用，這樣就可以避免會不停發送 Request 的問題了！
+
+## Avoid adding entire object as a dependency
+
+We can use object destructuring to add object properties as dependencies to `useEffect()`.
+
+```jsx
+const { someProperty } = someObject;
+useEffect(() => {
+  // code that only uses someProperty ...
+}, [someProperty]);
+```
+
+The key thing is NOT that we use destructuring, but that we should **pass specific properties instead of the entire object** as a dependency.
+
+We could also write this code and it would work in the same way.
+
+```jsx
+useEffect(() => {
+  // code that only uses someProperty ...
+}, [someObject.someProperty]);
+```
+
+This works just fine as well!
+
+But you should **avoid** this code:
+
+```jsx
+useEffect(() => {
+  // code that only uses someProperty ...
+}, [someObject]);
+```
+
+⚠ Because now the **effect function would re-run whenever ANY property** of `someObject` changes - not just the one property (`someProperty` in the above example) our effect might depend on.
+
+## 回顧
+
+看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
+
+- 進階 JavaScript 程式設計中非常重要的閉包的概念
+- 藉由閉包的經典範例瞭解閉包與自由變數的概念
+- 使用 ES6 的 let 處理閉包造成的情況
+- 在 ES5 使用立即函式處理閉包造成的情況
+
+## References
+
+- [JavaScript: Understanding the Weird Parts](https://www.udemy.com/course/understand-javascript/)

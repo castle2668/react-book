@@ -1,0 +1,67 @@
+---
+sidebar_position: 5
+---
+
+# Refs & Forward Refs
+
+## ⚓ useRef Hook
+
+> 💡 唯讀屬性
+> ref = Reference
+> If you just want to **read** the value, you can use ref instead of state.
+
+如果只是要取得送出的值，而非操作修改值的話，其實不必使用到 useState + onChange 來監控每一次輸入的變化，我們可以使用 useRef 來處理這個情況。
+
+```jsx
+// Add useRef to HTML Input Tag
+const nameInputRef = useRef();
+<input id="username" type="text" ref={nameInputRef} />;
+
+// useRef.current is pointed to the <input> element
+console.log(nameInputRef.current); // <input id="username" type="text">
+
+// 注意 value 取得的值會是 String 型別，即使 input type 設定為 number 也一樣
+console.log(nameInputRef.current.value); // "1"
+console.log(+amountInputRef.current.value); // Convert a numbered "String" to a "Number"
+```
+
+But there is an edge case of manipulating the DOM. This line of code is the regular DOM API for setting the value of an input DOM node.
+This is also called "Uncontrolled" component, cause this is not controlled with React.
+
+```jsx
+// Manipulating the DOM
+nameInputRef.current.value = '';
+```
+
+> 不過上面這個清空輸入欄的動作是可以接受的，因為我們並沒有透過 useRef 來新增 DOM，如果只是單純更改輸入欄位的值，我覺得影響應該不大，算是在可接受的範圍內！
+
+## forwardRef
+
+如果不是原生的 HTML 標籤，而是自己寫的元件，我們沒辦法直接使用 `ref`，必須要透過 forwardRef 把元件包裝起來往前傳，如此一來才能把 `ref` 當成 Props 來傳遞使用。
+
+使用 forwardRef 包裝後，元件就可以使用參數 `ref` 哩。
+
+```jsx
+const Input = (props, ref) => {
+  return (
+    <div className={classes.input}>
+      <label htmlFor={props.input.id}>{props.label}</label>
+      <input ref={ref} {...props.input} />
+    </div>
+  );
+};
+
+const forwardInput = React.forwardRef(Input);
+```
+
+[https://youtu.be/ScT4ElKd6eo](https://youtu.be/ScT4ElKd6eo)
+
+## 回顧
+
+看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
+
+- React
+
+## References
+
+- [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "deploying-react-apps/upload-production-code-to-server",
+  "id": "deploying-react-apps/upload-production-code-to-server",
+  "title": "Upload Production Code to Server",
+  "description": "任何 SPA 框架 Build 出來的都是一個 Static Website，意思就是網站是由 HTML、CSS，與 Client Side 的 JavaScript React Code 所組成，並沒有需要在 Server 執行的 JavaScript Code。",
+  "source": "@site/docs/deploying-react-apps/upload-production-code-to-server.mdx",
+  "sourceDirName": "deploying-react-apps",
+  "slug": "/deploying-react-apps/upload-production-code-to-server",
+  "permalink": "/deploying-react-apps/upload-production-code-to-server",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deploying-react-apps/upload-production-code-to-server.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Upgrading To React Router v6",
+    "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+  }
+}

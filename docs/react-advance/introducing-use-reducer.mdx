@@ -1,0 +1,92 @@
+---
+sidebar_position: 2
+---
+
+# Introducing useReducer
+
+## ⚓ useReducer Hook
+
+> 💡 If you have an **object** as a state or a more **complex state updates**, useReducer might be interesting.
+
+更強大的狀態管理，但使用起來也更為複雜，適合用於資料有較複雜的處理時，但一般而言，多數情況下使用 useState 就足夠哩。
+
+如果有學過 Vuex，其實 useReducer 有著類似 Vuex 的觀念，不過 useReducer 沒辦法像 Vuex 一樣建立全局的資料狀態，它建立的仍然是當前 Component 的 State 而已。
+
+### **使用方式** INIT (≈ State in Vuex)
+
+```jsx
+const [state, dispatchFn] = useReducer(reducerFn, initState, initFn);
+```
+
+- state: state snapshot
+- **dispatchFn**: a function to update the state snapshot
+- **reducerFn**: get the latest state snapshot automatically, and return the new updated state
+- initState
+- initFn
+
+### Reducer Function (≈ Mutations in Vuex)
+
+Reducer Function (reducerFn) 可以直接用匿名箭頭函式，或是額外寫一個具名函式。如果 Reducer Function 沒有用到 Component 裡的 State，是可以把函式放到 Component 外面的。
+
+這個 Reducer Function 會接收兩個參數，分別是 `state` 與 `action`，並且最後要 Return 一個最新的 State。
+
+```jsx
+// State
+const defaultEmailState = {
+  value: '',
+  isValid: false,
+};
+const emailReducer = (state, action) => {
+  return defaultEmailState;
+};
+
+const Login = (props) => {
+  const [emailState, dispatchEmail] = useReducer(
+    emailReducer,
+    defaultEmailState
+  );
+};
+```
+
+### Dispatch Function (≈ dispatch Actions in Vuex)
+
+在元件中使用 Dispatch Function，後面帶入的參數會一起傳遞給 useReducer 的 `action` 參數。
+
+範例中 `emailReducer` 可取得由 `dispatchEmail` 所傳遞的 `action.type` 與 `action.val`。
+
+```jsx
+//                     type       , payload
+dispatchEmail({ type: 'USER_INPUT', val: event.target.value });
+```
+
+通常我們會用「物件」的形式來定義 `action`，因為這樣可以順便聲明這個 `action` 的 `type`。
+
+接下來我們就可以來更新 state 了！
+
+```jsx
+// React guarantees that this state is absolutely the last state snapshot
+const emailReducer = (state, action) => {
+  // 使用者輸入觸發 Dispatch Function
+  if (action.type === 'USER_INPUT') {
+    return { value: action.val, isValid: action.val.includes('@') };
+  }
+  // 輸入框失去焦點觸發 Dispatch Function
+  if (action.type === 'INPUT_BLUR') {
+    return { value: state.value, isValid: state.value.includes('@') };
+  }
+  return { value: '', isValid: false };
+};
+```
+
+## 回顧
+
+看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
+
+- 進階 JavaScript 程式設計中非常重要的閉包的概念
+- 藉由閉包的經典範例瞭解閉包與自由變數的概念
+- 使用 ES6 的 let 處理閉包造成的情況
+- 在 ES5 使用立即函式處理閉包造成的情況
+
+## References
+
+- [JavaScript: Understanding the Weird Parts](https://www.udemy.com/course/understand-javascript/)

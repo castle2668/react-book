@@ -1,0 +1,22 @@
+{
+  "unversionedId": "an-alternativ-way-of-buildingcomponents copy/error-boundary",
+  "id": "an-alternativ-way-of-buildingcomponents copy/error-boundary",
+  "title": "Error Boundary",
+  "description": "錯誤邊界 (Error Boundary)",
+  "source": "@site/docs/an-alternativ-way-of-buildingcomponents copy/error-boundary.mdx",
+  "sourceDirName": "an-alternativ-way-of-buildingcomponents copy",
+  "slug": "/an-alternativ-way-of-buildingcomponents copy/error-boundary",
+  "permalink": "/an-alternativ-way-of-buildingcomponents copy/error-boundary",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-buildingcomponents copy/error-boundary.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Component Lifecycle",
+    "permalink": "/an-alternativ-way-of-buildingcomponents copy/the-component-lifecycle"
+  }
+}

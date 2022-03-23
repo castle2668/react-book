@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Introducing JSX",
-    "permalink": "/react-basics-working-with-components/introducing-jsx"
+    "permalink": "/react-basics/introducing-jsx"
   }
 }

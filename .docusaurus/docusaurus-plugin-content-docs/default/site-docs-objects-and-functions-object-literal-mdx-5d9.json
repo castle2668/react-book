@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "運算子 (Operators)",
-    "permalink": "/types-and-operators/operators"
+    "title": "useState",
+    "permalink": "/react-state-working-with-events/use-state"
   },
   "next": {
     "title": "函式就是物件 (Functions Are Objects)",

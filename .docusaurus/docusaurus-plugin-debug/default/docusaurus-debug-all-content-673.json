@@ -19,15 +19,15 @@
           "contentPathLocalized": "/Users/sean/Frontend/docs-react/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "bonus/tostring-typeof-instanceof",
-              "id": "bonus/tostring-typeof-instanceof",
-              "title": "解析 toString() 方法 ft. typeof, instanceof",
-              "description": "本文主要內容為探討 JavaScript 中 toString() 方法的相關知識，以及關鍵字 typeof 和 instanceof 的使用。",
-              "source": "@site/docs/bonus/tostring-typeof-instanceof.mdx",
-              "sourceDirName": "bonus",
-              "slug": "/bonus/tostring-typeof-instanceof",
-              "permalink": "/bonus/tostring-typeof-instanceof",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/bonus/tostring-typeof-instanceof.mdx",
+              "unversionedId": "advanced-redux/asynchronous-code-in-redux",
+              "id": "advanced-redux/asynchronous-code-in-redux",
+              "title": "Asynchronous code in Redux",
+              "description": "在元件中可處理非同步，Reducer 只處理同步",
+              "source": "@site/docs/advanced-redux/asynchronous-code-in-redux.mdx",
+              "sourceDirName": "advanced-redux",
+              "slug": "/advanced-redux/asynchronous-code-in-redux",
+              "permalink": "/advanced-redux/asynchronous-code-in-redux",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/advanced-redux/asynchronous-code-in-redux.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -36,46 +36,50 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "ES6 Class",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/classes"
+                "title": "Introducing Redux Toolkit",
+                "permalink": "/diving-into-redux/introducing-redux-toolkit"
+              },
+              "next": {
+                "title": "Introducing React Router",
+                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router"
               }
             },
             {
-              "unversionedId": "functions-extras/bind-call-apply",
-              "id": "functions-extras/bind-call-apply",
-              "title": "bind()、call() 與 apply()",
-              "description": "本文主要內容為探討 bind()、call() 與 apply() 的相關知識，這三個函式都與 this 有關，可以用來控制 this 變數。",
-              "source": "@site/docs/functions-extras/bind-call-apply.mdx",
-              "sourceDirName": "functions-extras",
-              "slug": "/functions-extras/bind-call-apply",
-              "permalink": "/functions-extras/bind-call-apply",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/bind-call-apply.mdx",
+              "unversionedId": "an-alternativ-way-of-building-components/class-based-component-basic-usage",
+              "id": "an-alternativ-way-of-building-components/class-based-component-basic-usage",
+              "title": "Class-based Component Basic Usage",
+              "description": "Basic Usage",
+              "source": "@site/docs/an-alternativ-way-of-building-components/class-based-component-basic-usage.mdx",
+              "sourceDirName": "an-alternativ-way-of-building-components",
+              "slug": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
+              "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-building-components/class-based-component-basic-usage.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "回呼函式 (Callback Function)",
-                "permalink": "/functions-extras/callback-function"
+                "title": "Introducing useMemo",
+                "permalink": "/react-advance/introducing-use-memo"
               },
               "next": {
-                "title": "Functional Programming ft. Underscore, Loadsh",
-                "permalink": "/functions-extras/functional-programming"
+                "title": "The Component Lifecycle",
+                "permalink": "/an-alternativ-way-of-building-components/the-component-lifecycle"
               }
             },
             {
-              "unversionedId": "functions-extras/callback-function",
-              "id": "functions-extras/callback-function",
-              "title": "回呼函式 (Callback Function)",
-              "description": "本文主要內容為探討「回呼函式」的相關知識，其實我們可能已經用過回呼函式的概念了，像是 setTimeout 或是 jQuery 事件就是在使用閉包與回呼的概念喔。",
-              "source": "@site/docs/functions-extras/callback-function.mdx",
-              "sourceDirName": "functions-extras",
-              "slug": "/functions-extras/callback-function",
-              "permalink": "/functions-extras/callback-function",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/callback-function.mdx",
+              "unversionedId": "an-alternativ-way-of-building-components/error-boundary",
+              "id": "an-alternativ-way-of-building-components/error-boundary",
+              "title": "Error Boundary",
+              "description": "錯誤邊界 (Error Boundary)",
+              "source": "@site/docs/an-alternativ-way-of-building-components/error-boundary.mdx",
+              "sourceDirName": "an-alternativ-way-of-building-components",
+              "slug": "/an-alternativ-way-of-building-components/error-boundary",
+              "permalink": "/an-alternativ-way-of-building-components/error-boundary",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-building-components/error-boundary.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -84,50 +88,24 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "函式工廠 (Function Factory)",
-                "permalink": "/functions-extras/function-factory"
+                "title": "The Component Lifecycle",
+                "permalink": "/an-alternativ-way-of-building-components/the-component-lifecycle"
               },
               "next": {
-                "title": "bind()、call() 與 apply()",
-                "permalink": "/functions-extras/bind-call-apply"
+                "title": "Using the Star Wars API",
+                "permalink": "/sending-http-request/using-the-star-wars-api"
               }
             },
             {
-              "unversionedId": "functions-extras/closure",
-              "id": "functions-extras/closure",
-              "title": "閉包 (Closure)",
-              "description": "本文主要內容為探討「閉包」的相關知識，這是 JavaScript 的一個重要觀念，會用到我們之前學到的所有概念，包含一級函式、執行堆、執行環境等等。",
-              "source": "@site/docs/functions-extras/closure.mdx",
-              "sourceDirName": "functions-extras",
-              "slug": "/functions-extras/closure",
-              "permalink": "/functions-extras/closure",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/closure.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "立即呼叫的函式表達式 (IIFEs) 與安全程式碼",
-                "permalink": "/objects-and-functions/iife-safe-code"
-              },
-              "next": {
-                "title": "函式工廠 (Function Factory)",
-                "permalink": "/functions-extras/function-factory"
-              }
-            },
-            {
-              "unversionedId": "functions-extras/function-factory",
-              "id": "functions-extras/function-factory",
-              "title": "函式工廠 (Function Factory)",
-              "description": "本文主要內容為探討「函式工廠」的相關知識。閉包有很多有用的地方，像是函式工廠就是用閉包建立的模式，文章內容也會包含重載函式、一級函式、執行環境等概念。",
-              "source": "@site/docs/functions-extras/function-factory.mdx",
-              "sourceDirName": "functions-extras",
-              "slug": "/functions-extras/function-factory",
-              "permalink": "/functions-extras/function-factory",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/function-factory.mdx",
+              "unversionedId": "an-alternativ-way-of-building-components/the-component-lifecycle",
+              "id": "an-alternativ-way-of-building-components/the-component-lifecycle",
+              "title": "The Component Lifecycle",
+              "description": "The Component Lifecycle is Class-based Components Only!",
+              "source": "@site/docs/an-alternativ-way-of-building-components/the-component-lifecycle.mdx",
+              "sourceDirName": "an-alternativ-way-of-building-components",
+              "slug": "/an-alternativ-way-of-building-components/the-component-lifecycle",
+              "permalink": "/an-alternativ-way-of-building-components/the-component-lifecycle",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-building-components/the-component-lifecycle.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -136,38 +114,216 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "閉包 (Closure)",
-                "permalink": "/functions-extras/closure"
+                "title": "Class-based Component Basic Usage",
+                "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage"
               },
               "next": {
-                "title": "回呼函式 (Callback Function)",
-                "permalink": "/functions-extras/callback-function"
+                "title": "Error Boundary",
+                "permalink": "/an-alternativ-way-of-building-components/error-boundary"
               }
             },
             {
-              "unversionedId": "functions-extras/functional-programming",
-              "id": "functions-extras/functional-programming",
-              "title": "Functional Programming ft. Underscore, Loadsh",
-              "description": "本文主要內容為探討「函式程式設計」的相關知識，透過一個經典的範例玩轉 Functional Programming，也會提到 Underscore 與 Loadsh 這兩個有名的資源庫。",
-              "source": "@site/docs/functions-extras/functional-programming.mdx",
-              "sourceDirName": "functions-extras",
-              "slug": "/functions-extras/functional-programming",
-              "permalink": "/functions-extras/functional-programming",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/functional-programming.mdx",
+              "unversionedId": "building-a-multi-page-spa-with-react-router/introducing-react-router",
+              "id": "building-a-multi-page-spa-with-react-router/introducing-react-router",
+              "title": "Introducing React Router",
+              "description": "SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。",
+              "source": "@site/docs/building-a-multi-page-spa-with-react-router/introducing-react-router.mdx",
+              "sourceDirName": "building-a-multi-page-spa-with-react-router",
+              "slug": "/building-a-multi-page-spa-with-react-router/introducing-react-router",
+              "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/introducing-react-router.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 5
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "bind()、call() 與 apply()",
-                "permalink": "/functions-extras/bind-call-apply"
+                "title": "Asynchronous code in Redux",
+                "permalink": "/advanced-redux/asynchronous-code-in-redux"
               },
               "next": {
-                "title": "物件導向與原型繼承",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/prototype"
+                "title": "Upgrading To React Router v6",
+                "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+              }
+            },
+            {
+              "unversionedId": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+              "id": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+              "title": "Upgrading To React Router v6",
+              "description": "React Router 第 6 版",
+              "source": "@site/docs/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6.mdx",
+              "sourceDirName": "building-a-multi-page-spa-with-react-router",
+              "slug": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+              "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing React Router",
+                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router"
+              },
+              "next": {
+                "title": "Upload Production Code to Server",
+                "permalink": "/deploying-react-apps/upload-production-code-to-server"
+              }
+            },
+            {
+              "unversionedId": "building-custom-react-hooks/using-custom-hooks",
+              "id": "building-custom-react-hooks/using-custom-hooks",
+              "title": "Using Custom Hooks",
+              "description": "💡 可以使用 React Hooks 與 State 的函式",
+              "source": "@site/docs/building-custom-react-hooks/using-custom-hooks.mdx",
+              "sourceDirName": "building-custom-react-hooks",
+              "slug": "/building-custom-react-hooks/using-custom-hooks",
+              "permalink": "/building-custom-react-hooks/using-custom-hooks",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-custom-react-hooks/using-custom-hooks.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Using the Star Wars API",
+                "permalink": "/sending-http-request/using-the-star-wars-api"
+              },
+              "next": {
+                "title": "Introducing Redux",
+                "permalink": "/diving-into-redux/introducing-redux"
+              }
+            },
+            {
+              "unversionedId": "deploying-react-apps/upload-production-code-to-server",
+              "id": "deploying-react-apps/upload-production-code-to-server",
+              "title": "Upload Production Code to Server",
+              "description": "任何 SPA 框架 Build 出來的都是一個 Static Website，意思就是網站是由 HTML、CSS，與 Client Side 的 JavaScript React Code 所組成，並沒有需要在 Server 執行的 JavaScript Code。",
+              "source": "@site/docs/deploying-react-apps/upload-production-code-to-server.mdx",
+              "sourceDirName": "deploying-react-apps",
+              "slug": "/deploying-react-apps/upload-production-code-to-server",
+              "permalink": "/deploying-react-apps/upload-production-code-to-server",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deploying-react-apps/upload-production-code-to-server.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Upgrading To React Router v6",
+                "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+              }
+            },
+            {
+              "unversionedId": "diving-into-redux/introducing-redux",
+              "id": "diving-into-redux/introducing-redux",
+              "title": "Introducing Redux",
+              "description": "關於 React Context 的潛在缺點",
+              "source": "@site/docs/diving-into-redux/introducing-redux.mdx",
+              "sourceDirName": "diving-into-redux",
+              "slug": "/diving-into-redux/introducing-redux",
+              "permalink": "/diving-into-redux/introducing-redux",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/introducing-redux.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Using Custom Hooks",
+                "permalink": "/building-custom-react-hooks/using-custom-hooks"
+              },
+              "next": {
+                "title": "Redux with Functional Components",
+                "permalink": "/diving-into-redux/redux-with-functional-components"
+              }
+            },
+            {
+              "unversionedId": "diving-into-redux/introducing-redux-toolkit",
+              "id": "diving-into-redux/introducing-redux-toolkit",
+              "title": "Introducing Redux Toolkit",
+              "description": "基本用法",
+              "source": "@site/docs/diving-into-redux/introducing-redux-toolkit.mdx",
+              "sourceDirName": "diving-into-redux",
+              "slug": "/diving-into-redux/introducing-redux-toolkit",
+              "permalink": "/diving-into-redux/introducing-redux-toolkit",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/introducing-redux-toolkit.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Redux with Class-based Components",
+                "permalink": "/diving-into-redux/redux-with-class-based-components"
+              },
+              "next": {
+                "title": "Asynchronous code in Redux",
+                "permalink": "/advanced-redux/asynchronous-code-in-redux"
+              }
+            },
+            {
+              "unversionedId": "diving-into-redux/redux-with-class-based-components",
+              "id": "diving-into-redux/redux-with-class-based-components",
+              "title": "Redux with Class-based Components",
+              "description": "The Connect Function",
+              "source": "@site/docs/diving-into-redux/redux-with-class-based-components.mdx",
+              "sourceDirName": "diving-into-redux",
+              "slug": "/diving-into-redux/redux-with-class-based-components",
+              "permalink": "/diving-into-redux/redux-with-class-based-components",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/redux-with-class-based-components.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Redux with Functional Components",
+                "permalink": "/diving-into-redux/redux-with-functional-components"
+              },
+              "next": {
+                "title": "Introducing Redux Toolkit",
+                "permalink": "/diving-into-redux/introducing-redux-toolkit"
+              }
+            },
+            {
+              "unversionedId": "diving-into-redux/redux-with-functional-components",
+              "id": "diving-into-redux/redux-with-functional-components",
+              "title": "Redux with Functional Components",
+              "description": "⚓ useSelector hook",
+              "source": "@site/docs/diving-into-redux/redux-with-functional-components.mdx",
+              "sourceDirName": "diving-into-redux",
+              "slug": "/diving-into-redux/redux-with-functional-components",
+              "permalink": "/diving-into-redux/redux-with-functional-components",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/redux-with-functional-components.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing Redux",
+                "permalink": "/diving-into-redux/introducing-redux"
+              },
+              "next": {
+                "title": "Redux with Class-based Components",
+                "permalink": "/diving-into-redux/redux-with-class-based-components"
               }
             },
             {
@@ -190,19 +346,19 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Introducing JSX",
-                "permalink": "/react-basics-working-with-components/introducing-jsx"
+                "permalink": "/react-basics/introducing-jsx"
               }
             },
             {
-              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
-              "id": "object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
-              "title": "內建的函式建構子",
-              "description": "本文主要內容為探討「JavaScript 內建的函式建構子」的相關知識。",
-              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor.mdx",
-              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
-              "slug": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
-              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor.mdx",
+              "unversionedId": "react-advance/introducing-react-context",
+              "id": "react-advance/introducing-react-context",
+              "title": "Introducing React Context",
+              "description": "React Context (Context API)",
+              "source": "@site/docs/react-advance/introducing-react-context.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/introducing-react-context",
+              "permalink": "/react-advance/introducing-react-context",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-react-context.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -211,24 +367,24 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "new × 函式建構子 × 原型屬性",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor"
+                "title": "Introducing useReducer",
+                "permalink": "/react-advance/introducing-use-reducer"
               },
               "next": {
-                "title": "純粹的原型繼承 - Object.create",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/object-create"
+                "title": "Introducing useImperativeHandle",
+                "permalink": "/react-advance/introducing-use-imperative-handle"
               }
             },
             {
-              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/classes",
-              "id": "object-oriented-javascript-and-prototypal-inheritance/classes",
-              "title": "ES6 Class",
-              "description": "本文主要內容為探討另一個建立物件和設定原型的方法「ES6 Class」的相關知識。",
-              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/classes.mdx",
-              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
-              "slug": "/object-oriented-javascript-and-prototypal-inheritance/classes",
-              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/classes",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/classes.mdx",
+              "unversionedId": "react-advance/introducing-react-memo",
+              "id": "react-advance/introducing-react-memo",
+              "title": "Introducing React.memo",
+              "description": "React.memo",
+              "source": "@site/docs/react-advance/introducing-react-memo.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/introducing-react-memo",
+              "permalink": "/react-advance/introducing-react-memo",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-react-memo.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -237,154 +393,24 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "純粹的原型繼承 - Object.create",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/object-create"
+                "title": "Introducing useImperativeHandle",
+                "permalink": "/react-advance/introducing-use-imperative-handle"
               },
               "next": {
-                "title": "解析 toString() 方法 ft. typeof, instanceof",
-                "permalink": "/bonus/tostring-typeof-instanceof"
+                "title": "Introducing useCallback",
+                "permalink": "/react-advance/introducing-use-callback"
               }
             },
             {
-              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/function-constructor",
-              "id": "object-oriented-javascript-and-prototypal-inheritance/function-constructor",
-              "title": "new × 函式建構子 × 原型屬性",
-              "description": "本文主要內容為探討「關鍵字 new 與函式建構子」的相關知識，內容包含關鍵字 new、函式建構子，以及函式的原型屬性。",
-              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/function-constructor.mdx",
-              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
-              "slug": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor",
-              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/function-constructor.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "物件導向與原型繼承",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/prototype"
-              },
-              "next": {
-                "title": "內建的函式建構子",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor"
-              }
-            },
-            {
-              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/object-create",
-              "id": "object-oriented-javascript-and-prototypal-inheritance/object-create",
-              "title": "純粹的原型繼承 - Object.create",
-              "description": "本文主要內容為探討「Object.create」的相關知識以及搭配使用的 Polyfill。",
-              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/object-create.mdx",
-              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
-              "slug": "/object-oriented-javascript-and-prototypal-inheritance/object-create",
-              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/object-create",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/object-create.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "內建的函式建構子",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor"
-              },
-              "next": {
-                "title": "ES6 Class",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/classes"
-              }
-            },
-            {
-              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/prototype",
-              "id": "object-oriented-javascript-and-prototypal-inheritance/prototype",
-              "title": "物件導向與原型繼承",
-              "description": "本文主要內容為探討「原型」的相關知識，包含原型繼承、原型鏈、基本物件，以及資源庫 Underscore 裡面的 Reflection 與 Extend 模式。",
-              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/prototype.mdx",
-              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
-              "slug": "/object-oriented-javascript-and-prototypal-inheritance/prototype",
-              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/prototype",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/prototype.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Functional Programming ft. Underscore, Loadsh",
-                "permalink": "/functions-extras/functional-programming"
-              },
-              "next": {
-                "title": "new × 函式建構子 × 原型屬性",
-                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor"
-              }
-            },
-            {
-              "unversionedId": "objects-and-functions/arguments-spread",
-              "id": "objects-and-functions/arguments-spread",
-              "title": "函式參數與 arguments、spread",
-              "description": "本文主要內容為探討「函式參數」的相關知識，包含預設值、arguments 關鍵字、spread parameter 等等。",
-              "source": "@site/docs/objects-and-functions/arguments-spread.mdx",
-              "sourceDirName": "objects-and-functions",
-              "slug": "/objects-and-functions/arguments-spread",
-              "permalink": "/objects-and-functions/arguments-spread",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/arguments-spread.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "物件 × 函式 × this",
-                "permalink": "/objects-and-functions/this"
-              },
-              "next": {
-                "title": "立即呼叫的函式表達式 (IIFEs) 與安全程式碼",
-                "permalink": "/objects-and-functions/iife-safe-code"
-              }
-            },
-            {
-              "unversionedId": "objects-and-functions/function-object",
-              "id": "objects-and-functions/function-object",
-              "title": "函式就是物件 (Functions Are Objects)",
-              "description": "本文主要內容為探討「函式物件」的相關知識，包含「一級函式」這個讓 JavaScript 適合撰寫 Functional Programming 的特性，以及函式陳述式、函式表達式、匿名函式等重要觀念。",
-              "source": "@site/docs/objects-and-functions/function-object.mdx",
-              "sourceDirName": "objects-and-functions",
-              "slug": "/objects-and-functions/function-object",
-              "permalink": "/objects-and-functions/function-object",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/function-object.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "物件實體語法 (Object Literal Syntax)",
-                "permalink": "/objects-and-functions/object-literal"
-              },
-              "next": {
-                "title": "傳值和傳參考",
-                "permalink": "/objects-and-functions/value-reference"
-              }
-            },
-            {
-              "unversionedId": "objects-and-functions/iife-safe-code",
-              "id": "objects-and-functions/iife-safe-code",
-              "title": "立即呼叫的函式表達式 (IIFEs) 與安全程式碼",
-              "description": "本文主要內容為探討「IIFE」的相關知識，理解為什麼 IIFE 會被應用在各種大型框架或資源庫裡面，並且能幫助撰寫安全的程式碼。",
-              "source": "@site/docs/objects-and-functions/iife-safe-code.mdx",
-              "sourceDirName": "objects-and-functions",
-              "slug": "/objects-and-functions/iife-safe-code",
-              "permalink": "/objects-and-functions/iife-safe-code",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/iife-safe-code.mdx",
+              "unversionedId": "react-advance/introducing-use-callback",
+              "id": "react-advance/introducing-use-callback",
+              "title": "Introducing useCallback",
+              "description": "⚓ useCallback Hook",
+              "source": "@site/docs/react-advance/introducing-use-callback.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/introducing-use-callback",
+              "permalink": "/react-advance/introducing-use-callback",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-callback.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -393,24 +419,24 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "函式參數與 arguments、spread",
-                "permalink": "/objects-and-functions/arguments-spread"
+                "title": "Introducing React.memo",
+                "permalink": "/react-advance/introducing-react-memo"
               },
               "next": {
-                "title": "閉包 (Closure)",
-                "permalink": "/functions-extras/closure"
+                "title": "Introducing useMemo",
+                "permalink": "/react-advance/introducing-use-memo"
               }
             },
             {
-              "unversionedId": "objects-and-functions/object-literal",
-              "id": "objects-and-functions/object-literal",
-              "title": "物件實體語法 (Object Literal Syntax)",
-              "description": "本文主要內容為探討「物件」的相關知識，包含成員取用運算子、物件實體語法、偽裝命名空間，與 JSON 資料格式。",
-              "source": "@site/docs/objects-and-functions/object-literal.mdx",
-              "sourceDirName": "objects-and-functions",
-              "slug": "/objects-and-functions/object-literal",
-              "permalink": "/objects-and-functions/object-literal",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/object-literal.mdx",
+              "unversionedId": "react-advance/introducing-use-effect",
+              "id": "react-advance/introducing-use-effect",
+              "title": "Introducing useEffect",
+              "description": "⚓ useEffect Hook",
+              "source": "@site/docs/react-advance/introducing-use-effect.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/introducing-use-effect",
+              "permalink": "/react-advance/introducing-use-effect",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-effect.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -419,24 +445,24 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "運算子 (Operators)",
-                "permalink": "/types-and-operators/operators"
+                "title": "Refs & Forward Refs",
+                "permalink": "/react-basics/refs-and-forward-refs"
               },
               "next": {
-                "title": "函式就是物件 (Functions Are Objects)",
-                "permalink": "/objects-and-functions/function-object"
+                "title": "Introducing useReducer",
+                "permalink": "/react-advance/introducing-use-reducer"
               }
             },
             {
-              "unversionedId": "objects-and-functions/this",
-              "id": "objects-and-functions/this",
-              "title": "物件 × 函式 × this",
-              "description": "本文主要內容為探討物件、函式，以及那個令人困惑的「this」的指向問題與相關知識。",
-              "source": "@site/docs/objects-and-functions/this.mdx",
-              "sourceDirName": "objects-and-functions",
-              "slug": "/objects-and-functions/this",
-              "permalink": "/objects-and-functions/this",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/this.mdx",
+              "unversionedId": "react-advance/introducing-use-imperative-handle",
+              "id": "react-advance/introducing-use-imperative-handle",
+              "title": "Introducing useImperativeHandle",
+              "description": "⚓ useImperativeHandle Hook",
+              "source": "@site/docs/react-advance/introducing-use-imperative-handle.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/introducing-use-imperative-handle",
+              "permalink": "/react-advance/introducing-use-imperative-handle",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-imperative-handle.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -445,50 +471,76 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "傳值和傳參考",
-                "permalink": "/objects-and-functions/value-reference"
+                "title": "Introducing React Context",
+                "permalink": "/react-advance/introducing-react-context"
               },
               "next": {
-                "title": "函式參數與 arguments、spread",
-                "permalink": "/objects-and-functions/arguments-spread"
+                "title": "Introducing React.memo",
+                "permalink": "/react-advance/introducing-react-memo"
               }
             },
             {
-              "unversionedId": "objects-and-functions/value-reference",
-              "id": "objects-and-functions/value-reference",
-              "title": "傳值和傳參考",
-              "description": "本文主要介紹「傳值和傳參考」的概念，這對於 JavaScript 的開發與除錯會很有幫助，如果不知道這些觀念，可能會導致一些很難 Debug 的奇怪問題。",
-              "source": "@site/docs/objects-and-functions/value-reference.mdx",
-              "sourceDirName": "objects-and-functions",
-              "slug": "/objects-and-functions/value-reference",
-              "permalink": "/objects-and-functions/value-reference",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/value-reference.mdx",
+              "unversionedId": "react-advance/introducing-use-memo",
+              "id": "react-advance/introducing-use-memo",
+              "title": "Introducing useMemo",
+              "description": "⚓ useMemo Hook",
+              "source": "@site/docs/react-advance/introducing-use-memo.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/introducing-use-memo",
+              "permalink": "/react-advance/introducing-use-memo",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-memo.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 7,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 7
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "函式就是物件 (Functions Are Objects)",
-                "permalink": "/objects-and-functions/function-object"
+                "title": "Introducing useCallback",
+                "permalink": "/react-advance/introducing-use-callback"
               },
               "next": {
-                "title": "物件 × 函式 × this",
-                "permalink": "/objects-and-functions/this"
+                "title": "Class-based Component Basic Usage",
+                "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage"
               }
             },
             {
-              "unversionedId": "react-basics-working-with-components/introducing-jsx",
-              "id": "react-basics-working-with-components/introducing-jsx",
+              "unversionedId": "react-advance/introducing-use-reducer",
+              "id": "react-advance/introducing-use-reducer",
+              "title": "Introducing useReducer",
+              "description": "⚓ useReducer Hook",
+              "source": "@site/docs/react-advance/introducing-use-reducer.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/introducing-use-reducer",
+              "permalink": "/react-advance/introducing-use-reducer",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-reducer.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing useEffect",
+                "permalink": "/react-advance/introducing-use-effect"
+              },
+              "next": {
+                "title": "Introducing React Context",
+                "permalink": "/react-advance/introducing-react-context"
+              }
+            },
+            {
+              "unversionedId": "react-basics/introducing-jsx",
+              "id": "react-basics/introducing-jsx",
               "title": "Introducing JSX",
-              "description": "- Style 要放一個物件，所以寫起來會有兩對括號：style={{background '16'}}",
-              "source": "@site/docs/react-basics-working-with-components/introducing-jsx.mdx",
-              "sourceDirName": "react-basics-working-with-components",
-              "slug": "/react-basics-working-with-components/introducing-jsx",
-              "permalink": "/react-basics-working-with-components/introducing-jsx",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics-working-with-components/introducing-jsx.mdx",
+              "description": "JSX",
+              "source": "@site/docs/react-basics/introducing-jsx.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/introducing-jsx",
+              "permalink": "/react-basics/introducing-jsx",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/introducing-jsx.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -501,20 +553,98 @@
                 "permalink": "/"
               },
               "next": {
-                "title": "型別 (Types)",
-                "permalink": "/types-and-operators/types"
+                "title": "Working with State",
+                "permalink": "/react-basics/working-with-state"
               }
             },
             {
-              "unversionedId": "types-and-operators/operators",
-              "id": "types-and-operators/operators",
-              "title": "運算子 (Operators)",
-              "description": "本文主要內容為探討「運算子」的各種概念，能幫助我們順利除錯與瞭解可能會因為動態型別而產生的問題。",
-              "source": "@site/docs/types-and-operators/operators.mdx",
-              "sourceDirName": "types-and-operators",
-              "slug": "/types-and-operators/operators",
-              "permalink": "/types-and-operators/operators",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/types-and-operators/operators.mdx",
+              "unversionedId": "react-basics/refs-and-forward-refs",
+              "id": "react-basics/refs-and-forward-refs",
+              "title": "Refs & Forward Refs",
+              "description": "⚓ useRef Hook",
+              "source": "@site/docs/react-basics/refs-and-forward-refs.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/refs-and-forward-refs",
+              "permalink": "/react-basics/refs-and-forward-refs",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/refs-and-forward-refs.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Working with Portals",
+                "permalink": "/react-basics/working-with-portals"
+              },
+              "next": {
+                "title": "Introducing useEffect",
+                "permalink": "/react-advance/introducing-use-effect"
+              }
+            },
+            {
+              "unversionedId": "react-basics/styling-react-components",
+              "id": "react-basics/styling-react-components",
+              "title": "Styling React Components",
+              "description": "Styled Components",
+              "source": "@site/docs/react-basics/styling-react-components.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/styling-react-components",
+              "permalink": "/react-basics/styling-react-components",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/styling-react-components.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Working with State",
+                "permalink": "/react-basics/working-with-state"
+              },
+              "next": {
+                "title": "Working with Portals",
+                "permalink": "/react-basics/working-with-portals"
+              }
+            },
+            {
+              "unversionedId": "react-basics/working-with-portals",
+              "id": "react-basics/working-with-portals",
+              "title": "Working with Portals",
+              "description": "React Portals",
+              "source": "@site/docs/react-basics/working-with-portals.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/working-with-portals",
+              "permalink": "/react-basics/working-with-portals",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/working-with-portals.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Styling React Components",
+                "permalink": "/react-basics/styling-react-components"
+              },
+              "next": {
+                "title": "Refs & Forward Refs",
+                "permalink": "/react-basics/refs-and-forward-refs"
+              }
+            },
+            {
+              "unversionedId": "react-basics/working-with-state",
+              "id": "react-basics/working-with-state",
+              "title": "Working with State",
+              "description": "⚓ useState Hook",
+              "source": "@site/docs/react-basics/working-with-state.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/working-with-state",
+              "permalink": "/react-basics/working-with-state",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/working-with-state.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -523,24 +653,24 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "型別 (Types)",
-                "permalink": "/types-and-operators/types"
+                "title": "Introducing JSX",
+                "permalink": "/react-basics/introducing-jsx"
               },
               "next": {
-                "title": "物件實體語法 (Object Literal Syntax)",
-                "permalink": "/objects-and-functions/object-literal"
+                "title": "Styling React Components",
+                "permalink": "/react-basics/styling-react-components"
               }
             },
             {
-              "unversionedId": "types-and-operators/types",
-              "id": "types-and-operators/types",
-              "title": "型別 (Types)",
-              "description": "JavaScript 很特別，它與其他程式語言不同，尤其是處理變數資料與型別的部分。本文主要內容為「型別」的相關知識，包含動態型別、純值、陣列，至於物件則會紀錄在其他筆記中。",
-              "source": "@site/docs/types-and-operators/types.mdx",
-              "sourceDirName": "types-and-operators",
-              "slug": "/types-and-operators/types",
-              "permalink": "/types-and-operators/types",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/types-and-operators/types.mdx",
+              "unversionedId": "sending-http-request/using-the-star-wars-api",
+              "id": "sending-http-request/using-the-star-wars-api",
+              "title": "Using the Star Wars API",
+              "description": "- API: Application Programming Interface",
+              "source": "@site/docs/sending-http-request/using-the-star-wars-api.mdx",
+              "sourceDirName": "sending-http-request",
+              "slug": "/sending-http-request/using-the-star-wars-api",
+              "permalink": "/sending-http-request/using-the-star-wars-api",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sending-http-request/using-the-star-wars-api.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -549,12 +679,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introducing JSX",
-                "permalink": "/react-basics-working-with-components/introducing-jsx"
+                "title": "Error Boundary",
+                "permalink": "/an-alternativ-way-of-building-components/error-boundary"
               },
               "next": {
-                "title": "運算子 (Operators)",
-                "permalink": "/types-and-operators/operators"
+                "title": "Using Custom Hooks",
+                "permalink": "/building-custom-react-hooks/using-custom-hooks"
               }
             }
           ],
@@ -566,129 +696,173 @@
               },
               {
                 "type": "category",
-                "label": "React Basics & Working With Components",
+                "label": "React Basics",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "react-basics-working-with-components/introducing-jsx"
+                    "id": "react-basics/introducing-jsx"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-basics/working-with-state"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-basics/styling-react-components"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-basics/working-with-portals"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-basics/refs-and-forward-refs"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Types and Operators",
+                "label": "React Advance",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "types-and-operators/types"
+                    "id": "react-advance/introducing-use-effect"
                   },
                   {
                     "type": "doc",
-                    "id": "types-and-operators/operators"
+                    "id": "react-advance/introducing-use-reducer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-advance/introducing-react-context"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-advance/introducing-use-imperative-handle"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-advance/introducing-react-memo"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-advance/introducing-use-callback"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-advance/introducing-use-memo"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Objects and Functions",
+                "label": "An Alternative Way Of Building Components: Class-based Components",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "objects-and-functions/object-literal"
+                    "id": "an-alternativ-way-of-building-components/class-based-component-basic-usage"
                   },
                   {
                     "type": "doc",
-                    "id": "objects-and-functions/function-object"
+                    "id": "an-alternativ-way-of-building-components/the-component-lifecycle"
                   },
                   {
                     "type": "doc",
-                    "id": "objects-and-functions/value-reference"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "objects-and-functions/this"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "objects-and-functions/arguments-spread"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "objects-and-functions/iife-safe-code"
+                    "id": "an-alternativ-way-of-building-components/error-boundary"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Functions Extras",
+                "label": "Sending Http Requests",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "functions-extras/closure"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "functions-extras/function-factory"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "functions-extras/callback-function"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "functions-extras/bind-call-apply"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "functions-extras/functional-programming"
+                    "id": "sending-http-request/using-the-star-wars-api"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Object-Oriented Javascript and Prototypal Inheritance",
+                "label": "Building Custom React Hooks",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "object-oriented-javascript-and-prototypal-inheritance/prototype"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "object-oriented-javascript-and-prototypal-inheritance/function-constructor"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "object-oriented-javascript-and-prototypal-inheritance/object-create"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "object-oriented-javascript-and-prototypal-inheritance/classes"
+                    "id": "building-custom-react-hooks/using-custom-hooks"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "BONUS",
+                "label": "Diving into Redux",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "bonus/tostring-typeof-instanceof"
+                    "id": "diving-into-redux/introducing-redux"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "diving-into-redux/redux-with-functional-components"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "diving-into-redux/redux-with-class-based-components"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "diving-into-redux/introducing-redux-toolkit"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Advanced Redux",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "advanced-redux/asynchronous-code-in-redux"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Building a Multi-Page SPA with React Router",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "building-a-multi-page-spa-with-react-router/introducing-react-router"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Deploying React Apps",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "deploying-react-apps/upload-production-code-to-server"
                   }
                 ]
               }

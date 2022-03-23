@@ -1,0 +1,26 @@
+{
+  "unversionedId": "sending-http-request/the-component-lifecycle",
+  "id": "sending-http-request/the-component-lifecycle",
+  "title": "The Component Lifecycle",
+  "description": "The Component Lifecycle is Class-based Components Only!",
+  "source": "@site/docs/sending-http-request/the-component-lifecycle.mdx",
+  "sourceDirName": "sending-http-request",
+  "slug": "/sending-http-request/the-component-lifecycle",
+  "permalink": "/sending-http-request/the-component-lifecycle",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sending-http-request/the-component-lifecycle.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using the Star Wars API",
+    "permalink": "/sending-http-request/using-the-star-wars-api"
+  },
+  "next": {
+    "title": "Error Boundary",
+    "permalink": "/sending-http-request/error-boundary"
+  }
+}

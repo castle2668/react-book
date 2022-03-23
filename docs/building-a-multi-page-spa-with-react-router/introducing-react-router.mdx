@@ -1,0 +1,310 @@
+---
+sidebar_position: 1
+---
+
+# Introducing React Router
+
+SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。
+
+## Get Started: The BrowserRouter Component
+
+```jsx
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
+);
+```
+
+## The Route Component
+
+`<Route>` component: Rigister pages, Dynamic routes
+
+```jsx
+function App() {
+  return (
+    <div>
+      <MainHeader />
+      <main>
+        <Route path="/welcome">
+          <Welcome />
+        </Route>
+        <Route path="/products">
+          <Products />
+        </Route>
+        <Route path="/products/:productId">
+          <ProductDetail />
+        </Route>
+      </main>
+    </div>
+  );
+}
+
+// our-domain.com/welcome => Welcome Component
+// our-domain.com/products => Products Component
+// our-domain.com/products/anyValue
+```
+
+## The Link Component
+
+`<Link>` component: 導引到其他頁面的連結，會被 render 成 `<a>` 標籤
+
+```jsx
+const MainHeader = () => {
+  return (
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/welcome">Welcome</Link>
+          </li>
+          <li>
+            <Link to="/products">Products</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
+```
+
+## The NavLink Component
+
+`<NavLink>` 與 `<Link>` 一樣都是 Router Link，且最後都會被 render 成 `<a>` 標籤。
+差別在於 `<NavLink>` 可以加上一些 styling，像是透過 `activeClassName` 為 Active Route 加上樣式。
+
+```jsx
+<NavLink activeClassName={classes.active} to="/welcome">
+  Welcome
+</NavLink>
+```
+
+## ⚓️ useParam Hook
+
+`useParam` Hook 會回傳一個含有「網址參數」的物件，存取的 Key 就是註冊動態路由時的參數名稱。
+
+例如：`/products/:productId` 就是取用 `productId`。
+
+```jsx
+// ourdomain.com/products/p1
+import { useParams } from 'react-router-dom';
+
+const ProductDetail = () => {
+  const params = useParams();
+  console.log(params); // Object
+  console.log(params.productId); // p1
+  // ...
+};
+```
+
+## The Switch Component & Dynamic Routes
+
+`<Switch>` component：把它包在 `<Route>` 的外層，React Router 會由上而下尋找與網址相應的路由，一旦找到就會停止配對（沒有使用時，會檢查所有路由是否符合，並不會由上而下檢查），確保同一時間只會有一個路由被加載！
+
+搭配 `<Route>` 的 `exact` prop，讓路由只有在完全匹配到的時候才會生效。
+
+加上 `exact` 前，網址為 `our-domain.com/products/book` 時，會進入率先找到的 `<Products>`，而非完全對應的動態路由 `<ProductDetail>`。
+加上 `exact` 後，就能正確匹配到相對應的路由。
+
+```jsx
+<Switch>
+  <Route path="/products" exact>
+    <Products />
+  </Route>
+  <Route path="/products/:productId">
+    <ProductDetail />
+  </Route>
+</Switch>
+```
+
+## The Redirect Component
+
+`<Redirect>` component: Redirect the users to somewhere else
+
+例如：當訪問到 `/<nothing>` 這個路由時，React 就會渲染 `<Redirect>` 這個元件，而這個元件只要被渲染，就會執行路由的重新導向，也就是前往 `/welcome` 這個頁面。
+
+```jsx
+<Switch>
+  <Route path="/" exact>
+    <Redirect to="/welcome" />
+  </Route>
+</Switch>
+```
+
+## Nested Routes
+
+除了在 App.js 註冊路由，我們也可以在 Page component 中註冊與部署路由，這兩個做法有什麼差別呢？
+
+在 App 中註冊路由後，我們就可以直接打網址訪問該路徑的頁面，但是從 Page 註冊的路由，則必須要在該 Page component 屬於 Active 狀態下才能訪問得到。
+
+例如：若在 Welcome Page 註冊 `/new-user` 路由，我們將永遠無法訪問到這個頁面，因為路徑必須包含 `/welcome` 才能讓 Welcome 這個元件 Active，所以註冊的路由要改成 `/welcome/new-user` 才會正確運作。
+
+```jsx
+const Welcome = () => {
+  return (
+    <section>
+      <h1>The Welcome Page</h1>
+      <Route path="/welcome/new-user">
+        <p>Welcome, new user!</p>
+      </Route>
+    </section>
+  );
+};
+```
+
+除此之外，如果是位於動態路由之下的巢狀路由，可以用以下兩種寫法。
+
+```jsx
+<Route path="/quotes/:quoteId/comments">
+
+const params = useParams();
+<Route path={`/quotes/${params.quoteId}/comments`}>
+```
+
+## 404 Not Found Page
+
+如果 User 訪問了我們沒有定義的 Route，通常應該就要出現一個 404 頁面。
+
+實作邏輯：在所有 Route 定義完成後，在最後面加上一個「任何路徑都會符合」的路由，如此一來，只要 React Router 由上而下尋找 Route 全都不符合，就會接著進入我們製作的 404 `<NotFound>` 頁面。
+
+```jsx
+<Switch>
+  <Route path="/" exact>
+    <Redirect to="/quotes" />
+  </Route>
+  <Route path="/quotes" exact>
+    <AllQuotes />
+  </Route>
+  <Route path="/quotes/:quoteId">
+    <QuoteDetail />
+  </Route>
+  <Route path="/new-quote">
+    <NewQuote />
+  </Route>
+  <Route path="*">
+    <NotFound />
+  </Route>
+</Switch>
+```
+
+## ⚓️ useHistory Hook
+
+用於更改瀏覽器的歷史紀錄，提供 `push` 與 `replace` 等方法，前者可以返回上一頁，後者則無法。
+
+與 Vanilla JavaScript 提供的 History API 不同的地方在於：
+
+- React Router DOM 的 useHistory 不會刷新頁面，只會重新渲染元件
+- 原生 History API 的操作像是 `window.location.href`，則會使整個頁面重整，效果上不是那麼理想
+
+此外，React 與 React Router DOM 之間的配合也比較好，彼此之間也有優化與除錯，因此比較推薦使用 useHistory。
+
+最後，除了用 Template Literal 組出路徑的字串之外，React Router 還有提供一個**可讀性更好**的寫法，就是將傳遞的路徑使用 Object 來表達，拆分為 `pathname` 與後續參數 `search`。
+
+```jsx
+history.push(
+  `${location.pathname}?sort=${isSortingAscending ? 'desc' : 'asc'}`
+);
+
+history.push({
+  pathname: `${location.pathname}`,
+  search: `?sort=${isSortingAscending ? 'desc' : 'asc'}`,
+});
+```
+
+## ⚓️ useLocation Hook
+
+`useLocation` Hook 可以取得當前載入的頁面的訊息，而且是不可變的 (immutable)。
+
+範例：透過 `useLocation` 搭配 [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) 與 [URLSearchParams.get()](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/get) 取得網址參數，便可得到當下的排序方式 `isSortingAscending`，並且經過運算取得排序後的資料。
+
+```jsx
+// 載入頁面後取得排序方式，得到排序後的資料
+const location = useLocation();
+const queryParams = new URLSearchParams(location.search);
+const isSortingAscending = queryParams.get('sort') === 'asc';
+// sortQuotes (Sorting Helper) 的詳細寫法這裡省略
+const sortedQuotes = sortQuotes(props.quotes, isSortingAscending);
+
+// 透過 useHistory 更新路由
+const history = useHistory();
+const changeSortingHandler = () => {
+  // history.push('/quotes?sort=' + (isSortingAscending ? 'desc' : 'asc'));
+  history.push(
+    `${location.pathname}?sort=${isSortingAscending ? 'desc' : 'asc'}`
+  );
+};
+```
+
+Q: Why do we need useLocation? Isn't everything from useLocation included in useHistory?
+A: There is a difference which might be relevant in a specific situation, or might not. The [docs](https://reactrouter.com/web/api/location) say:
+_"It is also found on `history.location` but you shouldn’t use that because it’s mutable. You can read more about that in the [history](https://v5.reactrouter.com/web/api/history) doc._
+_A `location` object is never mutated so you can use it in the lifecycle hooks to determine when navigation happens, this is really useful for data fetching and animation."_
+
+## ⚓️ useMatch Hook
+
+useMatch Hook 可以取得當前所在的路徑，適合用於取代 hard-coded 的動態路徑，這樣如果最外面註冊的路由修改名稱，不用修改內部一個個的巢狀路由。
+
+```jsx
+// ourdomain.com/quotes/q2/comments
+
+const match = useRouteMatch();
+console.log(match);
+
+// 提供的 match 物件格式
+{
+  isExact: false,
+  params: {
+    quoteId: "q2"
+  },
+  path: "/quotes/:quoteId",
+  url: "/quotes/q2"
+}
+```
+
+例如：透過 match 物件的 `path` 與 `url` 取代原本 Template Literal 的寫法。
+
+- `path`: The path pattern used to match. Useful for building nested `<Route>`
+- `url`: The matched portion of the URL. Useful for building nested `<Link>`
+
+> `match.path` is the path written for the router. - "/users/:userId"
+> `match.url` is the actual path in the browser URL. - "/users/5"
+> Check this article: [All About React Router 4 | CSS-Tricks](https://css-tricks.com/react-router-4/#aa-which-to-choose)
+
+```jsx
+<Route path={`/quotes/${params.quoteId}/comments`}>
+<Route path={`${match.path}/comments`}>
+
+<Link className="btn--flat" to={`/quotes/${params.quoteId}/comments`}>
+<Link className="btn--flat" to={`${match.url}/comments`}>
+```
+
+## The Prompt Component
+
+往往我們在填寫表單時，如果不小心按到上一頁或是連結，而導致頁面跳轉，之後我們就只能重新填寫表單資料。因此，我們希望 Router 可以在某些情況下，在跳轉頁面之前可以先提醒我們，防止進行不想要的換頁。
+
+`<Prompt>` 元件可以設定 `when` 屬性指定不要跳轉的時機，並設定 `message` 屬性來輸出 Alert 的訊息內容。
+
+例如：如果 `isEntering` 這個 State 為 true，則當我們要離開當前頁面時，`<Prompt>` 元件就會作用。
+
+```jsx
+<Prompt
+  when={isEntering}
+  message={(location) => 'Are you sure you want to leave'}
+/>
+```
+
+特別注意 `message` 的值是一個 Function，預設帶有 `location` 這個參數，並且最後要回傳一段字串，作為 User 想要離開時會看到的訊息。
+
+## 回顧
+
+看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
+
+- 進階 JavaScript 程式設計中非常重要的閉包的概念
+- 藉由閉包的經典範例瞭解閉包與自由變數的概念
+- 使用 ES6 的 let 處理閉包造成的情況
+- 在 ES5 使用立即函式處理閉包造成的情況
+
+## References
+
+- [JavaScript: Understanding the Weird Parts](https://www.udemy.com/course/understand-javascript/)

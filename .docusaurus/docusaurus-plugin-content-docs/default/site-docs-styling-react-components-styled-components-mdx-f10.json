@@ -1,0 +1,26 @@
+{
+  "unversionedId": "styling-react-components/styled-components",
+  "id": "styling-react-components/styled-components",
+  "title": "Styled Components",
+  "description": "Introduction",
+  "source": "@site/docs/styling-react-components/styled-components.mdx",
+  "sourceDirName": "styling-react-components",
+  "slug": "/styling-react-components/styled-components",
+  "permalink": "/styling-react-components/styled-components",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/styling-react-components/styled-components.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Styling React Components",
+    "permalink": "/react-basics/styling-react-components"
+  },
+  "next": {
+    "title": "CSS Modules",
+    "permalink": "/styling-react-components/css-modules"
+  }
+}

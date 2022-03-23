@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-advance/closure",
+  "id": "react-advance/closure",
+  "title": "閉包 (Closure)",
+  "description": "本文主要內容為探討「閉包」的相關知識，這是 JavaScript 的一個重要觀念，會用到我們之前學到的所有概念，包含一級函式、執行堆、執行環境等等。",
+  "source": "@site/docs/react-advance/closure.mdx",
+  "sourceDirName": "react-advance",
+  "slug": "/react-advance/closure",
+  "permalink": "/react-advance/closure",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/closure.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Refs & Forward Refs",
+    "permalink": "/react-basics/refs-and-forward-refs"
+  }
+}

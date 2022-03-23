@@ -1,0 +1,38 @@
+---
+sidebar_position: 1
+---
+
+# Introducing JSX
+
+## JSX
+
+- Style 要放一個物件，所以寫起來會有兩對括號：`style={{background: #ccc, fontSize: '16'}}`
+- 製造亂數 ID 作為 key：`Math.random().toString()`
+- Prevent request send, so page won't reload: `event.preventDefault()`
+- String 轉 Number：`+enteredAmount`
+- **props.children** allows you to create wrapper components: `<div>{props.children}</div>`
+- &&：如果前面是 true 就 Render 後面的 JSX
+- 日期格式 August 2020 14
+  ```jsx
+  const date = new Date(2020, 7, 14); // Start counting Month from 0 to 11.
+  date.toLocaleString('en-US', { month: 'long' }); // August
+  date.getFullYear().toString(); // 2020
+  date.toLocaleString('en-US', { day: '2-digit' }); // 14
+  date.getMonth; // 7 (Starting at 0 => January = 0)
+  ```
+
+## React Fragments
+
+`<React.Fragment>...</React.Fragment>` or `<Fragment>...</Fragment>` or `<>...</>`
+
+Fragments and Portals help us write cleaner HTML code.
+
+## 回顧
+
+看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
+
+- React
+
+## References
+
+- [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)

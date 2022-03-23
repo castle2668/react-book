@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','4d6'),
+    component: ComponentCreator('/','2b0'),
     routes: [
       {
         path: '/',
@@ -54,122 +54,152 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/bonus/tostring-typeof-instanceof',
-        component: ComponentCreator('/bonus/tostring-typeof-instanceof','97b'),
+        path: '/advanced-redux/asynchronous-code-in-redux',
+        component: ComponentCreator('/advanced-redux/asynchronous-code-in-redux','678'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/functions-extras/bind-call-apply',
-        component: ComponentCreator('/functions-extras/bind-call-apply','e92'),
+        path: '/an-alternativ-way-of-building-components/class-based-component-basic-usage',
+        component: ComponentCreator('/an-alternativ-way-of-building-components/class-based-component-basic-usage','cec'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/functions-extras/callback-function',
-        component: ComponentCreator('/functions-extras/callback-function','a71'),
+        path: '/an-alternativ-way-of-building-components/error-boundary',
+        component: ComponentCreator('/an-alternativ-way-of-building-components/error-boundary','71b'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/functions-extras/closure',
-        component: ComponentCreator('/functions-extras/closure','fac'),
+        path: '/an-alternativ-way-of-building-components/the-component-lifecycle',
+        component: ComponentCreator('/an-alternativ-way-of-building-components/the-component-lifecycle','b1e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/functions-extras/function-factory',
-        component: ComponentCreator('/functions-extras/function-factory','151'),
+        path: '/building-a-multi-page-spa-with-react-router/introducing-react-router',
+        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/introducing-react-router','b07'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/functions-extras/functional-programming',
-        component: ComponentCreator('/functions-extras/functional-programming','eae'),
+        path: '/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6',
+        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6','92f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor',
-        component: ComponentCreator('/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor','c1e'),
+        path: '/building-custom-react-hooks/using-custom-hooks',
+        component: ComponentCreator('/building-custom-react-hooks/using-custom-hooks','5eb'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/object-oriented-javascript-and-prototypal-inheritance/classes',
-        component: ComponentCreator('/object-oriented-javascript-and-prototypal-inheritance/classes','f88'),
+        path: '/deploying-react-apps/upload-production-code-to-server',
+        component: ComponentCreator('/deploying-react-apps/upload-production-code-to-server','119'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/object-oriented-javascript-and-prototypal-inheritance/function-constructor',
-        component: ComponentCreator('/object-oriented-javascript-and-prototypal-inheritance/function-constructor','2bf'),
+        path: '/diving-into-redux/introducing-redux',
+        component: ComponentCreator('/diving-into-redux/introducing-redux','296'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/object-oriented-javascript-and-prototypal-inheritance/object-create',
-        component: ComponentCreator('/object-oriented-javascript-and-prototypal-inheritance/object-create','e2b'),
+        path: '/diving-into-redux/introducing-redux-toolkit',
+        component: ComponentCreator('/diving-into-redux/introducing-redux-toolkit','cc3'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/object-oriented-javascript-and-prototypal-inheritance/prototype',
-        component: ComponentCreator('/object-oriented-javascript-and-prototypal-inheritance/prototype','2f6'),
+        path: '/diving-into-redux/redux-with-class-based-components',
+        component: ComponentCreator('/diving-into-redux/redux-with-class-based-components','e49'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/objects-and-functions/arguments-spread',
-        component: ComponentCreator('/objects-and-functions/arguments-spread','e36'),
+        path: '/diving-into-redux/redux-with-functional-components',
+        component: ComponentCreator('/diving-into-redux/redux-with-functional-components','eb2'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/objects-and-functions/function-object',
-        component: ComponentCreator('/objects-and-functions/function-object','ff2'),
+        path: '/react-advance/introducing-react-context',
+        component: ComponentCreator('/react-advance/introducing-react-context','785'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/objects-and-functions/iife-safe-code',
-        component: ComponentCreator('/objects-and-functions/iife-safe-code','141'),
+        path: '/react-advance/introducing-react-memo',
+        component: ComponentCreator('/react-advance/introducing-react-memo','a17'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/objects-and-functions/object-literal',
-        component: ComponentCreator('/objects-and-functions/object-literal','f0c'),
+        path: '/react-advance/introducing-use-callback',
+        component: ComponentCreator('/react-advance/introducing-use-callback','799'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/objects-and-functions/this',
-        component: ComponentCreator('/objects-and-functions/this','b5b'),
+        path: '/react-advance/introducing-use-effect',
+        component: ComponentCreator('/react-advance/introducing-use-effect','352'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/objects-and-functions/value-reference',
-        component: ComponentCreator('/objects-and-functions/value-reference','bb1'),
+        path: '/react-advance/introducing-use-imperative-handle',
+        component: ComponentCreator('/react-advance/introducing-use-imperative-handle','4ea'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-basics-working-with-components/introducing-jsx',
-        component: ComponentCreator('/react-basics-working-with-components/introducing-jsx','a21'),
+        path: '/react-advance/introducing-use-memo',
+        component: ComponentCreator('/react-advance/introducing-use-memo','cf8'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/types-and-operators/operators',
-        component: ComponentCreator('/types-and-operators/operators','641'),
+        path: '/react-advance/introducing-use-reducer',
+        component: ComponentCreator('/react-advance/introducing-use-reducer','323'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/types-and-operators/types',
-        component: ComponentCreator('/types-and-operators/types','97f'),
+        path: '/react-basics/introducing-jsx',
+        component: ComponentCreator('/react-basics/introducing-jsx','54d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/react-basics/refs-and-forward-refs',
+        component: ComponentCreator('/react-basics/refs-and-forward-refs','9db'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/react-basics/styling-react-components',
+        component: ComponentCreator('/react-basics/styling-react-components','b07'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/react-basics/working-with-portals',
+        component: ComponentCreator('/react-basics/working-with-portals','8eb'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/react-basics/working-with-state',
+        component: ComponentCreator('/react-basics/working-with-state','d05'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/sending-http-request/using-the-star-wars-api',
+        component: ComponentCreator('/sending-http-request/using-the-star-wars-api','71e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

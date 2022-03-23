@@ -16,11 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "立即呼叫的函式表達式 (IIFEs) 與安全程式碼",
-    "permalink": "/objects-and-functions/iife-safe-code"
-  },
-  "next": {
-    "title": "函式工廠 (Function Factory)",
-    "permalink": "/functions-extras/function-factory"
+    "title": "Refs & Forward Refs",
+    "permalink": "/react-basics/refs-and-forward-refs"
   }
 }

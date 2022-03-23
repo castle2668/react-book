@@ -1,0 +1,26 @@
+{
+  "unversionedId": "react-advance/introducting-use-reducer",
+  "id": "react-advance/introducting-use-reducer",
+  "title": "Introducing useReducer",
+  "description": "⚓ useReducer Hook",
+  "source": "@site/docs/react-advance/introducting-use-reducer.mdx",
+  "sourceDirName": "react-advance",
+  "slug": "/react-advance/introducting-use-reducer",
+  "permalink": "/react-advance/introducting-use-reducer",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducting-use-reducer.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introducing useEffect",
+    "permalink": "/react-advance/introducing-use-effect"
+  },
+  "next": {
+    "title": "Introducing React Context",
+    "permalink": "/react-advance/introducing-react-context"
+  }
+}

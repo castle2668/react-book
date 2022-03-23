@@ -1,0 +1,22 @@
+{
+  "unversionedId": "advanced-redux/how-redux-works",
+  "id": "advanced-redux/how-redux-works",
+  "title": "Asynchronous code in Redux",
+  "description": "回顧",
+  "source": "@site/docs/advanced-redux/how-redux-works.mdx",
+  "sourceDirName": "advanced-redux",
+  "slug": "/advanced-redux/how-redux-works",
+  "permalink": "/advanced-redux/how-redux-works",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/advanced-redux/how-redux-works.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introducing Redux Toolkit",
+    "permalink": "/diving-into-redux/introducing-redux-toolkit"
+  }
+}

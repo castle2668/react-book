@@ -1,0 +1,26 @@
+{
+  "unversionedId": "react-basics/styling-react-components",
+  "id": "react-basics/styling-react-components",
+  "title": "Styling React Components",
+  "description": "Styled Components",
+  "source": "@site/docs/react-basics/styling-react-components.mdx",
+  "sourceDirName": "react-basics",
+  "slug": "/react-basics/styling-react-components",
+  "permalink": "/react-basics/styling-react-components",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/styling-react-components.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Working with State",
+    "permalink": "/react-basics/working-with-state"
+  },
+  "next": {
+    "title": "Working with Portals",
+    "permalink": "/react-basics/working-with-portals"
+  }
+}

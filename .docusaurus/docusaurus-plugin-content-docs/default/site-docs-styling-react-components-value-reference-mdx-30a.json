@@ -1,0 +1,26 @@
+{
+  "unversionedId": "styling-react-components/value-reference",
+  "id": "styling-react-components/value-reference",
+  "title": "傳值和傳參考",
+  "description": "本文主要介紹「傳值和傳參考」的概念，這對於 JavaScript 的開發與除錯會很有幫助，如果不知道這些觀念，可能會導致一些很難 Debug 的奇怪問題。",
+  "source": "@site/docs/styling-react-components/value-reference.mdx",
+  "sourceDirName": "styling-react-components",
+  "slug": "/styling-react-components/value-reference",
+  "permalink": "/styling-react-components/value-reference",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/styling-react-components/value-reference.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "函式就是物件 (Functions Are Objects)",
+    "permalink": "/styling-react-components/function-object"
+  },
+  "next": {
+    "title": "物件 × 函式 × this",
+    "permalink": "/styling-react-components/this"
+  }
+}
