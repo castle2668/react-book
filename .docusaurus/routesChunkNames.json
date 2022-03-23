@@ -1,0 +1,116 @@
+{
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/markdown-page-be1": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---markdown-page-393-028"
+  },
+  "/-4d6": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---935-fcf"
+  },
+  "/-96c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---0-e-3-279"
+  },
+  "/bonus/tostring-typeof-instanceof-97b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---bonus-tostring-typeof-instanceofc-5-b-538"
+  },
+  "/functions-extras/bind-call-apply-e92": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---functions-extras-bind-call-apply-11-f-cea"
+  },
+  "/functions-extras/callback-function-a71": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---functions-extras-callback-functionbf-0-082"
+  },
+  "/functions-extras/closure-fac": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---functions-extras-closureb-37-140"
+  },
+  "/functions-extras/function-factory-151": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---functions-extras-function-factoryc-64-df3"
+  },
+  "/functions-extras/functional-programming-eae": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---functions-extras-functional-programmingf-23-4a6"
+  },
+  "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor-c1e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---object-oriented-javascript-and-prototypal-inheritance-built-in-function-constructord-28-d18"
+  },
+  "/object-oriented-javascript-and-prototypal-inheritance/classes-f88": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---object-oriented-javascript-and-prototypal-inheritance-classesb-05-b73"
+  },
+  "/object-oriented-javascript-and-prototypal-inheritance/function-constructor-2bf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---object-oriented-javascript-and-prototypal-inheritance-function-constructor-52-a-3f5"
+  },
+  "/object-oriented-javascript-and-prototypal-inheritance/object-create-e2b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---object-oriented-javascript-and-prototypal-inheritance-object-createbda-7ea"
+  },
+  "/object-oriented-javascript-and-prototypal-inheritance/prototype-2f6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---object-oriented-javascript-and-prototypal-inheritance-prototype-33-c-068"
+  },
+  "/objects-and-functions/arguments-spread-e36": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---objects-and-functions-arguments-spread-601-b01"
+  },
+  "/objects-and-functions/function-object-ff2": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---objects-and-functions-function-object-2-ad-359"
+  },
+  "/objects-and-functions/iife-safe-code-141": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---objects-and-functions-iife-safe-code-41-d-8df"
+  },
+  "/objects-and-functions/object-literal-f0c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---objects-and-functions-object-literal-5-d-9-40c"
+  },
+  "/objects-and-functions/this-b5b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---objects-and-functions-this-305-f79"
+  },
+  "/objects-and-functions/value-reference-bb1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---objects-and-functions-value-referencea-42-45f"
+  },
+  "/react-basics-working-with-components/introducing-jsx-a21": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---react-basics-working-with-components-introducing-jsx-6-f-9-e23"
+  },
+  "/types-and-operators/operators-641": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---types-and-operators-operators-26-b-2c8"
+  },
+  "/types-and-operators/types-97f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---types-and-operators-types-0-d-3-a34"
+  }
+}

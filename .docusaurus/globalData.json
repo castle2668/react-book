@@ -1,0 +1,132 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "bonus/tostring-typeof-instanceof",
+              "path": "/bonus/tostring-typeof-instanceof",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functions-extras/bind-call-apply",
+              "path": "/functions-extras/bind-call-apply",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functions-extras/callback-function",
+              "path": "/functions-extras/callback-function",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functions-extras/closure",
+              "path": "/functions-extras/closure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functions-extras/function-factory",
+              "path": "/functions-extras/function-factory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functions-extras/functional-programming",
+              "path": "/functions-extras/functional-programming",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
+              "path": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "object-oriented-javascript-and-prototypal-inheritance/classes",
+              "path": "/object-oriented-javascript-and-prototypal-inheritance/classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "object-oriented-javascript-and-prototypal-inheritance/function-constructor",
+              "path": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "object-oriented-javascript-and-prototypal-inheritance/object-create",
+              "path": "/object-oriented-javascript-and-prototypal-inheritance/object-create",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "object-oriented-javascript-and-prototypal-inheritance/prototype",
+              "path": "/object-oriented-javascript-and-prototypal-inheritance/prototype",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "objects-and-functions/arguments-spread",
+              "path": "/objects-and-functions/arguments-spread",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "objects-and-functions/function-object",
+              "path": "/objects-and-functions/function-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "objects-and-functions/iife-safe-code",
+              "path": "/objects-and-functions/iife-safe-code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "objects-and-functions/object-literal",
+              "path": "/objects-and-functions/object-literal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "objects-and-functions/this",
+              "path": "/objects-and-functions/this",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "objects-and-functions/value-reference",
+              "path": "/objects-and-functions/value-reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-basics-working-with-components/introducing-jsx",
+              "path": "/react-basics-working-with-components/introducing-jsx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "types-and-operators/operators",
+              "path": "/types-and-operators/operators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "types-and-operators/types",
+              "path": "/types-and-operators/types",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

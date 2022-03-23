@@ -1,0 +1,26 @@
+{
+  "unversionedId": "functions-extras/functional-programming",
+  "id": "functions-extras/functional-programming",
+  "title": "Functional Programming ft. Underscore, Loadsh",
+  "description": "本文主要內容為探討「函式程式設計」的相關知識，透過一個經典的範例玩轉 Functional Programming，也會提到 Underscore 與 Loadsh 這兩個有名的資源庫。",
+  "source": "@site/docs/functions-extras/functional-programming.mdx",
+  "sourceDirName": "functions-extras",
+  "slug": "/functions-extras/functional-programming",
+  "permalink": "/functions-extras/functional-programming",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/functional-programming.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "bind()、call() 與 apply()",
+    "permalink": "/functions-extras/bind-call-apply"
+  },
+  "next": {
+    "title": "物件導向與原型繼承",
+    "permalink": "/object-oriented-javascript-and-prototypal-inheritance/prototype"
+  }
+}

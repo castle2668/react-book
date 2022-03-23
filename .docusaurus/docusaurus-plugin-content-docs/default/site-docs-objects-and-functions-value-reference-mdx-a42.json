@@ -1,0 +1,26 @@
+{
+  "unversionedId": "objects-and-functions/value-reference",
+  "id": "objects-and-functions/value-reference",
+  "title": "傳值和傳參考",
+  "description": "本文主要介紹「傳值和傳參考」的概念，這對於 JavaScript 的開發與除錯會很有幫助，如果不知道這些觀念，可能會導致一些很難 Debug 的奇怪問題。",
+  "source": "@site/docs/objects-and-functions/value-reference.mdx",
+  "sourceDirName": "objects-and-functions",
+  "slug": "/objects-and-functions/value-reference",
+  "permalink": "/objects-and-functions/value-reference",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/value-reference.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "函式就是物件 (Functions Are Objects)",
+    "permalink": "/objects-and-functions/function-object"
+  },
+  "next": {
+    "title": "物件 × 函式 × this",
+    "permalink": "/objects-and-functions/this"
+  }
+}

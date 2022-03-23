@@ -1,0 +1,723 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/",
+          "tagsPath": "/tags",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/sean/Frontend/docs-react/sidebars.js",
+          "contentPath": "/Users/sean/Frontend/docs-react/docs",
+          "contentPathLocalized": "/Users/sean/Frontend/docs-react/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "bonus/tostring-typeof-instanceof",
+              "id": "bonus/tostring-typeof-instanceof",
+              "title": "解析 toString() 方法 ft. typeof, instanceof",
+              "description": "本文主要內容為探討 JavaScript 中 toString() 方法的相關知識，以及關鍵字 typeof 和 instanceof 的使用。",
+              "source": "@site/docs/bonus/tostring-typeof-instanceof.mdx",
+              "sourceDirName": "bonus",
+              "slug": "/bonus/tostring-typeof-instanceof",
+              "permalink": "/bonus/tostring-typeof-instanceof",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/bonus/tostring-typeof-instanceof.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ES6 Class",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/classes"
+              }
+            },
+            {
+              "unversionedId": "functions-extras/bind-call-apply",
+              "id": "functions-extras/bind-call-apply",
+              "title": "bind()、call() 與 apply()",
+              "description": "本文主要內容為探討 bind()、call() 與 apply() 的相關知識，這三個函式都與 this 有關，可以用來控制 this 變數。",
+              "source": "@site/docs/functions-extras/bind-call-apply.mdx",
+              "sourceDirName": "functions-extras",
+              "slug": "/functions-extras/bind-call-apply",
+              "permalink": "/functions-extras/bind-call-apply",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/bind-call-apply.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "回呼函式 (Callback Function)",
+                "permalink": "/functions-extras/callback-function"
+              },
+              "next": {
+                "title": "Functional Programming ft. Underscore, Loadsh",
+                "permalink": "/functions-extras/functional-programming"
+              }
+            },
+            {
+              "unversionedId": "functions-extras/callback-function",
+              "id": "functions-extras/callback-function",
+              "title": "回呼函式 (Callback Function)",
+              "description": "本文主要內容為探討「回呼函式」的相關知識，其實我們可能已經用過回呼函式的概念了，像是 setTimeout 或是 jQuery 事件就是在使用閉包與回呼的概念喔。",
+              "source": "@site/docs/functions-extras/callback-function.mdx",
+              "sourceDirName": "functions-extras",
+              "slug": "/functions-extras/callback-function",
+              "permalink": "/functions-extras/callback-function",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/callback-function.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "函式工廠 (Function Factory)",
+                "permalink": "/functions-extras/function-factory"
+              },
+              "next": {
+                "title": "bind()、call() 與 apply()",
+                "permalink": "/functions-extras/bind-call-apply"
+              }
+            },
+            {
+              "unversionedId": "functions-extras/closure",
+              "id": "functions-extras/closure",
+              "title": "閉包 (Closure)",
+              "description": "本文主要內容為探討「閉包」的相關知識，這是 JavaScript 的一個重要觀念，會用到我們之前學到的所有概念，包含一級函式、執行堆、執行環境等等。",
+              "source": "@site/docs/functions-extras/closure.mdx",
+              "sourceDirName": "functions-extras",
+              "slug": "/functions-extras/closure",
+              "permalink": "/functions-extras/closure",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/closure.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "立即呼叫的函式表達式 (IIFEs) 與安全程式碼",
+                "permalink": "/objects-and-functions/iife-safe-code"
+              },
+              "next": {
+                "title": "函式工廠 (Function Factory)",
+                "permalink": "/functions-extras/function-factory"
+              }
+            },
+            {
+              "unversionedId": "functions-extras/function-factory",
+              "id": "functions-extras/function-factory",
+              "title": "函式工廠 (Function Factory)",
+              "description": "本文主要內容為探討「函式工廠」的相關知識。閉包有很多有用的地方，像是函式工廠就是用閉包建立的模式，文章內容也會包含重載函式、一級函式、執行環境等概念。",
+              "source": "@site/docs/functions-extras/function-factory.mdx",
+              "sourceDirName": "functions-extras",
+              "slug": "/functions-extras/function-factory",
+              "permalink": "/functions-extras/function-factory",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/function-factory.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "閉包 (Closure)",
+                "permalink": "/functions-extras/closure"
+              },
+              "next": {
+                "title": "回呼函式 (Callback Function)",
+                "permalink": "/functions-extras/callback-function"
+              }
+            },
+            {
+              "unversionedId": "functions-extras/functional-programming",
+              "id": "functions-extras/functional-programming",
+              "title": "Functional Programming ft. Underscore, Loadsh",
+              "description": "本文主要內容為探討「函式程式設計」的相關知識，透過一個經典的範例玩轉 Functional Programming，也會提到 Underscore 與 Loadsh 這兩個有名的資源庫。",
+              "source": "@site/docs/functions-extras/functional-programming.mdx",
+              "sourceDirName": "functions-extras",
+              "slug": "/functions-extras/functional-programming",
+              "permalink": "/functions-extras/functional-programming",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/functional-programming.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "bind()、call() 與 apply()",
+                "permalink": "/functions-extras/bind-call-apply"
+              },
+              "next": {
+                "title": "物件導向與原型繼承",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/prototype"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Getting Started",
+              "description": "這個系列文章是 React - The Complete Guide (incl Hooks, React Router, Redux) 課程的學習筆記。",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "slug": "/",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Introducing JSX",
+                "permalink": "/react-basics-working-with-components/introducing-jsx"
+              }
+            },
+            {
+              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
+              "id": "object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
+              "title": "內建的函式建構子",
+              "description": "本文主要內容為探討「JavaScript 內建的函式建構子」的相關知識。",
+              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor.mdx",
+              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
+              "slug": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
+              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "new × 函式建構子 × 原型屬性",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor"
+              },
+              "next": {
+                "title": "純粹的原型繼承 - Object.create",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/object-create"
+              }
+            },
+            {
+              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/classes",
+              "id": "object-oriented-javascript-and-prototypal-inheritance/classes",
+              "title": "ES6 Class",
+              "description": "本文主要內容為探討另一個建立物件和設定原型的方法「ES6 Class」的相關知識。",
+              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/classes.mdx",
+              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
+              "slug": "/object-oriented-javascript-and-prototypal-inheritance/classes",
+              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/classes",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/classes.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "純粹的原型繼承 - Object.create",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/object-create"
+              },
+              "next": {
+                "title": "解析 toString() 方法 ft. typeof, instanceof",
+                "permalink": "/bonus/tostring-typeof-instanceof"
+              }
+            },
+            {
+              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/function-constructor",
+              "id": "object-oriented-javascript-and-prototypal-inheritance/function-constructor",
+              "title": "new × 函式建構子 × 原型屬性",
+              "description": "本文主要內容為探討「關鍵字 new 與函式建構子」的相關知識，內容包含關鍵字 new、函式建構子，以及函式的原型屬性。",
+              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/function-constructor.mdx",
+              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
+              "slug": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor",
+              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/function-constructor.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "物件導向與原型繼承",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/prototype"
+              },
+              "next": {
+                "title": "內建的函式建構子",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor"
+              }
+            },
+            {
+              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/object-create",
+              "id": "object-oriented-javascript-and-prototypal-inheritance/object-create",
+              "title": "純粹的原型繼承 - Object.create",
+              "description": "本文主要內容為探討「Object.create」的相關知識以及搭配使用的 Polyfill。",
+              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/object-create.mdx",
+              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
+              "slug": "/object-oriented-javascript-and-prototypal-inheritance/object-create",
+              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/object-create",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/object-create.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "內建的函式建構子",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor"
+              },
+              "next": {
+                "title": "ES6 Class",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/classes"
+              }
+            },
+            {
+              "unversionedId": "object-oriented-javascript-and-prototypal-inheritance/prototype",
+              "id": "object-oriented-javascript-and-prototypal-inheritance/prototype",
+              "title": "物件導向與原型繼承",
+              "description": "本文主要內容為探討「原型」的相關知識，包含原型繼承、原型鏈、基本物件，以及資源庫 Underscore 裡面的 Reflection 與 Extend 模式。",
+              "source": "@site/docs/object-oriented-javascript-and-prototypal-inheritance/prototype.mdx",
+              "sourceDirName": "object-oriented-javascript-and-prototypal-inheritance",
+              "slug": "/object-oriented-javascript-and-prototypal-inheritance/prototype",
+              "permalink": "/object-oriented-javascript-and-prototypal-inheritance/prototype",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/object-oriented-javascript-and-prototypal-inheritance/prototype.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Functional Programming ft. Underscore, Loadsh",
+                "permalink": "/functions-extras/functional-programming"
+              },
+              "next": {
+                "title": "new × 函式建構子 × 原型屬性",
+                "permalink": "/object-oriented-javascript-and-prototypal-inheritance/function-constructor"
+              }
+            },
+            {
+              "unversionedId": "objects-and-functions/arguments-spread",
+              "id": "objects-and-functions/arguments-spread",
+              "title": "函式參數與 arguments、spread",
+              "description": "本文主要內容為探討「函式參數」的相關知識，包含預設值、arguments 關鍵字、spread parameter 等等。",
+              "source": "@site/docs/objects-and-functions/arguments-spread.mdx",
+              "sourceDirName": "objects-and-functions",
+              "slug": "/objects-and-functions/arguments-spread",
+              "permalink": "/objects-and-functions/arguments-spread",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/arguments-spread.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "物件 × 函式 × this",
+                "permalink": "/objects-and-functions/this"
+              },
+              "next": {
+                "title": "立即呼叫的函式表達式 (IIFEs) 與安全程式碼",
+                "permalink": "/objects-and-functions/iife-safe-code"
+              }
+            },
+            {
+              "unversionedId": "objects-and-functions/function-object",
+              "id": "objects-and-functions/function-object",
+              "title": "函式就是物件 (Functions Are Objects)",
+              "description": "本文主要內容為探討「函式物件」的相關知識，包含「一級函式」這個讓 JavaScript 適合撰寫 Functional Programming 的特性，以及函式陳述式、函式表達式、匿名函式等重要觀念。",
+              "source": "@site/docs/objects-and-functions/function-object.mdx",
+              "sourceDirName": "objects-and-functions",
+              "slug": "/objects-and-functions/function-object",
+              "permalink": "/objects-and-functions/function-object",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/function-object.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "物件實體語法 (Object Literal Syntax)",
+                "permalink": "/objects-and-functions/object-literal"
+              },
+              "next": {
+                "title": "傳值和傳參考",
+                "permalink": "/objects-and-functions/value-reference"
+              }
+            },
+            {
+              "unversionedId": "objects-and-functions/iife-safe-code",
+              "id": "objects-and-functions/iife-safe-code",
+              "title": "立即呼叫的函式表達式 (IIFEs) 與安全程式碼",
+              "description": "本文主要內容為探討「IIFE」的相關知識，理解為什麼 IIFE 會被應用在各種大型框架或資源庫裡面，並且能幫助撰寫安全的程式碼。",
+              "source": "@site/docs/objects-and-functions/iife-safe-code.mdx",
+              "sourceDirName": "objects-and-functions",
+              "slug": "/objects-and-functions/iife-safe-code",
+              "permalink": "/objects-and-functions/iife-safe-code",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/iife-safe-code.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "函式參數與 arguments、spread",
+                "permalink": "/objects-and-functions/arguments-spread"
+              },
+              "next": {
+                "title": "閉包 (Closure)",
+                "permalink": "/functions-extras/closure"
+              }
+            },
+            {
+              "unversionedId": "objects-and-functions/object-literal",
+              "id": "objects-and-functions/object-literal",
+              "title": "物件實體語法 (Object Literal Syntax)",
+              "description": "本文主要內容為探討「物件」的相關知識，包含成員取用運算子、物件實體語法、偽裝命名空間，與 JSON 資料格式。",
+              "source": "@site/docs/objects-and-functions/object-literal.mdx",
+              "sourceDirName": "objects-and-functions",
+              "slug": "/objects-and-functions/object-literal",
+              "permalink": "/objects-and-functions/object-literal",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/object-literal.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "運算子 (Operators)",
+                "permalink": "/types-and-operators/operators"
+              },
+              "next": {
+                "title": "函式就是物件 (Functions Are Objects)",
+                "permalink": "/objects-and-functions/function-object"
+              }
+            },
+            {
+              "unversionedId": "objects-and-functions/this",
+              "id": "objects-and-functions/this",
+              "title": "物件 × 函式 × this",
+              "description": "本文主要內容為探討物件、函式，以及那個令人困惑的「this」的指向問題與相關知識。",
+              "source": "@site/docs/objects-and-functions/this.mdx",
+              "sourceDirName": "objects-and-functions",
+              "slug": "/objects-and-functions/this",
+              "permalink": "/objects-and-functions/this",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/this.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "傳值和傳參考",
+                "permalink": "/objects-and-functions/value-reference"
+              },
+              "next": {
+                "title": "函式參數與 arguments、spread",
+                "permalink": "/objects-and-functions/arguments-spread"
+              }
+            },
+            {
+              "unversionedId": "objects-and-functions/value-reference",
+              "id": "objects-and-functions/value-reference",
+              "title": "傳值和傳參考",
+              "description": "本文主要介紹「傳值和傳參考」的概念，這對於 JavaScript 的開發與除錯會很有幫助，如果不知道這些觀念，可能會導致一些很難 Debug 的奇怪問題。",
+              "source": "@site/docs/objects-and-functions/value-reference.mdx",
+              "sourceDirName": "objects-and-functions",
+              "slug": "/objects-and-functions/value-reference",
+              "permalink": "/objects-and-functions/value-reference",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/objects-and-functions/value-reference.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "函式就是物件 (Functions Are Objects)",
+                "permalink": "/objects-and-functions/function-object"
+              },
+              "next": {
+                "title": "物件 × 函式 × this",
+                "permalink": "/objects-and-functions/this"
+              }
+            },
+            {
+              "unversionedId": "react-basics-working-with-components/introducing-jsx",
+              "id": "react-basics-working-with-components/introducing-jsx",
+              "title": "Introducing JSX",
+              "description": "- Style 要放一個物件，所以寫起來會有兩對括號：style={{background '16'}}",
+              "source": "@site/docs/react-basics-working-with-components/introducing-jsx.mdx",
+              "sourceDirName": "react-basics-working-with-components",
+              "slug": "/react-basics-working-with-components/introducing-jsx",
+              "permalink": "/react-basics-working-with-components/introducing-jsx",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics-working-with-components/introducing-jsx.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "型別 (Types)",
+                "permalink": "/types-and-operators/types"
+              }
+            },
+            {
+              "unversionedId": "types-and-operators/operators",
+              "id": "types-and-operators/operators",
+              "title": "運算子 (Operators)",
+              "description": "本文主要內容為探討「運算子」的各種概念，能幫助我們順利除錯與瞭解可能會因為動態型別而產生的問題。",
+              "source": "@site/docs/types-and-operators/operators.mdx",
+              "sourceDirName": "types-and-operators",
+              "slug": "/types-and-operators/operators",
+              "permalink": "/types-and-operators/operators",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/types-and-operators/operators.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "型別 (Types)",
+                "permalink": "/types-and-operators/types"
+              },
+              "next": {
+                "title": "物件實體語法 (Object Literal Syntax)",
+                "permalink": "/objects-and-functions/object-literal"
+              }
+            },
+            {
+              "unversionedId": "types-and-operators/types",
+              "id": "types-and-operators/types",
+              "title": "型別 (Types)",
+              "description": "JavaScript 很特別，它與其他程式語言不同，尤其是處理變數資料與型別的部分。本文主要內容為「型別」的相關知識，包含動態型別、純值、陣列，至於物件則會紀錄在其他筆記中。",
+              "source": "@site/docs/types-and-operators/types.mdx",
+              "sourceDirName": "types-and-operators",
+              "slug": "/types-and-operators/types",
+              "permalink": "/types-and-operators/types",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/types-and-operators/types.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing JSX",
+                "permalink": "/react-basics-working-with-components/introducing-jsx"
+              },
+              "next": {
+                "title": "運算子 (Operators)",
+                "permalink": "/types-and-operators/operators"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "React Basics & Working With Components",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-basics-working-with-components/introducing-jsx"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Types and Operators",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "types-and-operators/types"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "types-and-operators/operators"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Objects and Functions",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "objects-and-functions/object-literal"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "objects-and-functions/function-object"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "objects-and-functions/value-reference"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "objects-and-functions/this"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "objects-and-functions/arguments-spread"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "objects-and-functions/iife-safe-code"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Functions Extras",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "functions-extras/closure"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "functions-extras/function-factory"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "functions-extras/callback-function"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "functions-extras/bind-call-apply"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "functions-extras/functional-programming"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Object-Oriented Javascript and Prototypal Inheritance",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "object-oriented-javascript-and-prototypal-inheritance/prototype"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "object-oriented-javascript-and-prototypal-inheritance/function-constructor"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "object-oriented-javascript-and-prototypal-inheritance/built-in-function-constructor"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "object-oriented-javascript-and-prototypal-inheritance/object-create"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "object-oriented-javascript-and-prototypal-inheritance/classes"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "BONUS",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "bonus/tostring-typeof-instanceof"
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "intro",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

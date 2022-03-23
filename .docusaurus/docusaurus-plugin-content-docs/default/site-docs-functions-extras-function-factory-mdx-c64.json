@@ -1,0 +1,26 @@
+{
+  "unversionedId": "functions-extras/function-factory",
+  "id": "functions-extras/function-factory",
+  "title": "函式工廠 (Function Factory)",
+  "description": "本文主要內容為探討「函式工廠」的相關知識。閉包有很多有用的地方，像是函式工廠就是用閉包建立的模式，文章內容也會包含重載函式、一級函式、執行環境等概念。",
+  "source": "@site/docs/functions-extras/function-factory.mdx",
+  "sourceDirName": "functions-extras",
+  "slug": "/functions-extras/function-factory",
+  "permalink": "/functions-extras/function-factory",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/functions-extras/function-factory.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "閉包 (Closure)",
+    "permalink": "/functions-extras/closure"
+  },
+  "next": {
+    "title": "回呼函式 (Callback Function)",
+    "permalink": "/functions-extras/callback-function"
+  }
+}
