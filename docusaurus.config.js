@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "Sealman's React Book",
   tagline: 'The React book made by Sealman',
-  url: 'https://www.sealman.tw',
+  url: 'https://doc.sealman.tw',
   baseUrl: '/react-book/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
