@@ -6,7 +6,7 @@
   "source": "@site/docs/react-advance/introducing-react-context.mdx",
   "sourceDirName": "react-advance",
   "slug": "/react-advance/introducing-react-context",
-  "permalink": "/react-advance/introducing-react-context",
+  "permalink": "/react-book/react-advance/introducing-react-context",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-react-context.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introducing useReducer",
-    "permalink": "/react-advance/introducing-use-reducer"
+    "permalink": "/react-book/react-advance/introducing-use-reducer"
   },
   "next": {
     "title": "Introducing useImperativeHandle",
-    "permalink": "/react-advance/introducing-use-imperative-handle"
+    "permalink": "/react-book/react-advance/introducing-use-imperative-handle"
   }
 }

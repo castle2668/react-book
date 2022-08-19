@@ -1,132 +1,110 @@
 {
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
+  "/react-book/markdown-page-9ee": {
+    "component": "1f391b9e",
+    "content": "393be207"
   },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
+  "/react-book/-558": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  "/react-book/-aeb": {
+    "component": "17896441",
+    "content": "0e384e19"
   },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
+  "/react-book/advanced-redux/asynchronous-code-in-redux-ff0": {
+    "component": "17896441",
+    "content": "6fed5c65"
   },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  "/react-book/an-alternativ-way-of-building-components/class-based-component-basic-usage-614": {
+    "component": "17896441",
+    "content": "3954092c"
   },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
+  "/react-book/an-alternativ-way-of-building-components/error-boundary-3bb": {
+    "component": "17896441",
+    "content": "9af595df"
   },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
+  "/react-book/an-alternativ-way-of-building-components/the-component-lifecycle-531": {
+    "component": "17896441",
+    "content": "225e181d"
   },
-  "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
+  "/react-book/building-a-multi-page-spa-with-react-router/introducing-react-router-v5-800": {
+    "component": "17896441",
+    "content": "83a65965"
   },
-  "/-eca": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---935-fcf"
+  "/react-book/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6-b85": {
+    "component": "17896441",
+    "content": "423fb890"
   },
-  "/-96c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---0-e-3-279"
+  "/react-book/building-custom-react-hooks/using-custom-hooks-aa3": {
+    "component": "17896441",
+    "content": "61f43b4c"
   },
-  "/advanced-redux/asynchronous-code-in-redux-678": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---advanced-redux-asynchronous-code-in-redux-6-fe-560"
+  "/react-book/deploying-react-apps/upload-production-code-to-server-7b3": {
+    "component": "17896441",
+    "content": "c23ca42c"
   },
-  "/an-alternativ-way-of-building-components/class-based-component-basic-usage-cec": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---an-alternativ-way-of-building-components-class-based-component-basic-usage-395-2be"
+  "/react-book/diving-into-redux/introducing-redux-64c": {
+    "component": "17896441",
+    "content": "021031ab"
   },
-  "/an-alternativ-way-of-building-components/error-boundary-71b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---an-alternativ-way-of-building-components-error-boundary-9-af-522"
+  "/react-book/diving-into-redux/introducing-redux-toolkit-293": {
+    "component": "17896441",
+    "content": "0f966e56"
   },
-  "/an-alternativ-way-of-building-components/the-component-lifecycle-b1e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---an-alternativ-way-of-building-components-the-component-lifecycle-225-3f3"
+  "/react-book/diving-into-redux/redux-with-class-based-components-24e": {
+    "component": "17896441",
+    "content": "8d78e790"
   },
-  "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5-c60": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---building-a-multi-page-spa-with-react-router-introducing-react-router-v-583-a-f1c"
+  "/react-book/diving-into-redux/redux-with-functional-components-ff2": {
+    "component": "17896441",
+    "content": "cfae1748"
   },
-  "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6-92f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---building-a-multi-page-spa-with-react-router-upgrading-to-react-router-v-6423-dac"
+  "/react-book/react-advance/introducing-react-context-a3a": {
+    "component": "17896441",
+    "content": "bb963407"
   },
-  "/building-custom-react-hooks/using-custom-hooks-5eb": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---building-custom-react-hooks-using-custom-hooks-61-f-43a"
+  "/react-book/react-advance/introducing-react-memo-e7c": {
+    "component": "17896441",
+    "content": "c3d62748"
   },
-  "/deploying-react-apps/upload-production-code-to-server-119": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---deploying-react-apps-upload-production-code-to-serverc-23-b81"
+  "/react-book/react-advance/introducing-use-callback-abe": {
+    "component": "17896441",
+    "content": "b929d7f7"
   },
-  "/diving-into-redux/introducing-redux-296": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---diving-into-redux-introducing-redux-021-b5d"
+  "/react-book/react-advance/introducing-use-effect-3da": {
+    "component": "17896441",
+    "content": "35e9a2d1"
   },
-  "/diving-into-redux/introducing-redux-toolkit-cc3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---diving-into-redux-introducing-redux-toolkit-0-f-9-92f"
+  "/react-book/react-advance/introducing-use-imperative-handle-d2f": {
+    "component": "17896441",
+    "content": "16d4f81e"
   },
-  "/diving-into-redux/redux-with-class-based-components-e49": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---diving-into-redux-redux-with-class-based-components-8-d-7-425"
+  "/react-book/react-advance/introducing-use-memo-09a": {
+    "component": "17896441",
+    "content": "b826578a"
   },
-  "/diving-into-redux/redux-with-functional-components-eb2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---diving-into-redux-redux-with-functional-componentscfa-93b"
+  "/react-book/react-advance/introducing-use-reducer-089": {
+    "component": "17896441",
+    "content": "7af06337"
   },
-  "/react-advance/introducing-react-context-785": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-react-contextbb-9-382"
+  "/react-book/react-basics/refs-and-forward-refs-860": {
+    "component": "17896441",
+    "content": "5bab3469"
   },
-  "/react-advance/introducing-react-memo-a17": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-react-memoc-3-d-a48"
+  "/react-book/react-basics/styling-react-components-cda": {
+    "component": "17896441",
+    "content": "acdca3ec"
   },
-  "/react-advance/introducing-use-callback-799": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-callbackb-92-638"
+  "/react-book/react-basics/working-with-portals-646": {
+    "component": "17896441",
+    "content": "8df2bcd5"
   },
-  "/react-advance/introducing-use-effect-352": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-effect-35-e-dbc"
+  "/react-book/react-basics/working-with-state-243": {
+    "component": "17896441",
+    "content": "bdd74060"
   },
-  "/react-advance/introducing-use-imperative-handle-4ea": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-imperative-handle-16-d-c06"
-  },
-  "/react-advance/introducing-use-memo-cf8": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-memob-82-18f"
-  },
-  "/react-advance/introducing-use-reducer-323": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-reducer-7-af-c98"
-  },
-  "/react-basics/refs-and-forward-refs-9db": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-refs-and-forward-refs-5-ba-55e"
-  },
-  "/react-basics/styling-react-components-b07": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-styling-react-componentsacd-410"
-  },
-  "/react-basics/working-with-portals-8eb": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-working-with-portals-8-df-45f"
-  },
-  "/react-basics/working-with-state-d05": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-working-with-statebdd-126"
-  },
-  "/sending-http-request/using-the-star-wars-api-71e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---sending-http-request-using-the-star-wars-api-5-f-9-68e"
+  "/react-book/sending-http-request/using-the-star-wars-api-336": {
+    "component": "17896441",
+    "content": "5f9751e5"
   }
 }

@@ -1,145 +1,145 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/react-book/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/react-book/",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "advanced-redux/asynchronous-code-in-redux",
-              "path": "/advanced-redux/asynchronous-code-in-redux",
+              "path": "/react-book/advanced-redux/asynchronous-code-in-redux",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "an-alternativ-way-of-building-components/class-based-component-basic-usage",
-              "path": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
+              "path": "/react-book/an-alternativ-way-of-building-components/class-based-component-basic-usage",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "an-alternativ-way-of-building-components/error-boundary",
-              "path": "/an-alternativ-way-of-building-components/error-boundary",
+              "path": "/react-book/an-alternativ-way-of-building-components/error-boundary",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "an-alternativ-way-of-building-components/the-component-lifecycle",
-              "path": "/an-alternativ-way-of-building-components/the-component-lifecycle",
+              "path": "/react-book/an-alternativ-way-of-building-components/the-component-lifecycle",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-              "path": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+              "path": "/react-book/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-              "path": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+              "path": "/react-book/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "building-custom-react-hooks/using-custom-hooks",
-              "path": "/building-custom-react-hooks/using-custom-hooks",
+              "path": "/react-book/building-custom-react-hooks/using-custom-hooks",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "deploying-react-apps/upload-production-code-to-server",
-              "path": "/deploying-react-apps/upload-production-code-to-server",
+              "path": "/react-book/deploying-react-apps/upload-production-code-to-server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "diving-into-redux/introducing-redux",
-              "path": "/diving-into-redux/introducing-redux",
+              "path": "/react-book/diving-into-redux/introducing-redux",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "diving-into-redux/introducing-redux-toolkit",
-              "path": "/diving-into-redux/introducing-redux-toolkit",
+              "path": "/react-book/diving-into-redux/introducing-redux-toolkit",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "diving-into-redux/redux-with-class-based-components",
-              "path": "/diving-into-redux/redux-with-class-based-components",
+              "path": "/react-book/diving-into-redux/redux-with-class-based-components",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "diving-into-redux/redux-with-functional-components",
-              "path": "/diving-into-redux/redux-with-functional-components",
+              "path": "/react-book/diving-into-redux/redux-with-functional-components",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/",
+              "path": "/react-book/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-advance/introducing-react-context",
-              "path": "/react-advance/introducing-react-context",
+              "path": "/react-book/react-advance/introducing-react-context",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-advance/introducing-react-memo",
-              "path": "/react-advance/introducing-react-memo",
+              "path": "/react-book/react-advance/introducing-react-memo",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-advance/introducing-use-callback",
-              "path": "/react-advance/introducing-use-callback",
+              "path": "/react-book/react-advance/introducing-use-callback",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-advance/introducing-use-effect",
-              "path": "/react-advance/introducing-use-effect",
+              "path": "/react-book/react-advance/introducing-use-effect",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-advance/introducing-use-imperative-handle",
-              "path": "/react-advance/introducing-use-imperative-handle",
+              "path": "/react-book/react-advance/introducing-use-imperative-handle",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-advance/introducing-use-memo",
-              "path": "/react-advance/introducing-use-memo",
+              "path": "/react-book/react-advance/introducing-use-memo",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-advance/introducing-use-reducer",
-              "path": "/react-advance/introducing-use-reducer",
+              "path": "/react-book/react-advance/introducing-use-reducer",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-basics/refs-and-forward-refs",
-              "path": "/react-basics/refs-and-forward-refs",
+              "path": "/react-book/react-basics/refs-and-forward-refs",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-basics/styling-react-components",
-              "path": "/react-basics/styling-react-components",
+              "path": "/react-book/react-basics/styling-react-components",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-basics/working-with-portals",
-              "path": "/react-basics/working-with-portals",
+              "path": "/react-book/react-basics/working-with-portals",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "react-basics/working-with-state",
-              "path": "/react-basics/working-with-state",
+              "path": "/react-book/react-basics/working-with-state",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "sending-http-request/using-the-star-wars-api",
-              "path": "/sending-http-request/using-the-star-wars-api",
+              "path": "/react-book/sending-http-request/using-the-star-wars-api",
               "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/",
+                "path": "/react-book/",
                 "label": "intro"
               }
             }

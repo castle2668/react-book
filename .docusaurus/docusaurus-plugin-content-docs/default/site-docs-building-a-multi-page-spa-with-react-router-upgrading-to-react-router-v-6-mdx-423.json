@@ -6,7 +6,7 @@
   "source": "@site/docs/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6.mdx",
   "sourceDirName": "building-a-multi-page-spa-with-react-router",
   "slug": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-  "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+  "permalink": "/react-book/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introducing React Router v5",
-    "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
+    "permalink": "/react-book/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
   },
   "next": {
     "title": "Upload Production Code to Server",
-    "permalink": "/deploying-react-apps/upload-production-code-to-server"
+    "permalink": "/react-book/deploying-react-apps/upload-production-code-to-server"
   }
 }

@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'React Complete Note',
-  tagline: 'React is cool',
-  url: 'https://react.sealman.tw',
-  baseUrl: '/',
+  title: "Sealman's React Book",
+  tagline: 'The React book made by Sealman',
+  url: 'https://www.sealman.tw',
+  baseUrl: '/react-book/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/icon.png',
   organizationName: 'Sealman234', // Usually your GitHub org/user name.
-  projectName: 'understand-react', // Usually your repo name.
+  projectName: 'react-book', // Usually your repo name.
 
   presets: [
     [
@@ -40,14 +40,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'React Complete Note',
+        title: 'React Book',
         logo: {
           alt: 'My Site Logo',
           src: 'img/icon.png',
         },
         items: [
           {
-            href: 'https://github.com/sealman234',
+            href: 'https://github.com/Sealman234',
             label: 'GitHub',
             position: 'right',
           },
@@ -60,11 +60,11 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'JavaScript: Understanding the Weird Parts',
-                href: 'https://javascript.sealman.tw',
+                label: "Sealman's JavaScript Book",
+                href: 'https://www.sealman.tw/javascript-book',
               },
               {
-                label: 'React Complete Note',
+                label: "Sealman's React Book",
                 to: '/',
               },
             ],
@@ -74,7 +74,7 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/castle2668',
+                href: 'https://twitter.com/Sealman234',
               },
             ],
           },
@@ -83,12 +83,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/sealman234',
+                href: 'https://github.com/Sealman234',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2019-${new Date().getFullYear()} Sealman. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Getting Started",
-        "href": "/",
+        "href": "/react-book/",
         "docId": "intro"
       },
       {
@@ -23,25 +23,25 @@
           {
             "type": "link",
             "label": "Working with State",
-            "href": "/react-basics/working-with-state",
+            "href": "/react-book/react-basics/working-with-state",
             "docId": "react-basics/working-with-state"
           },
           {
             "type": "link",
             "label": "Styling React Components",
-            "href": "/react-basics/styling-react-components",
+            "href": "/react-book/react-basics/styling-react-components",
             "docId": "react-basics/styling-react-components"
           },
           {
             "type": "link",
             "label": "Working with Portals",
-            "href": "/react-basics/working-with-portals",
+            "href": "/react-book/react-basics/working-with-portals",
             "docId": "react-basics/working-with-portals"
           },
           {
             "type": "link",
             "label": "Refs & Forward Refs",
-            "href": "/react-basics/refs-and-forward-refs",
+            "href": "/react-book/react-basics/refs-and-forward-refs",
             "docId": "react-basics/refs-and-forward-refs"
           }
         ]
@@ -55,43 +55,43 @@
           {
             "type": "link",
             "label": "Introducing useEffect",
-            "href": "/react-advance/introducing-use-effect",
+            "href": "/react-book/react-advance/introducing-use-effect",
             "docId": "react-advance/introducing-use-effect"
           },
           {
             "type": "link",
             "label": "Introducing useReducer",
-            "href": "/react-advance/introducing-use-reducer",
+            "href": "/react-book/react-advance/introducing-use-reducer",
             "docId": "react-advance/introducing-use-reducer"
           },
           {
             "type": "link",
             "label": "Introducing React Context",
-            "href": "/react-advance/introducing-react-context",
+            "href": "/react-book/react-advance/introducing-react-context",
             "docId": "react-advance/introducing-react-context"
           },
           {
             "type": "link",
             "label": "Introducing useImperativeHandle",
-            "href": "/react-advance/introducing-use-imperative-handle",
+            "href": "/react-book/react-advance/introducing-use-imperative-handle",
             "docId": "react-advance/introducing-use-imperative-handle"
           },
           {
             "type": "link",
             "label": "Introducing React.memo",
-            "href": "/react-advance/introducing-react-memo",
+            "href": "/react-book/react-advance/introducing-react-memo",
             "docId": "react-advance/introducing-react-memo"
           },
           {
             "type": "link",
             "label": "Introducing useCallback",
-            "href": "/react-advance/introducing-use-callback",
+            "href": "/react-book/react-advance/introducing-use-callback",
             "docId": "react-advance/introducing-use-callback"
           },
           {
             "type": "link",
             "label": "Introducing useMemo",
-            "href": "/react-advance/introducing-use-memo",
+            "href": "/react-book/react-advance/introducing-use-memo",
             "docId": "react-advance/introducing-use-memo"
           }
         ]
@@ -105,19 +105,19 @@
           {
             "type": "link",
             "label": "Class-based Component Basic Usage",
-            "href": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
+            "href": "/react-book/an-alternativ-way-of-building-components/class-based-component-basic-usage",
             "docId": "an-alternativ-way-of-building-components/class-based-component-basic-usage"
           },
           {
             "type": "link",
             "label": "The Component Lifecycle",
-            "href": "/an-alternativ-way-of-building-components/the-component-lifecycle",
+            "href": "/react-book/an-alternativ-way-of-building-components/the-component-lifecycle",
             "docId": "an-alternativ-way-of-building-components/the-component-lifecycle"
           },
           {
             "type": "link",
             "label": "Error Boundary",
-            "href": "/an-alternativ-way-of-building-components/error-boundary",
+            "href": "/react-book/an-alternativ-way-of-building-components/error-boundary",
             "docId": "an-alternativ-way-of-building-components/error-boundary"
           }
         ]
@@ -131,7 +131,7 @@
           {
             "type": "link",
             "label": "Using the Star Wars API",
-            "href": "/sending-http-request/using-the-star-wars-api",
+            "href": "/react-book/sending-http-request/using-the-star-wars-api",
             "docId": "sending-http-request/using-the-star-wars-api"
           }
         ]
@@ -145,7 +145,7 @@
           {
             "type": "link",
             "label": "Using Custom Hooks",
-            "href": "/building-custom-react-hooks/using-custom-hooks",
+            "href": "/react-book/building-custom-react-hooks/using-custom-hooks",
             "docId": "building-custom-react-hooks/using-custom-hooks"
           }
         ]
@@ -159,25 +159,25 @@
           {
             "type": "link",
             "label": "Introducing Redux",
-            "href": "/diving-into-redux/introducing-redux",
+            "href": "/react-book/diving-into-redux/introducing-redux",
             "docId": "diving-into-redux/introducing-redux"
           },
           {
             "type": "link",
             "label": "Redux with Functional Components",
-            "href": "/diving-into-redux/redux-with-functional-components",
+            "href": "/react-book/diving-into-redux/redux-with-functional-components",
             "docId": "diving-into-redux/redux-with-functional-components"
           },
           {
             "type": "link",
             "label": "Redux with Class-based Components",
-            "href": "/diving-into-redux/redux-with-class-based-components",
+            "href": "/react-book/diving-into-redux/redux-with-class-based-components",
             "docId": "diving-into-redux/redux-with-class-based-components"
           },
           {
             "type": "link",
             "label": "Introducing Redux Toolkit",
-            "href": "/diving-into-redux/introducing-redux-toolkit",
+            "href": "/react-book/diving-into-redux/introducing-redux-toolkit",
             "docId": "diving-into-redux/introducing-redux-toolkit"
           }
         ]
@@ -191,7 +191,7 @@
           {
             "type": "link",
             "label": "Asynchronous code in Redux",
-            "href": "/advanced-redux/asynchronous-code-in-redux",
+            "href": "/react-book/advanced-redux/asynchronous-code-in-redux",
             "docId": "advanced-redux/asynchronous-code-in-redux"
           }
         ]
@@ -205,13 +205,13 @@
           {
             "type": "link",
             "label": "Introducing React Router v5",
-            "href": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+            "href": "/react-book/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
             "docId": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
           },
           {
             "type": "link",
             "label": "Upgrading To React Router v6",
-            "href": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+            "href": "/react-book/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
             "docId": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
           }
         ]
@@ -225,7 +225,7 @@
           {
             "type": "link",
             "label": "Upload Production Code to Server",
-            "href": "/deploying-react-apps/upload-production-code-to-server",
+            "href": "/react-book/deploying-react-apps/upload-production-code-to-server",
             "docId": "deploying-react-apps/upload-production-code-to-server"
           }
         ]

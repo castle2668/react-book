@@ -6,7 +6,7 @@
   "source": "@site/docs/react-advance/introducing-use-effect.mdx",
   "sourceDirName": "react-advance",
   "slug": "/react-advance/introducing-use-effect",
-  "permalink": "/react-advance/introducing-use-effect",
+  "permalink": "/react-book/react-advance/introducing-use-effect",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-effect.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Refs & Forward Refs",
-    "permalink": "/react-basics/refs-and-forward-refs"
+    "permalink": "/react-book/react-basics/refs-and-forward-refs"
   },
   "next": {
     "title": "Introducing useReducer",
-    "permalink": "/react-advance/introducing-use-reducer"
+    "permalink": "/react-book/react-advance/introducing-use-reducer"
   }
 }

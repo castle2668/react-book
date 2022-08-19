@@ -4,196 +4,161 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug','3d6'),
+    path: '/react-book/markdown-page',
+    component: ComponentCreator('/react-book/markdown-page','9ee'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config','914'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content','c28'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes','244'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page','be1'),
-    exact: true
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/','eca'),
+    path: '/react-book/',
+    component: ComponentCreator('/react-book/','558'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/','96c'),
+        path: '/react-book/',
+        component: ComponentCreator('/react-book/','aeb'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/advanced-redux/asynchronous-code-in-redux',
-        component: ComponentCreator('/advanced-redux/asynchronous-code-in-redux','678'),
+        path: '/react-book/advanced-redux/asynchronous-code-in-redux',
+        component: ComponentCreator('/react-book/advanced-redux/asynchronous-code-in-redux','ff0'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/an-alternativ-way-of-building-components/class-based-component-basic-usage',
-        component: ComponentCreator('/an-alternativ-way-of-building-components/class-based-component-basic-usage','cec'),
+        path: '/react-book/an-alternativ-way-of-building-components/class-based-component-basic-usage',
+        component: ComponentCreator('/react-book/an-alternativ-way-of-building-components/class-based-component-basic-usage','614'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/an-alternativ-way-of-building-components/error-boundary',
-        component: ComponentCreator('/an-alternativ-way-of-building-components/error-boundary','71b'),
+        path: '/react-book/an-alternativ-way-of-building-components/error-boundary',
+        component: ComponentCreator('/react-book/an-alternativ-way-of-building-components/error-boundary','3bb'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/an-alternativ-way-of-building-components/the-component-lifecycle',
-        component: ComponentCreator('/an-alternativ-way-of-building-components/the-component-lifecycle','b1e'),
+        path: '/react-book/an-alternativ-way-of-building-components/the-component-lifecycle',
+        component: ComponentCreator('/react-book/an-alternativ-way-of-building-components/the-component-lifecycle','531'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/building-a-multi-page-spa-with-react-router/introducing-react-router-v5',
-        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/introducing-react-router-v5','c60'),
+        path: '/react-book/building-a-multi-page-spa-with-react-router/introducing-react-router-v5',
+        component: ComponentCreator('/react-book/building-a-multi-page-spa-with-react-router/introducing-react-router-v5','800'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6',
-        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6','92f'),
+        path: '/react-book/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6',
+        component: ComponentCreator('/react-book/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6','b85'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/building-custom-react-hooks/using-custom-hooks',
-        component: ComponentCreator('/building-custom-react-hooks/using-custom-hooks','5eb'),
+        path: '/react-book/building-custom-react-hooks/using-custom-hooks',
+        component: ComponentCreator('/react-book/building-custom-react-hooks/using-custom-hooks','aa3'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/deploying-react-apps/upload-production-code-to-server',
-        component: ComponentCreator('/deploying-react-apps/upload-production-code-to-server','119'),
+        path: '/react-book/deploying-react-apps/upload-production-code-to-server',
+        component: ComponentCreator('/react-book/deploying-react-apps/upload-production-code-to-server','7b3'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/diving-into-redux/introducing-redux',
-        component: ComponentCreator('/diving-into-redux/introducing-redux','296'),
+        path: '/react-book/diving-into-redux/introducing-redux',
+        component: ComponentCreator('/react-book/diving-into-redux/introducing-redux','64c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/diving-into-redux/introducing-redux-toolkit',
-        component: ComponentCreator('/diving-into-redux/introducing-redux-toolkit','cc3'),
+        path: '/react-book/diving-into-redux/introducing-redux-toolkit',
+        component: ComponentCreator('/react-book/diving-into-redux/introducing-redux-toolkit','293'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/diving-into-redux/redux-with-class-based-components',
-        component: ComponentCreator('/diving-into-redux/redux-with-class-based-components','e49'),
+        path: '/react-book/diving-into-redux/redux-with-class-based-components',
+        component: ComponentCreator('/react-book/diving-into-redux/redux-with-class-based-components','24e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/diving-into-redux/redux-with-functional-components',
-        component: ComponentCreator('/diving-into-redux/redux-with-functional-components','eb2'),
+        path: '/react-book/diving-into-redux/redux-with-functional-components',
+        component: ComponentCreator('/react-book/diving-into-redux/redux-with-functional-components','ff2'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-react-context',
-        component: ComponentCreator('/react-advance/introducing-react-context','785'),
+        path: '/react-book/react-advance/introducing-react-context',
+        component: ComponentCreator('/react-book/react-advance/introducing-react-context','a3a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-react-memo',
-        component: ComponentCreator('/react-advance/introducing-react-memo','a17'),
+        path: '/react-book/react-advance/introducing-react-memo',
+        component: ComponentCreator('/react-book/react-advance/introducing-react-memo','e7c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-use-callback',
-        component: ComponentCreator('/react-advance/introducing-use-callback','799'),
+        path: '/react-book/react-advance/introducing-use-callback',
+        component: ComponentCreator('/react-book/react-advance/introducing-use-callback','abe'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-use-effect',
-        component: ComponentCreator('/react-advance/introducing-use-effect','352'),
+        path: '/react-book/react-advance/introducing-use-effect',
+        component: ComponentCreator('/react-book/react-advance/introducing-use-effect','3da'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-use-imperative-handle',
-        component: ComponentCreator('/react-advance/introducing-use-imperative-handle','4ea'),
+        path: '/react-book/react-advance/introducing-use-imperative-handle',
+        component: ComponentCreator('/react-book/react-advance/introducing-use-imperative-handle','d2f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-use-memo',
-        component: ComponentCreator('/react-advance/introducing-use-memo','cf8'),
+        path: '/react-book/react-advance/introducing-use-memo',
+        component: ComponentCreator('/react-book/react-advance/introducing-use-memo','09a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-use-reducer',
-        component: ComponentCreator('/react-advance/introducing-use-reducer','323'),
+        path: '/react-book/react-advance/introducing-use-reducer',
+        component: ComponentCreator('/react-book/react-advance/introducing-use-reducer','089'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-basics/refs-and-forward-refs',
-        component: ComponentCreator('/react-basics/refs-and-forward-refs','9db'),
+        path: '/react-book/react-basics/refs-and-forward-refs',
+        component: ComponentCreator('/react-book/react-basics/refs-and-forward-refs','860'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-basics/styling-react-components',
-        component: ComponentCreator('/react-basics/styling-react-components','b07'),
+        path: '/react-book/react-basics/styling-react-components',
+        component: ComponentCreator('/react-book/react-basics/styling-react-components','cda'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-basics/working-with-portals',
-        component: ComponentCreator('/react-basics/working-with-portals','8eb'),
+        path: '/react-book/react-basics/working-with-portals',
+        component: ComponentCreator('/react-book/react-basics/working-with-portals','646'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-basics/working-with-state',
-        component: ComponentCreator('/react-basics/working-with-state','d05'),
+        path: '/react-book/react-basics/working-with-state',
+        component: ComponentCreator('/react-book/react-basics/working-with-state','243'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/sending-http-request/using-the-star-wars-api',
-        component: ComponentCreator('/sending-http-request/using-the-star-wars-api','71e'),
+        path: '/react-book/sending-http-request/using-the-star-wars-api',
+        component: ComponentCreator('/react-book/sending-http-request/using-the-star-wars-api','336'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

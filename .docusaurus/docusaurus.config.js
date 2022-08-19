@@ -4,41 +4,41 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  "title": "React Complete Note",
-  "tagline": "React is cool",
-  "url": "https://react.sealman.tw",
-  "baseUrl": "/",
+  "title": "Sealman's React Book",
+  "tagline": "The React book made by Sealman",
+  "url": "https://www.sealman.tw",
+  "baseUrl": "/react-book/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/icon.png",
   "organizationName": "Sealman234",
-  "projectName": "understand-react",
+  "projectName": "react-book",
   "presets": [
     [
       "classic",
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/Users/sean/Frontend/docs-react/sidebars.js",
+          "sidebarPath": "/Users/sean/Desktop/Sealman/react-book/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": false,
         "theme": {
-          "customCss": "/Users/sean/Frontend/docs-react/src/css/custom.css"
+          "customCss": "/Users/sean/Desktop/Sealman/react-book/src/css/custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
     "navbar": {
-      "title": "React Complete Note",
+      "title": "React Book",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/icon.png"
       },
       "items": [
         {
-          "href": "https://github.com/sealman234",
+          "href": "https://github.com/Sealman234",
           "label": "GitHub",
           "position": "right"
         }
@@ -52,11 +52,11 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "JavaScript: Understanding the Weird Parts",
-              "href": "https://javascript.sealman.tw"
+              "label": "Sealman's JavaScript Book",
+              "href": "https://www.sealman.tw/javascript-book"
             },
             {
-              "label": "React Complete Note",
+              "label": "Sealman's React Book",
               "to": "/"
             }
           ]
@@ -66,7 +66,7 @@ export default {
           "items": [
             {
               "label": "Twitter",
-              "href": "https://twitter.com/castle2668"
+              "href": "https://twitter.com/Sealman234"
             }
           ]
         },
@@ -75,12 +75,12 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/sealman234"
+              "href": "https://github.com/Sealman234"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2019-2022 Sealman. All rights reserved."
     },
     "prism": {
       "theme": {
