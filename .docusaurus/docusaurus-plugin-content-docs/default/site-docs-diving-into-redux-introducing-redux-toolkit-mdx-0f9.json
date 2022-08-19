@@ -6,7 +6,7 @@
   "source": "@site/docs/diving-into-redux/introducing-redux-toolkit.mdx",
   "sourceDirName": "diving-into-redux",
   "slug": "/diving-into-redux/introducing-redux-toolkit",
-  "permalink": "/react-book/diving-into-redux/introducing-redux-toolkit",
+  "permalink": "/react/diving-into-redux/introducing-redux-toolkit",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/introducing-redux-toolkit.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Redux with Class-based Components",
-    "permalink": "/react-book/diving-into-redux/redux-with-class-based-components"
+    "permalink": "/react/diving-into-redux/redux-with-class-based-components"
   },
   "next": {
     "title": "Asynchronous code in Redux",
-    "permalink": "/react-book/advanced-redux/asynchronous-code-in-redux"
+    "permalink": "/react/advanced-redux/asynchronous-code-in-redux"
   }
 }

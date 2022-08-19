@@ -6,7 +6,7 @@
   "source": "@site/docs/diving-into-redux/introducing-redux.mdx",
   "sourceDirName": "diving-into-redux",
   "slug": "/diving-into-redux/introducing-redux",
-  "permalink": "/react-book/diving-into-redux/introducing-redux",
+  "permalink": "/react/diving-into-redux/introducing-redux",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/introducing-redux.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Using Custom Hooks",
-    "permalink": "/react-book/building-custom-react-hooks/using-custom-hooks"
+    "permalink": "/react/building-custom-react-hooks/using-custom-hooks"
   },
   "next": {
     "title": "Redux with Functional Components",
-    "permalink": "/react-book/diving-into-redux/redux-with-functional-components"
+    "permalink": "/react/diving-into-redux/redux-with-functional-components"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/docs/sending-http-request/using-the-star-wars-api.mdx",
   "sourceDirName": "sending-http-request",
   "slug": "/sending-http-request/using-the-star-wars-api",
-  "permalink": "/react-book/sending-http-request/using-the-star-wars-api",
+  "permalink": "/react/sending-http-request/using-the-star-wars-api",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sending-http-request/using-the-star-wars-api.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Error Boundary",
-    "permalink": "/react-book/an-alternativ-way-of-building-components/error-boundary"
+    "permalink": "/react/an-alternativ-way-of-building-components/error-boundary"
   },
   "next": {
     "title": "Using Custom Hooks",
-    "permalink": "/react-book/building-custom-react-hooks/using-custom-hooks"
+    "permalink": "/react/building-custom-react-hooks/using-custom-hooks"
   }
 }

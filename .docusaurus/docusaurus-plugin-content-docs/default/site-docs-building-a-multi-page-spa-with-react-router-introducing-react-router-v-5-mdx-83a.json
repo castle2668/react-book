@@ -6,7 +6,7 @@
   "source": "@site/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
   "sourceDirName": "building-a-multi-page-spa-with-react-router",
   "slug": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-  "permalink": "/react-book/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+  "permalink": "/react/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Asynchronous code in Redux",
-    "permalink": "/react-book/advanced-redux/asynchronous-code-in-redux"
+    "permalink": "/react/advanced-redux/asynchronous-code-in-redux"
   },
   "next": {
     "title": "Upgrading To React Router v6",
-    "permalink": "/react-book/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+    "permalink": "/react/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
   }
 }

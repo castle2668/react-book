@@ -6,7 +6,7 @@
   "source": "@site/docs/react-basics/refs-and-forward-refs.mdx",
   "sourceDirName": "react-basics",
   "slug": "/react-basics/refs-and-forward-refs",
-  "permalink": "/react-book/react-basics/refs-and-forward-refs",
+  "permalink": "/react/react-basics/refs-and-forward-refs",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/refs-and-forward-refs.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Working with Portals",
-    "permalink": "/react-book/react-basics/working-with-portals"
+    "permalink": "/react/react-basics/working-with-portals"
   },
   "next": {
     "title": "Introducing useEffect",
-    "permalink": "/react-book/react-advance/introducing-use-effect"
+    "permalink": "/react/react-advance/introducing-use-effect"
   }
 }
