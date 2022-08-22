@@ -13,6 +13,13 @@ export default {
   "favicon": "img/icon.png",
   "organizationName": "Sealman234",
   "projectName": "react-book",
+  "i18n": {
+    "defaultLocale": "zh-Hant-TW",
+    "locales": [
+      "zh-Hant-TW"
+    ],
+    "localeConfigs": {}
+  },
   "presets": [
     [
       "classic",
@@ -37,6 +44,11 @@ export default {
         "src": "img/icon.png"
       },
       "items": [
+        {
+          "href": "https://www.sealman.tw",
+          "label": "Blog",
+          "position": "right"
+        },
         {
           "href": "https://github.com/Sealman234",
           "label": "GitHub",
@@ -73,6 +85,10 @@ export default {
         {
           "title": "More",
           "items": [
+            {
+              "label": "Blog",
+              "href": "https://www.sealman.tw"
+            },
             {
               "label": "GitHub",
               "href": "https://github.com/Sealman234"
@@ -293,13 +309,6 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      "en"
-    ],
-    "localeConfigs": {}
-  },
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"

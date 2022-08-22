@@ -1,14 +1,14 @@
 {
-  "defaultLocale": "en",
+  "defaultLocale": "zh-Hant-TW",
   "locales": [
-    "en"
+    "zh-Hant-TW"
   ],
-  "currentLocale": "en",
+  "currentLocale": "zh-Hant-TW",
   "localeConfigs": {
-    "en": {
-      "label": "English",
+    "zh-Hant-TW": {
+      "label": "繁體中文（台灣）",
       "direction": "ltr",
-      "htmlLang": "en"
+      "htmlLang": "zh-Hant-TW"
     }
   }
 }

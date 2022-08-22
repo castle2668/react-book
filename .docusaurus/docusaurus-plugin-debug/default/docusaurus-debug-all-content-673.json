@@ -8,7 +8,7 @@
           "versionPath": "/",
           "tagsPath": "/tags",
           "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/zh-Hant-TW/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
           "versionBadge": false,
           "versionClassName": "docs-version-current",
@@ -16,7 +16,7 @@
           "routePriority": -1,
           "sidebarFilePath": "/Users/sean/Desktop/Sealman/react-book/sidebars.js",
           "contentPath": "/Users/sean/Desktop/Sealman/react-book/docs",
-          "contentPathLocalized": "/Users/sean/Desktop/Sealman/react-book/i18n/en/docusaurus-plugin-content-docs/current",
+          "contentPathLocalized": "/Users/sean/Desktop/Sealman/react-book/i18n/zh-Hant-TW/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "advanced-redux/asynchronous-code-in-redux",
