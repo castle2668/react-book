@@ -665,7 +665,7 @@
               "unversionedId": "react-basics/usestate",
               "id": "react-basics/usestate",
               "title": "Working with State - useState",
-              "description": "初始化",
+              "description": "初始化與重新渲染",
               "source": "@site/docs/react-basics/usestate.mdx",
               "sourceDirName": "react-basics",
               "slug": "/react-basics/usestate",

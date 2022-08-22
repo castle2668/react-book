@@ -4,9 +4,12 @@ sidebar_position: 1
 
 # Working with State - useState
 
-## 初始化
+## 初始化與重新渲染
 
-State 只會在第一次載入時初始化，除非 DOM 移除，否則 `useState` 管理的 State 都不會重新初始化。
+- 初始化 (Initialization)：State 只會在第一次載入時初始化，除非 DOM 移除，否則 `useState` 管理的 State 都不會重新初始化
+- 重新渲染 (Re-rendering)：狀態改變會導致元件重新繪製，不過只會更改該狀態，不會進行初始化（然而會執行初始化的行為，算是小坑，本文最後會提到）
+
+如果是第一次 Render，State 的值會是 initialState，但如果是後續的 Re-render，initialState 將不會被使用，State 會維持是最近一次更新的 State 值。
 
 ## 更改狀態
 
@@ -23,7 +26,7 @@ setState('Book'); // 最後的狀態會變成 Book
 
 ## 取得狀態快照
 
-有時候我們需要馬上取得改變的結果，方便去做一些應用或計算。這時候我們可以透過「函式」的形式，讓狀態更新可以依賴於之前的狀態快照 (Snapshot)。
+有時候我們需要馬上取得改變的結果，方便去做一些應用或計算。這時候我們可以透過「函式」的形式，讓狀態更新可以依賴於先前的狀態快照 (Snapshot)。
 
 這樣我們就能得到基於狀態快照 (Snapshot) 的新狀態，而不是永遠都只會拿到最新的那一個狀態哩！
 
@@ -45,17 +48,59 @@ setUserInput((prevObject) => {
 });
 ```
 
-所以如果新狀態的改變，是依賴於前一個狀態的話，我們就要用這種 Callback Function 的形式，透過 return 取得最新的狀態。
+如果新狀態的改變是依賴於前一個狀態的話，就要用這種 Functional Return 的形式，以取得最新的狀態。
 
-除了上面的方法，我們也可以使用 `useEffect`，它跟函式形式一樣都會去看依賴的狀態有沒有改變，如果改變了就會馬上執行 `setState`，因而不會錯過狀態改變，能夠確保取得最新的狀態。
+另外，除了上面這個方法，我們也可以借助 `useEffect` 來完成這個效果。`useEffect` 可以監聽 Dependencies 裡面的 State 有沒有改變，如果改變就執行 `setState`，因此也不會錯過狀態改變，能夠確保取得最新的狀態。
 
-因此，在 `useEffect` 裡使用的 `setState` 的話，即使不是函式的形式，也會即時更新狀態喔！
+也因此，在 `useEffect` 裡使用的 `setState` 的時候，即使不是寫成函式的形式，也會即時更新狀態喔！
+
+## Lazy State Initialization
+
+> [Hooks API Reference – React](https://reactjs.org/docs/hooks-reference.html#lazy-initial-state)
+
+> [useState lazy initialization and function updates](https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates#usestate-lazy-initialization)
+
+當一個元件裡的狀態被改變時，就會重新渲染那個元件，而在做 re-render 時 `useState` 的 initial value 雖然是沒用的，但是其實每次 re-render 時還是會再跑一次 initial value。
+
+聽起來影響不大是嗎？畢竟沒影響到畫面呈現？
+
+如果是在代價很低的情況下可能沒差，像是每次 re-render 都重新跑一次 `console.log` 或許無所謂。
+
+```jsx
+const [state, setState] = React.useState(console.log('State initialization'));
+```
+
+但是如果初始 State 是一些需要複雜邏輯計算、效能耗費較高的狀態時，像是從 Local Storage 讀取值，那就必須考量到效能問題了。
+
+```jsx
+const [state, setState] = React.useState(
+  JSON.parse(localStorage.getItem('notes')) || []
+);
+```
+
+這時候我們可以運用 `useState` 的一個特性，就稱之為懶惰的初始狀態好了，當我們想要避免執行 Initialize 時，就可以用這個 Lazy Initialization 的方法初始化 State。
+
+寫法就是在 `useState` 原本傳入 value 的地方，改為傳入 Function 來 return 初始值。當傳入的是一個 Function 時，這個 Initial Function 就只會在初始 Render 時被調用執行，後續 Re-rendering 時不會再執行。
+
+> Lazily initialize our `notes` state so it doesn't reach into localStorage on every single re-render of the App component.
+
+```jsx
+const [notes, setNotes] = React.useState(
+  () => JSON.parse(localStorage.getItem('notes')) || []
+);
+```
 
 ## Recap
 
 - State
 - useState Hook
+- Snapshot
+- Lazy State Initialization
 
 ## References
 
 - [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+
+```
+
+```
