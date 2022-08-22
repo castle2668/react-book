@@ -4,196 +4,208 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/react/__docusaurus/debug',
-    component: ComponentCreator('/react/__docusaurus/debug','95f'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','3d6'),
     exact: true
   },
   {
-    path: '/react/__docusaurus/debug/config',
-    component: ComponentCreator('/react/__docusaurus/debug/config','a08'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','914'),
     exact: true
   },
   {
-    path: '/react/__docusaurus/debug/content',
-    component: ComponentCreator('/react/__docusaurus/debug/content','1d5'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','c28'),
     exact: true
   },
   {
-    path: '/react/__docusaurus/debug/globalData',
-    component: ComponentCreator('/react/__docusaurus/debug/globalData','0ac'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
     exact: true
   },
   {
-    path: '/react/__docusaurus/debug/metadata',
-    component: ComponentCreator('/react/__docusaurus/debug/metadata','ab7'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
     exact: true
   },
   {
-    path: '/react/__docusaurus/debug/registry',
-    component: ComponentCreator('/react/__docusaurus/debug/registry','fe1'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
     exact: true
   },
   {
-    path: '/react/__docusaurus/debug/routes',
-    component: ComponentCreator('/react/__docusaurus/debug/routes','ea1'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','244'),
     exact: true
   },
   {
-    path: '/react/markdown-page',
-    component: ComponentCreator('/react/markdown-page','dee'),
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page','be1'),
     exact: true
   },
   {
-    path: '/react/',
-    component: ComponentCreator('/react/','839'),
+    path: '/',
+    component: ComponentCreator('/','ccd'),
     routes: [
       {
-        path: '/react/',
-        component: ComponentCreator('/react/','f45'),
+        path: '/',
+        component: ComponentCreator('/','96c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/advanced-redux/asynchronous-code-in-redux',
-        component: ComponentCreator('/react/advanced-redux/asynchronous-code-in-redux','27d'),
+        path: '/advanced-redux/asynchronous-code-in-redux',
+        component: ComponentCreator('/advanced-redux/asynchronous-code-in-redux','678'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/an-alternativ-way-of-building-components/class-based-component-basic-usage',
-        component: ComponentCreator('/react/an-alternativ-way-of-building-components/class-based-component-basic-usage','124'),
+        path: '/an-alternativ-way-of-building-components/class-based-component-basic-usage',
+        component: ComponentCreator('/an-alternativ-way-of-building-components/class-based-component-basic-usage','cec'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/an-alternativ-way-of-building-components/error-boundary',
-        component: ComponentCreator('/react/an-alternativ-way-of-building-components/error-boundary','3a8'),
+        path: '/an-alternativ-way-of-building-components/error-boundary',
+        component: ComponentCreator('/an-alternativ-way-of-building-components/error-boundary','71b'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/an-alternativ-way-of-building-components/the-component-lifecycle',
-        component: ComponentCreator('/react/an-alternativ-way-of-building-components/the-component-lifecycle','8c8'),
+        path: '/an-alternativ-way-of-building-components/the-component-lifecycle',
+        component: ComponentCreator('/an-alternativ-way-of-building-components/the-component-lifecycle','b1e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/building-a-multi-page-spa-with-react-router/introducing-react-router-v5',
-        component: ComponentCreator('/react/building-a-multi-page-spa-with-react-router/introducing-react-router-v5','90c'),
+        path: '/building-a-multi-page-spa-with-react-router/introducing-react-router-v5',
+        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/introducing-react-router-v5','c60'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6',
-        component: ComponentCreator('/react/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6','823'),
+        path: '/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6',
+        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6','92f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/building-custom-react-hooks/using-custom-hooks',
-        component: ComponentCreator('/react/building-custom-react-hooks/using-custom-hooks','7e6'),
+        path: '/building-custom-react-hooks/using-custom-hooks',
+        component: ComponentCreator('/building-custom-react-hooks/using-custom-hooks','5eb'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/deploying-react-apps/upload-production-code-to-server',
-        component: ComponentCreator('/react/deploying-react-apps/upload-production-code-to-server','958'),
+        path: '/deploying-react-apps/upload-production-code-to-server',
+        component: ComponentCreator('/deploying-react-apps/upload-production-code-to-server','119'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/diving-into-redux/introducing-redux',
-        component: ComponentCreator('/react/diving-into-redux/introducing-redux','d14'),
+        path: '/diving-into-redux/introducing-redux',
+        component: ComponentCreator('/diving-into-redux/introducing-redux','296'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/diving-into-redux/introducing-redux-toolkit',
-        component: ComponentCreator('/react/diving-into-redux/introducing-redux-toolkit','3f1'),
+        path: '/diving-into-redux/introducing-redux-toolkit',
+        component: ComponentCreator('/diving-into-redux/introducing-redux-toolkit','cc3'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/diving-into-redux/redux-with-class-based-components',
-        component: ComponentCreator('/react/diving-into-redux/redux-with-class-based-components','478'),
+        path: '/diving-into-redux/redux-with-class-based-components',
+        component: ComponentCreator('/diving-into-redux/redux-with-class-based-components','e49'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/diving-into-redux/redux-with-functional-components',
-        component: ComponentCreator('/react/diving-into-redux/redux-with-functional-components','4c6'),
+        path: '/diving-into-redux/redux-with-functional-components',
+        component: ComponentCreator('/diving-into-redux/redux-with-functional-components','eb2'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-advance/introducing-react-context',
-        component: ComponentCreator('/react/react-advance/introducing-react-context','bee'),
+        path: '/react-advance/introducing-react-context',
+        component: ComponentCreator('/react-advance/introducing-react-context','785'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-advance/introducing-react-memo',
-        component: ComponentCreator('/react/react-advance/introducing-react-memo','489'),
+        path: '/react-advance/introducing-react-memo',
+        component: ComponentCreator('/react-advance/introducing-react-memo','a17'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-advance/introducing-use-callback',
-        component: ComponentCreator('/react/react-advance/introducing-use-callback','b59'),
+        path: '/react-advance/introducing-use-callback',
+        component: ComponentCreator('/react-advance/introducing-use-callback','799'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-advance/introducing-use-effect',
-        component: ComponentCreator('/react/react-advance/introducing-use-effect','cca'),
+        path: '/react-advance/introducing-use-effect',
+        component: ComponentCreator('/react-advance/introducing-use-effect','352'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-advance/introducing-use-imperative-handle',
-        component: ComponentCreator('/react/react-advance/introducing-use-imperative-handle','2a5'),
+        path: '/react-advance/introducing-use-imperative-handle',
+        component: ComponentCreator('/react-advance/introducing-use-imperative-handle','4ea'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-advance/introducing-use-memo',
-        component: ComponentCreator('/react/react-advance/introducing-use-memo','4c3'),
+        path: '/react-advance/introducing-use-memo',
+        component: ComponentCreator('/react-advance/introducing-use-memo','cf8'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-advance/introducing-use-reducer',
-        component: ComponentCreator('/react/react-advance/introducing-use-reducer','42f'),
+        path: '/react-advance/introducing-use-reducer',
+        component: ComponentCreator('/react-advance/introducing-use-reducer','323'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-basics/refs-and-forward-refs',
-        component: ComponentCreator('/react/react-basics/refs-and-forward-refs','cc4'),
+        path: '/react-basics/forms-in-react',
+        component: ComponentCreator('/react-basics/forms-in-react','c76'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-basics/styling-react-components',
-        component: ComponentCreator('/react/react-basics/styling-react-components','9bc'),
+        path: '/react-basics/lifting-the-state-up',
+        component: ComponentCreator('/react-basics/lifting-the-state-up','b3f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-basics/working-with-portals',
-        component: ComponentCreator('/react/react-basics/working-with-portals','994'),
+        path: '/react-basics/refs-and-forward-refs',
+        component: ComponentCreator('/react-basics/refs-and-forward-refs','9db'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/react-basics/working-with-state',
-        component: ComponentCreator('/react/react-basics/working-with-state','a64'),
+        path: '/react-basics/styling-react-components',
+        component: ComponentCreator('/react-basics/styling-react-components','b07'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react/sending-http-request/using-the-star-wars-api',
-        component: ComponentCreator('/react/sending-http-request/using-the-star-wars-api','e2c'),
+        path: '/react-basics/usestate-hook',
+        component: ComponentCreator('/react-basics/usestate-hook','9d8'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/react-basics/working-with-portals',
+        component: ComponentCreator('/react-basics/working-with-portals','8eb'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/sending-http-request/using-the-star-wars-api',
+        component: ComponentCreator('/sending-http-request/using-the-star-wars-api','71e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

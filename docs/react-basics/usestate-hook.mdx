@@ -1,0 +1,62 @@
+---
+sidebar_position: 1
+---
+
+# useState Hook - Working with State
+
+## 初始化
+
+State 只會在第一次載入時初始化，除非 DOM 移除，否則 `useState` 管理的 State 都不會重新初始化。
+
+## 更改狀態
+
+進行 `setState` 時並不會馬上更改狀態，而是會進入排程，優先完成更重要的工作，不過 React 還是會確保我們改變 State 的順序是正確的。
+
+例如：以下排程多個 `setState`，React 會到最後才按照排程順序執行狀態改變，結果 State 就會得到 Book。
+
+```jsx
+const [state, setState] = useState('DVD');
+
+setState('Pencil');
+setState('Book'); // 最後的狀態會變成 Book
+```
+
+## 取得狀態快照
+
+有時候我們需要馬上取得改變的結果，方便去做一些應用或計算。這時候我們可以透過「函式」的形式，讓狀態更新可以依賴於之前的狀態快照 (Snapshot)。
+
+這樣我們就能得到基於狀態快照 (Snapshot) 的新狀態，而不是永遠都只會拿到最新的那一個狀態哩！
+
+```jsx
+// 👇 Updating State That Depends On The Previous State.
+// Safer way: Ensure the Latest state snapshot (If it depends on the previous state)
+setUserInput((prevState) => {
+  return { ...prevState, enteredTitle: event.target.value };
+});
+
+// Complex state: arrays
+setUserInput((prevArray) => {
+  return [...prevArray, { enteredTitle: event.target.value }];
+});
+
+// Complex state: objects
+setUserInput((prevObject) => {
+  return { ...prevObject, enteredTitle: event.target.value };
+});
+```
+
+所以如果新狀態的改變，是依賴於前一個狀態的話，我們就要用這種 Callback Function 的形式，透過 return 取得最新的狀態。
+
+除了上面的方法，我們也可以使用 `useEffect`，它跟函式形式一樣都會去看依賴的狀態有沒有改變，如果改變了就會馬上執行 `setState`，因而不會錯過狀態改變，能夠確保取得最新的狀態。
+
+因此，在 `useEffect` 裡使用的 `setState` 的話，即使不是函式的形式，也會即時更新狀態喔！
+
+## 回顧
+
+看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
+
+- useState Hook
+
+## References
+
+- [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)

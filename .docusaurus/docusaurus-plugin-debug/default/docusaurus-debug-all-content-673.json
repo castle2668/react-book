@@ -5,8 +5,8 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/react/",
-          "tagsPath": "/react/tags",
+          "versionPath": "/",
+          "tagsPath": "/tags",
           "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
           "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
@@ -26,7 +26,7 @@
               "source": "@site/docs/advanced-redux/asynchronous-code-in-redux.mdx",
               "sourceDirName": "advanced-redux",
               "slug": "/advanced-redux/asynchronous-code-in-redux",
-              "permalink": "/react/advanced-redux/asynchronous-code-in-redux",
+              "permalink": "/advanced-redux/asynchronous-code-in-redux",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/advanced-redux/asynchronous-code-in-redux.mdx",
               "tags": [],
               "version": "current",
@@ -37,11 +37,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing Redux Toolkit",
-                "permalink": "/react/diving-into-redux/introducing-redux-toolkit"
+                "permalink": "/diving-into-redux/introducing-redux-toolkit"
               },
               "next": {
                 "title": "Introducing React Router v5",
-                "permalink": "/react/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
+                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
               }
             },
             {
@@ -52,7 +52,7 @@
               "source": "@site/docs/an-alternativ-way-of-building-components/class-based-component-basic-usage.mdx",
               "sourceDirName": "an-alternativ-way-of-building-components",
               "slug": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
-              "permalink": "/react/an-alternativ-way-of-building-components/class-based-component-basic-usage",
+              "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-building-components/class-based-component-basic-usage.mdx",
               "tags": [],
               "version": "current",
@@ -63,11 +63,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing useMemo",
-                "permalink": "/react/react-advance/introducing-use-memo"
+                "permalink": "/react-advance/introducing-use-memo"
               },
               "next": {
                 "title": "The Component Lifecycle",
-                "permalink": "/react/an-alternativ-way-of-building-components/the-component-lifecycle"
+                "permalink": "/an-alternativ-way-of-building-components/the-component-lifecycle"
               }
             },
             {
@@ -78,7 +78,7 @@
               "source": "@site/docs/an-alternativ-way-of-building-components/error-boundary.mdx",
               "sourceDirName": "an-alternativ-way-of-building-components",
               "slug": "/an-alternativ-way-of-building-components/error-boundary",
-              "permalink": "/react/an-alternativ-way-of-building-components/error-boundary",
+              "permalink": "/an-alternativ-way-of-building-components/error-boundary",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-building-components/error-boundary.mdx",
               "tags": [],
               "version": "current",
@@ -89,11 +89,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "The Component Lifecycle",
-                "permalink": "/react/an-alternativ-way-of-building-components/the-component-lifecycle"
+                "permalink": "/an-alternativ-way-of-building-components/the-component-lifecycle"
               },
               "next": {
                 "title": "Using the Star Wars API",
-                "permalink": "/react/sending-http-request/using-the-star-wars-api"
+                "permalink": "/sending-http-request/using-the-star-wars-api"
               }
             },
             {
@@ -104,7 +104,7 @@
               "source": "@site/docs/an-alternativ-way-of-building-components/the-component-lifecycle.mdx",
               "sourceDirName": "an-alternativ-way-of-building-components",
               "slug": "/an-alternativ-way-of-building-components/the-component-lifecycle",
-              "permalink": "/react/an-alternativ-way-of-building-components/the-component-lifecycle",
+              "permalink": "/an-alternativ-way-of-building-components/the-component-lifecycle",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-building-components/the-component-lifecycle.mdx",
               "tags": [],
               "version": "current",
@@ -115,11 +115,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Class-based Component Basic Usage",
-                "permalink": "/react/an-alternativ-way-of-building-components/class-based-component-basic-usage"
+                "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage"
               },
               "next": {
                 "title": "Error Boundary",
-                "permalink": "/react/an-alternativ-way-of-building-components/error-boundary"
+                "permalink": "/an-alternativ-way-of-building-components/error-boundary"
               }
             },
             {
@@ -130,7 +130,7 @@
               "source": "@site/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
               "sourceDirName": "building-a-multi-page-spa-with-react-router",
               "slug": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-              "permalink": "/react/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+              "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
               "tags": [],
               "version": "current",
@@ -141,11 +141,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Asynchronous code in Redux",
-                "permalink": "/react/advanced-redux/asynchronous-code-in-redux"
+                "permalink": "/advanced-redux/asynchronous-code-in-redux"
               },
               "next": {
                 "title": "Upgrading To React Router v6",
-                "permalink": "/react/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+                "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
               }
             },
             {
@@ -156,7 +156,7 @@
               "source": "@site/docs/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6.mdx",
               "sourceDirName": "building-a-multi-page-spa-with-react-router",
               "slug": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-              "permalink": "/react/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+              "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6.mdx",
               "tags": [],
               "version": "current",
@@ -167,11 +167,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing React Router v5",
-                "permalink": "/react/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
+                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
               },
               "next": {
                 "title": "Upload Production Code to Server",
-                "permalink": "/react/deploying-react-apps/upload-production-code-to-server"
+                "permalink": "/deploying-react-apps/upload-production-code-to-server"
               }
             },
             {
@@ -182,7 +182,7 @@
               "source": "@site/docs/building-custom-react-hooks/using-custom-hooks.mdx",
               "sourceDirName": "building-custom-react-hooks",
               "slug": "/building-custom-react-hooks/using-custom-hooks",
-              "permalink": "/react/building-custom-react-hooks/using-custom-hooks",
+              "permalink": "/building-custom-react-hooks/using-custom-hooks",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-custom-react-hooks/using-custom-hooks.mdx",
               "tags": [],
               "version": "current",
@@ -193,11 +193,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Using the Star Wars API",
-                "permalink": "/react/sending-http-request/using-the-star-wars-api"
+                "permalink": "/sending-http-request/using-the-star-wars-api"
               },
               "next": {
                 "title": "Introducing Redux",
-                "permalink": "/react/diving-into-redux/introducing-redux"
+                "permalink": "/diving-into-redux/introducing-redux"
               }
             },
             {
@@ -208,7 +208,7 @@
               "source": "@site/docs/deploying-react-apps/upload-production-code-to-server.mdx",
               "sourceDirName": "deploying-react-apps",
               "slug": "/deploying-react-apps/upload-production-code-to-server",
-              "permalink": "/react/deploying-react-apps/upload-production-code-to-server",
+              "permalink": "/deploying-react-apps/upload-production-code-to-server",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deploying-react-apps/upload-production-code-to-server.mdx",
               "tags": [],
               "version": "current",
@@ -219,7 +219,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Upgrading To React Router v6",
-                "permalink": "/react/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+                "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
               }
             },
             {
@@ -230,7 +230,7 @@
               "source": "@site/docs/diving-into-redux/introducing-redux.mdx",
               "sourceDirName": "diving-into-redux",
               "slug": "/diving-into-redux/introducing-redux",
-              "permalink": "/react/diving-into-redux/introducing-redux",
+              "permalink": "/diving-into-redux/introducing-redux",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/introducing-redux.mdx",
               "tags": [],
               "version": "current",
@@ -241,11 +241,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Using Custom Hooks",
-                "permalink": "/react/building-custom-react-hooks/using-custom-hooks"
+                "permalink": "/building-custom-react-hooks/using-custom-hooks"
               },
               "next": {
                 "title": "Redux with Functional Components",
-                "permalink": "/react/diving-into-redux/redux-with-functional-components"
+                "permalink": "/diving-into-redux/redux-with-functional-components"
               }
             },
             {
@@ -256,7 +256,7 @@
               "source": "@site/docs/diving-into-redux/introducing-redux-toolkit.mdx",
               "sourceDirName": "diving-into-redux",
               "slug": "/diving-into-redux/introducing-redux-toolkit",
-              "permalink": "/react/diving-into-redux/introducing-redux-toolkit",
+              "permalink": "/diving-into-redux/introducing-redux-toolkit",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/introducing-redux-toolkit.mdx",
               "tags": [],
               "version": "current",
@@ -267,11 +267,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Redux with Class-based Components",
-                "permalink": "/react/diving-into-redux/redux-with-class-based-components"
+                "permalink": "/diving-into-redux/redux-with-class-based-components"
               },
               "next": {
                 "title": "Asynchronous code in Redux",
-                "permalink": "/react/advanced-redux/asynchronous-code-in-redux"
+                "permalink": "/advanced-redux/asynchronous-code-in-redux"
               }
             },
             {
@@ -282,7 +282,7 @@
               "source": "@site/docs/diving-into-redux/redux-with-class-based-components.mdx",
               "sourceDirName": "diving-into-redux",
               "slug": "/diving-into-redux/redux-with-class-based-components",
-              "permalink": "/react/diving-into-redux/redux-with-class-based-components",
+              "permalink": "/diving-into-redux/redux-with-class-based-components",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/redux-with-class-based-components.mdx",
               "tags": [],
               "version": "current",
@@ -293,11 +293,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Redux with Functional Components",
-                "permalink": "/react/diving-into-redux/redux-with-functional-components"
+                "permalink": "/diving-into-redux/redux-with-functional-components"
               },
               "next": {
                 "title": "Introducing Redux Toolkit",
-                "permalink": "/react/diving-into-redux/introducing-redux-toolkit"
+                "permalink": "/diving-into-redux/introducing-redux-toolkit"
               }
             },
             {
@@ -308,7 +308,7 @@
               "source": "@site/docs/diving-into-redux/redux-with-functional-components.mdx",
               "sourceDirName": "diving-into-redux",
               "slug": "/diving-into-redux/redux-with-functional-components",
-              "permalink": "/react/diving-into-redux/redux-with-functional-components",
+              "permalink": "/diving-into-redux/redux-with-functional-components",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/redux-with-functional-components.mdx",
               "tags": [],
               "version": "current",
@@ -319,22 +319,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing Redux",
-                "permalink": "/react/diving-into-redux/introducing-redux"
+                "permalink": "/diving-into-redux/introducing-redux"
               },
               "next": {
                 "title": "Redux with Class-based Components",
-                "permalink": "/react/diving-into-redux/redux-with-class-based-components"
+                "permalink": "/diving-into-redux/redux-with-class-based-components"
               }
             },
             {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Getting Started",
-              "description": "這個系列文章是 React - The Complete Guide (incl Hooks, React Router, Redux) 課程的學習筆記。",
+              "description": "這個網站是我的 React 學習筆記，將會持續紀錄這一路上的各種觀念與實際用法。",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/react/",
+              "permalink": "/",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -345,8 +345,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Working with State",
-                "permalink": "/react/react-basics/working-with-state"
+                "title": "useState Hook - Working with State",
+                "permalink": "/react-basics/usestate-hook"
               }
             },
             {
@@ -357,7 +357,7 @@
               "source": "@site/docs/react-advance/introducing-react-context.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/introducing-react-context",
-              "permalink": "/react/react-advance/introducing-react-context",
+              "permalink": "/react-advance/introducing-react-context",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-react-context.mdx",
               "tags": [],
               "version": "current",
@@ -368,11 +368,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing useReducer",
-                "permalink": "/react/react-advance/introducing-use-reducer"
+                "permalink": "/react-advance/introducing-use-reducer"
               },
               "next": {
                 "title": "Introducing useImperativeHandle",
-                "permalink": "/react/react-advance/introducing-use-imperative-handle"
+                "permalink": "/react-advance/introducing-use-imperative-handle"
               }
             },
             {
@@ -383,7 +383,7 @@
               "source": "@site/docs/react-advance/introducing-react-memo.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/introducing-react-memo",
-              "permalink": "/react/react-advance/introducing-react-memo",
+              "permalink": "/react-advance/introducing-react-memo",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-react-memo.mdx",
               "tags": [],
               "version": "current",
@@ -394,11 +394,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing useImperativeHandle",
-                "permalink": "/react/react-advance/introducing-use-imperative-handle"
+                "permalink": "/react-advance/introducing-use-imperative-handle"
               },
               "next": {
                 "title": "Introducing useCallback",
-                "permalink": "/react/react-advance/introducing-use-callback"
+                "permalink": "/react-advance/introducing-use-callback"
               }
             },
             {
@@ -409,7 +409,7 @@
               "source": "@site/docs/react-advance/introducing-use-callback.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/introducing-use-callback",
-              "permalink": "/react/react-advance/introducing-use-callback",
+              "permalink": "/react-advance/introducing-use-callback",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-callback.mdx",
               "tags": [],
               "version": "current",
@@ -420,11 +420,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing React.memo",
-                "permalink": "/react/react-advance/introducing-react-memo"
+                "permalink": "/react-advance/introducing-react-memo"
               },
               "next": {
                 "title": "Introducing useMemo",
-                "permalink": "/react/react-advance/introducing-use-memo"
+                "permalink": "/react-advance/introducing-use-memo"
               }
             },
             {
@@ -435,7 +435,7 @@
               "source": "@site/docs/react-advance/introducing-use-effect.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/introducing-use-effect",
-              "permalink": "/react/react-advance/introducing-use-effect",
+              "permalink": "/react-advance/introducing-use-effect",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-effect.mdx",
               "tags": [],
               "version": "current",
@@ -445,12 +445,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Refs & Forward Refs",
-                "permalink": "/react/react-basics/refs-and-forward-refs"
+                "title": "Forms in React",
+                "permalink": "/react-basics/forms-in-react"
               },
               "next": {
                 "title": "Introducing useReducer",
-                "permalink": "/react/react-advance/introducing-use-reducer"
+                "permalink": "/react-advance/introducing-use-reducer"
               }
             },
             {
@@ -461,7 +461,7 @@
               "source": "@site/docs/react-advance/introducing-use-imperative-handle.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/introducing-use-imperative-handle",
-              "permalink": "/react/react-advance/introducing-use-imperative-handle",
+              "permalink": "/react-advance/introducing-use-imperative-handle",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-imperative-handle.mdx",
               "tags": [],
               "version": "current",
@@ -472,11 +472,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing React Context",
-                "permalink": "/react/react-advance/introducing-react-context"
+                "permalink": "/react-advance/introducing-react-context"
               },
               "next": {
                 "title": "Introducing React.memo",
-                "permalink": "/react/react-advance/introducing-react-memo"
+                "permalink": "/react-advance/introducing-react-memo"
               }
             },
             {
@@ -487,7 +487,7 @@
               "source": "@site/docs/react-advance/introducing-use-memo.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/introducing-use-memo",
-              "permalink": "/react/react-advance/introducing-use-memo",
+              "permalink": "/react-advance/introducing-use-memo",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-memo.mdx",
               "tags": [],
               "version": "current",
@@ -498,11 +498,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing useCallback",
-                "permalink": "/react/react-advance/introducing-use-callback"
+                "permalink": "/react-advance/introducing-use-callback"
               },
               "next": {
                 "title": "Class-based Component Basic Usage",
-                "permalink": "/react/an-alternativ-way-of-building-components/class-based-component-basic-usage"
+                "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage"
               }
             },
             {
@@ -513,7 +513,7 @@
               "source": "@site/docs/react-advance/introducing-use-reducer.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/introducing-use-reducer",
-              "permalink": "/react/react-advance/introducing-use-reducer",
+              "permalink": "/react-advance/introducing-use-reducer",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-reducer.mdx",
               "tags": [],
               "version": "current",
@@ -524,11 +524,63 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing useEffect",
-                "permalink": "/react/react-advance/introducing-use-effect"
+                "permalink": "/react-advance/introducing-use-effect"
               },
               "next": {
                 "title": "Introducing React Context",
-                "permalink": "/react/react-advance/introducing-react-context"
+                "permalink": "/react-advance/introducing-react-context"
+              }
+            },
+            {
+              "unversionedId": "react-basics/forms-in-react",
+              "id": "react-basics/forms-in-react",
+              "title": "Forms in React",
+              "description": "Controlled Components",
+              "source": "@site/docs/react-basics/forms-in-react.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/forms-in-react",
+              "permalink": "/react-basics/forms-in-react",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/forms-in-react.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Refs & Forward Refs",
+                "permalink": "/react-basics/refs-and-forward-refs"
+              },
+              "next": {
+                "title": "Introducing useEffect",
+                "permalink": "/react-advance/introducing-use-effect"
+              }
+            },
+            {
+              "unversionedId": "react-basics/lifting-the-state-up",
+              "id": "react-basics/lifting-the-state-up",
+              "title": "Lifting The State Up",
+              "description": "觀念近似 Vue 的 Emit (From Child to Parent)",
+              "source": "@site/docs/react-basics/lifting-the-state-up.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/lifting-the-state-up",
+              "permalink": "/react-basics/lifting-the-state-up",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/lifting-the-state-up.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "useState Hook - Working with State",
+                "permalink": "/react-basics/usestate-hook"
+              },
+              "next": {
+                "title": "Styling React Components",
+                "permalink": "/react-basics/styling-react-components"
               }
             },
             {
@@ -539,7 +591,7 @@
               "source": "@site/docs/react-basics/refs-and-forward-refs.mdx",
               "sourceDirName": "react-basics",
               "slug": "/react-basics/refs-and-forward-refs",
-              "permalink": "/react/react-basics/refs-and-forward-refs",
+              "permalink": "/react-basics/refs-and-forward-refs",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/refs-and-forward-refs.mdx",
               "tags": [],
               "version": "current",
@@ -550,11 +602,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Working with Portals",
-                "permalink": "/react/react-basics/working-with-portals"
+                "permalink": "/react-basics/working-with-portals"
               },
               "next": {
-                "title": "Introducing useEffect",
-                "permalink": "/react/react-advance/introducing-use-effect"
+                "title": "Forms in React",
+                "permalink": "/react-basics/forms-in-react"
               }
             },
             {
@@ -565,22 +617,48 @@
               "source": "@site/docs/react-basics/styling-react-components.mdx",
               "sourceDirName": "react-basics",
               "slug": "/react-basics/styling-react-components",
-              "permalink": "/react/react-basics/styling-react-components",
+              "permalink": "/react-basics/styling-react-components",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/styling-react-components.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Working with State",
-                "permalink": "/react/react-basics/working-with-state"
+                "title": "Lifting The State Up",
+                "permalink": "/react-basics/lifting-the-state-up"
               },
               "next": {
                 "title": "Working with Portals",
-                "permalink": "/react/react-basics/working-with-portals"
+                "permalink": "/react-basics/working-with-portals"
+              }
+            },
+            {
+              "unversionedId": "react-basics/usestate-hook",
+              "id": "react-basics/usestate-hook",
+              "title": "useState Hook - Working with State",
+              "description": "初始化",
+              "source": "@site/docs/react-basics/usestate-hook.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/usestate-hook",
+              "permalink": "/react-basics/usestate-hook",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/usestate-hook.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Lifting The State Up",
+                "permalink": "/react-basics/lifting-the-state-up"
               }
             },
             {
@@ -591,48 +669,22 @@
               "source": "@site/docs/react-basics/working-with-portals.mdx",
               "sourceDirName": "react-basics",
               "slug": "/react-basics/working-with-portals",
-              "permalink": "/react/react-basics/working-with-portals",
+              "permalink": "/react-basics/working-with-portals",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/working-with-portals.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Styling React Components",
-                "permalink": "/react/react-basics/styling-react-components"
+                "permalink": "/react-basics/styling-react-components"
               },
               "next": {
                 "title": "Refs & Forward Refs",
-                "permalink": "/react/react-basics/refs-and-forward-refs"
-              }
-            },
-            {
-              "unversionedId": "react-basics/working-with-state",
-              "id": "react-basics/working-with-state",
-              "title": "Working with State",
-              "description": "⚓ useState Hook",
-              "source": "@site/docs/react-basics/working-with-state.mdx",
-              "sourceDirName": "react-basics",
-              "slug": "/react-basics/working-with-state",
-              "permalink": "/react/react-basics/working-with-state",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/working-with-state.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Getting Started",
-                "permalink": "/react/"
-              },
-              "next": {
-                "title": "Styling React Components",
-                "permalink": "/react/react-basics/styling-react-components"
+                "permalink": "/react-basics/refs-and-forward-refs"
               }
             },
             {
@@ -643,7 +695,7 @@
               "source": "@site/docs/sending-http-request/using-the-star-wars-api.mdx",
               "sourceDirName": "sending-http-request",
               "slug": "/sending-http-request/using-the-star-wars-api",
-              "permalink": "/react/sending-http-request/using-the-star-wars-api",
+              "permalink": "/sending-http-request/using-the-star-wars-api",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sending-http-request/using-the-star-wars-api.mdx",
               "tags": [],
               "version": "current",
@@ -654,11 +706,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Error Boundary",
-                "permalink": "/react/an-alternativ-way-of-building-components/error-boundary"
+                "permalink": "/an-alternativ-way-of-building-components/error-boundary"
               },
               "next": {
                 "title": "Using Custom Hooks",
-                "permalink": "/react/building-custom-react-hooks/using-custom-hooks"
+                "permalink": "/building-custom-react-hooks/using-custom-hooks"
               }
             }
           ],
@@ -676,7 +728,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "react-basics/working-with-state"
+                    "id": "react-basics/usestate-hook"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-basics/lifting-the-state-up"
                   },
                   {
                     "type": "doc",
@@ -689,6 +745,10 @@
                   {
                     "type": "doc",
                     "id": "react-basics/refs-and-forward-refs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-basics/forms-in-react"
                   }
                 ]
               },
@@ -848,7 +908,7 @@
     "default": [
       {
         "type": "mdx",
-        "permalink": "/react/markdown-page",
+        "permalink": "/markdown-page",
         "source": "@site/src/pages/markdown-page.md",
         "title": "Markdown page example",
         "description": "You don't need React to write simple standalone pages.",

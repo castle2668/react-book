@@ -6,8 +6,8 @@ Modify the docusaurus.config.js file at your site's root instead.
 export default {
   "title": "Sealman's React Book",
   "tagline": "The React book made by Sealman",
-  "url": "https://book.sealman.tw",
-  "baseUrl": "/react/",
+  "url": "https://react.sealman.tw",
+  "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/icon.png",
@@ -53,7 +53,7 @@ export default {
           "items": [
             {
               "label": "Sealman's JavaScript Book",
-              "href": "https://www.sealman.tw/javascript-book"
+              "href": "https://javascript.sealman.tw"
             },
             {
               "label": "Sealman's React Book",

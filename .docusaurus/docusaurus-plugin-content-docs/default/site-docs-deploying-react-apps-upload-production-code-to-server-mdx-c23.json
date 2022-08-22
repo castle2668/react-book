@@ -6,7 +6,7 @@
   "source": "@site/docs/deploying-react-apps/upload-production-code-to-server.mdx",
   "sourceDirName": "deploying-react-apps",
   "slug": "/deploying-react-apps/upload-production-code-to-server",
-  "permalink": "/react/deploying-react-apps/upload-production-code-to-server",
+  "permalink": "/deploying-react-apps/upload-production-code-to-server",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deploying-react-apps/upload-production-code-to-server.mdx",
   "tags": [],
   "version": "current",
@@ -17,6 +17,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Upgrading To React Router v6",
-    "permalink": "/react/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+    "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
   }
 }

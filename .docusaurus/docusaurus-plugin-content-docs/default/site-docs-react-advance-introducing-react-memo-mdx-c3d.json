@@ -6,7 +6,7 @@
   "source": "@site/docs/react-advance/introducing-react-memo.mdx",
   "sourceDirName": "react-advance",
   "slug": "/react-advance/introducing-react-memo",
-  "permalink": "/react/react-advance/introducing-react-memo",
+  "permalink": "/react-advance/introducing-react-memo",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-react-memo.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introducing useImperativeHandle",
-    "permalink": "/react/react-advance/introducing-use-imperative-handle"
+    "permalink": "/react-advance/introducing-use-imperative-handle"
   },
   "next": {
     "title": "Introducing useCallback",
-    "permalink": "/react/react-advance/introducing-use-callback"
+    "permalink": "/react-advance/introducing-use-callback"
   }
 }

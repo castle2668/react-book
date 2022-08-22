@@ -6,7 +6,7 @@
   "source": "@site/docs/advanced-redux/asynchronous-code-in-redux.mdx",
   "sourceDirName": "advanced-redux",
   "slug": "/advanced-redux/asynchronous-code-in-redux",
-  "permalink": "/react/advanced-redux/asynchronous-code-in-redux",
+  "permalink": "/advanced-redux/asynchronous-code-in-redux",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/advanced-redux/asynchronous-code-in-redux.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introducing Redux Toolkit",
-    "permalink": "/react/diving-into-redux/introducing-redux-toolkit"
+    "permalink": "/diving-into-redux/introducing-redux-toolkit"
   },
   "next": {
     "title": "Introducing React Router v5",
-    "permalink": "/react/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
+    "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
   }
 }

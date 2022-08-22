@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Getting Started",
-        "href": "/react/",
+        "href": "/",
         "docId": "intro"
       },
       {
@@ -22,27 +22,39 @@
         "items": [
           {
             "type": "link",
-            "label": "Working with State",
-            "href": "/react/react-basics/working-with-state",
-            "docId": "react-basics/working-with-state"
+            "label": "useState Hook - Working with State",
+            "href": "/react-basics/usestate-hook",
+            "docId": "react-basics/usestate-hook"
+          },
+          {
+            "type": "link",
+            "label": "Lifting The State Up",
+            "href": "/react-basics/lifting-the-state-up",
+            "docId": "react-basics/lifting-the-state-up"
           },
           {
             "type": "link",
             "label": "Styling React Components",
-            "href": "/react/react-basics/styling-react-components",
+            "href": "/react-basics/styling-react-components",
             "docId": "react-basics/styling-react-components"
           },
           {
             "type": "link",
             "label": "Working with Portals",
-            "href": "/react/react-basics/working-with-portals",
+            "href": "/react-basics/working-with-portals",
             "docId": "react-basics/working-with-portals"
           },
           {
             "type": "link",
             "label": "Refs & Forward Refs",
-            "href": "/react/react-basics/refs-and-forward-refs",
+            "href": "/react-basics/refs-and-forward-refs",
             "docId": "react-basics/refs-and-forward-refs"
+          },
+          {
+            "type": "link",
+            "label": "Forms in React",
+            "href": "/react-basics/forms-in-react",
+            "docId": "react-basics/forms-in-react"
           }
         ]
       },
@@ -55,43 +67,43 @@
           {
             "type": "link",
             "label": "Introducing useEffect",
-            "href": "/react/react-advance/introducing-use-effect",
+            "href": "/react-advance/introducing-use-effect",
             "docId": "react-advance/introducing-use-effect"
           },
           {
             "type": "link",
             "label": "Introducing useReducer",
-            "href": "/react/react-advance/introducing-use-reducer",
+            "href": "/react-advance/introducing-use-reducer",
             "docId": "react-advance/introducing-use-reducer"
           },
           {
             "type": "link",
             "label": "Introducing React Context",
-            "href": "/react/react-advance/introducing-react-context",
+            "href": "/react-advance/introducing-react-context",
             "docId": "react-advance/introducing-react-context"
           },
           {
             "type": "link",
             "label": "Introducing useImperativeHandle",
-            "href": "/react/react-advance/introducing-use-imperative-handle",
+            "href": "/react-advance/introducing-use-imperative-handle",
             "docId": "react-advance/introducing-use-imperative-handle"
           },
           {
             "type": "link",
             "label": "Introducing React.memo",
-            "href": "/react/react-advance/introducing-react-memo",
+            "href": "/react-advance/introducing-react-memo",
             "docId": "react-advance/introducing-react-memo"
           },
           {
             "type": "link",
             "label": "Introducing useCallback",
-            "href": "/react/react-advance/introducing-use-callback",
+            "href": "/react-advance/introducing-use-callback",
             "docId": "react-advance/introducing-use-callback"
           },
           {
             "type": "link",
             "label": "Introducing useMemo",
-            "href": "/react/react-advance/introducing-use-memo",
+            "href": "/react-advance/introducing-use-memo",
             "docId": "react-advance/introducing-use-memo"
           }
         ]
@@ -105,19 +117,19 @@
           {
             "type": "link",
             "label": "Class-based Component Basic Usage",
-            "href": "/react/an-alternativ-way-of-building-components/class-based-component-basic-usage",
+            "href": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
             "docId": "an-alternativ-way-of-building-components/class-based-component-basic-usage"
           },
           {
             "type": "link",
             "label": "The Component Lifecycle",
-            "href": "/react/an-alternativ-way-of-building-components/the-component-lifecycle",
+            "href": "/an-alternativ-way-of-building-components/the-component-lifecycle",
             "docId": "an-alternativ-way-of-building-components/the-component-lifecycle"
           },
           {
             "type": "link",
             "label": "Error Boundary",
-            "href": "/react/an-alternativ-way-of-building-components/error-boundary",
+            "href": "/an-alternativ-way-of-building-components/error-boundary",
             "docId": "an-alternativ-way-of-building-components/error-boundary"
           }
         ]
@@ -131,7 +143,7 @@
           {
             "type": "link",
             "label": "Using the Star Wars API",
-            "href": "/react/sending-http-request/using-the-star-wars-api",
+            "href": "/sending-http-request/using-the-star-wars-api",
             "docId": "sending-http-request/using-the-star-wars-api"
           }
         ]
@@ -145,7 +157,7 @@
           {
             "type": "link",
             "label": "Using Custom Hooks",
-            "href": "/react/building-custom-react-hooks/using-custom-hooks",
+            "href": "/building-custom-react-hooks/using-custom-hooks",
             "docId": "building-custom-react-hooks/using-custom-hooks"
           }
         ]
@@ -159,25 +171,25 @@
           {
             "type": "link",
             "label": "Introducing Redux",
-            "href": "/react/diving-into-redux/introducing-redux",
+            "href": "/diving-into-redux/introducing-redux",
             "docId": "diving-into-redux/introducing-redux"
           },
           {
             "type": "link",
             "label": "Redux with Functional Components",
-            "href": "/react/diving-into-redux/redux-with-functional-components",
+            "href": "/diving-into-redux/redux-with-functional-components",
             "docId": "diving-into-redux/redux-with-functional-components"
           },
           {
             "type": "link",
             "label": "Redux with Class-based Components",
-            "href": "/react/diving-into-redux/redux-with-class-based-components",
+            "href": "/diving-into-redux/redux-with-class-based-components",
             "docId": "diving-into-redux/redux-with-class-based-components"
           },
           {
             "type": "link",
             "label": "Introducing Redux Toolkit",
-            "href": "/react/diving-into-redux/introducing-redux-toolkit",
+            "href": "/diving-into-redux/introducing-redux-toolkit",
             "docId": "diving-into-redux/introducing-redux-toolkit"
           }
         ]
@@ -191,7 +203,7 @@
           {
             "type": "link",
             "label": "Asynchronous code in Redux",
-            "href": "/react/advanced-redux/asynchronous-code-in-redux",
+            "href": "/advanced-redux/asynchronous-code-in-redux",
             "docId": "advanced-redux/asynchronous-code-in-redux"
           }
         ]
@@ -205,13 +217,13 @@
           {
             "type": "link",
             "label": "Introducing React Router v5",
-            "href": "/react/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+            "href": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
             "docId": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
           },
           {
             "type": "link",
             "label": "Upgrading To React Router v6",
-            "href": "/react/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
+            "href": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
             "docId": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
           }
         ]
@@ -225,7 +237,7 @@
           {
             "type": "link",
             "label": "Upload Production Code to Server",
-            "href": "/react/deploying-react-apps/upload-production-code-to-server",
+            "href": "/deploying-react-apps/upload-production-code-to-server",
             "docId": "deploying-react-apps/upload-production-code-to-server"
           }
         ]
@@ -308,7 +320,7 @@
     "intro": {
       "id": "intro",
       "title": "Getting Started",
-      "description": "這個系列文章是 React - The Complete Guide (incl Hooks, React Router, Redux) 課程的學習筆記。",
+      "description": "這個網站是我的 React 學習筆記，將會持續紀錄這一路上的各種觀念與實際用法。",
       "sidebar": "tutorialSidebar"
     },
     "react-advance/introducing-react-context": {
@@ -353,6 +365,18 @@
       "description": "⚓ useReducer Hook",
       "sidebar": "tutorialSidebar"
     },
+    "react-basics/forms-in-react": {
+      "id": "react-basics/forms-in-react",
+      "title": "Forms in React",
+      "description": "Controlled Components",
+      "sidebar": "tutorialSidebar"
+    },
+    "react-basics/lifting-the-state-up": {
+      "id": "react-basics/lifting-the-state-up",
+      "title": "Lifting The State Up",
+      "description": "觀念近似 Vue 的 Emit (From Child to Parent)",
+      "sidebar": "tutorialSidebar"
+    },
     "react-basics/refs-and-forward-refs": {
       "id": "react-basics/refs-and-forward-refs",
       "title": "Refs & Forward Refs",
@@ -365,16 +389,16 @@
       "description": "Inline Style",
       "sidebar": "tutorialSidebar"
     },
+    "react-basics/usestate-hook": {
+      "id": "react-basics/usestate-hook",
+      "title": "useState Hook - Working with State",
+      "description": "初始化",
+      "sidebar": "tutorialSidebar"
+    },
     "react-basics/working-with-portals": {
       "id": "react-basics/working-with-portals",
       "title": "Working with Portals",
       "description": "React Fragments",
-      "sidebar": "tutorialSidebar"
-    },
-    "react-basics/working-with-state": {
-      "id": "react-basics/working-with-state",
-      "title": "Working with State",
-      "description": "⚓ useState Hook",
       "sidebar": "tutorialSidebar"
     },
     "sending-http-request/using-the-star-wars-api": {

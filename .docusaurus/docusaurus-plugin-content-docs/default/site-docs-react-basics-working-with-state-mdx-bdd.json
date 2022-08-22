@@ -1,12 +1,12 @@
 {
   "unversionedId": "react-basics/working-with-state",
   "id": "react-basics/working-with-state",
-  "title": "Working with State",
-  "description": "⚓ useState Hook",
+  "title": "useState - working with state",
+  "description": "初始化",
   "source": "@site/docs/react-basics/working-with-state.mdx",
   "sourceDirName": "react-basics",
   "slug": "/react-basics/working-with-state",
-  "permalink": "/react/react-basics/working-with-state",
+  "permalink": "/react-basics/working-with-state",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/working-with-state.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Getting Started",
-    "permalink": "/react/"
+    "permalink": "/"
   },
   "next": {
-    "title": "Styling React Components",
-    "permalink": "/react/react-basics/styling-react-components"
+    "title": "Lifting The State Up",
+    "permalink": "/react-basics/lifting-the-state-up"
   }
 }
