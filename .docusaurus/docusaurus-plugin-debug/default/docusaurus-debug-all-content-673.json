@@ -63,7 +63,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introducing useMemo",
-                "permalink": "/react-advance/introducing-use-memo"
+                "permalink": "/react-advance/usememo"
               },
               "next": {
                 "title": "The Component Lifecycle",
@@ -345,176 +345,20 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "useState Hook - Working with State",
-                "permalink": "/react-basics/usestate-hook"
+                "title": "Working with State - useState",
+                "permalink": "/react-basics/usestate"
               }
             },
             {
-              "unversionedId": "react-advance/introducing-react-context",
-              "id": "react-advance/introducing-react-context",
+              "unversionedId": "react-advance/react-context",
+              "id": "react-advance/react-context",
               "title": "Introducing React Context",
               "description": "React Context (Context API)",
-              "source": "@site/docs/react-advance/introducing-react-context.mdx",
+              "source": "@site/docs/react-advance/react-context.mdx",
               "sourceDirName": "react-advance",
-              "slug": "/react-advance/introducing-react-context",
-              "permalink": "/react-advance/introducing-react-context",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-react-context.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introducing useReducer",
-                "permalink": "/react-advance/introducing-use-reducer"
-              },
-              "next": {
-                "title": "Introducing useImperativeHandle",
-                "permalink": "/react-advance/introducing-use-imperative-handle"
-              }
-            },
-            {
-              "unversionedId": "react-advance/introducing-react-memo",
-              "id": "react-advance/introducing-react-memo",
-              "title": "Introducing React.memo",
-              "description": "React.memo",
-              "source": "@site/docs/react-advance/introducing-react-memo.mdx",
-              "sourceDirName": "react-advance",
-              "slug": "/react-advance/introducing-react-memo",
-              "permalink": "/react-advance/introducing-react-memo",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-react-memo.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introducing useImperativeHandle",
-                "permalink": "/react-advance/introducing-use-imperative-handle"
-              },
-              "next": {
-                "title": "Introducing useCallback",
-                "permalink": "/react-advance/introducing-use-callback"
-              }
-            },
-            {
-              "unversionedId": "react-advance/introducing-use-callback",
-              "id": "react-advance/introducing-use-callback",
-              "title": "Introducing useCallback",
-              "description": "⚓ useCallback Hook",
-              "source": "@site/docs/react-advance/introducing-use-callback.mdx",
-              "sourceDirName": "react-advance",
-              "slug": "/react-advance/introducing-use-callback",
-              "permalink": "/react-advance/introducing-use-callback",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-callback.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introducing React.memo",
-                "permalink": "/react-advance/introducing-react-memo"
-              },
-              "next": {
-                "title": "Introducing useMemo",
-                "permalink": "/react-advance/introducing-use-memo"
-              }
-            },
-            {
-              "unversionedId": "react-advance/introducing-use-effect",
-              "id": "react-advance/introducing-use-effect",
-              "title": "Introducing useEffect",
-              "description": "Effect (Side Effect): the tasks happen outside of the normal component evaluation. For example, HTTP Request.",
-              "source": "@site/docs/react-advance/introducing-use-effect.mdx",
-              "sourceDirName": "react-advance",
-              "slug": "/react-advance/introducing-use-effect",
-              "permalink": "/react-advance/introducing-use-effect",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-effect.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Forms in React",
-                "permalink": "/react-basics/forms-in-react"
-              },
-              "next": {
-                "title": "Introducing useReducer",
-                "permalink": "/react-advance/introducing-use-reducer"
-              }
-            },
-            {
-              "unversionedId": "react-advance/introducing-use-imperative-handle",
-              "id": "react-advance/introducing-use-imperative-handle",
-              "title": "Introducing useImperativeHandle",
-              "description": "⚓ useImperativeHandle Hook",
-              "source": "@site/docs/react-advance/introducing-use-imperative-handle.mdx",
-              "sourceDirName": "react-advance",
-              "slug": "/react-advance/introducing-use-imperative-handle",
-              "permalink": "/react-advance/introducing-use-imperative-handle",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-imperative-handle.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introducing React Context",
-                "permalink": "/react-advance/introducing-react-context"
-              },
-              "next": {
-                "title": "Introducing React.memo",
-                "permalink": "/react-advance/introducing-react-memo"
-              }
-            },
-            {
-              "unversionedId": "react-advance/introducing-use-memo",
-              "id": "react-advance/introducing-use-memo",
-              "title": "Introducing useMemo",
-              "description": "⚓ useMemo Hook",
-              "source": "@site/docs/react-advance/introducing-use-memo.mdx",
-              "sourceDirName": "react-advance",
-              "slug": "/react-advance/introducing-use-memo",
-              "permalink": "/react-advance/introducing-use-memo",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-memo.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introducing useCallback",
-                "permalink": "/react-advance/introducing-use-callback"
-              },
-              "next": {
-                "title": "Class-based Component Basic Usage",
-                "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage"
-              }
-            },
-            {
-              "unversionedId": "react-advance/introducing-use-reducer",
-              "id": "react-advance/introducing-use-reducer",
-              "title": "Introducing useReducer",
-              "description": "⚓ useReducer Hook",
-              "source": "@site/docs/react-advance/introducing-use-reducer.mdx",
-              "sourceDirName": "react-advance",
-              "slug": "/react-advance/introducing-use-reducer",
-              "permalink": "/react-advance/introducing-use-reducer",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/introducing-use-reducer.mdx",
+              "slug": "/react-advance/react-context",
+              "permalink": "/react-advance/react-context",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/react-context.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -523,12 +367,142 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "Introducing useReducer",
+                "permalink": "/react-advance/usereducer"
+              },
+              "next": {
+                "title": "Introducing useImperativeHandle",
+                "permalink": "/react-advance/useimperativehandle"
+              }
+            },
+            {
+              "unversionedId": "react-advance/react-memo",
+              "id": "react-advance/react-memo",
+              "title": "Introducing React.memo",
+              "description": "React.memo",
+              "source": "@site/docs/react-advance/react-memo.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/react-memo",
+              "permalink": "/react-advance/react-memo",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/react-memo.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing useImperativeHandle",
+                "permalink": "/react-advance/useimperativehandle"
+              },
+              "next": {
+                "title": "Introducing useCallback",
+                "permalink": "/react-advance/usecallback"
+              }
+            },
+            {
+              "unversionedId": "react-advance/usecallback",
+              "id": "react-advance/usecallback",
+              "title": "Introducing useCallback",
+              "description": "⚓ useCallback Hook",
+              "source": "@site/docs/react-advance/usecallback.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/usecallback",
+              "permalink": "/react-advance/usecallback",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/usecallback.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing React.memo",
+                "permalink": "/react-advance/react-memo"
+              },
+              "next": {
+                "title": "Introducing useMemo",
+                "permalink": "/react-advance/usememo"
+              }
+            },
+            {
+              "unversionedId": "react-advance/useimperativehandle",
+              "id": "react-advance/useimperativehandle",
+              "title": "Introducing useImperativeHandle",
+              "description": "⚓ useImperativeHandle Hook",
+              "source": "@site/docs/react-advance/useimperativehandle.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/useimperativehandle",
+              "permalink": "/react-advance/useimperativehandle",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/useimperativehandle.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing React Context",
+                "permalink": "/react-advance/react-context"
+              },
+              "next": {
+                "title": "Introducing React.memo",
+                "permalink": "/react-advance/react-memo"
+              }
+            },
+            {
+              "unversionedId": "react-advance/usememo",
+              "id": "react-advance/usememo",
+              "title": "Introducing useMemo",
+              "description": "⚓ useMemo Hook",
+              "source": "@site/docs/react-advance/usememo.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/usememo",
+              "permalink": "/react-advance/usememo",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/usememo.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing useCallback",
+                "permalink": "/react-advance/usecallback"
+              },
+              "next": {
+                "title": "Class-based Component Basic Usage",
+                "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage"
+              }
+            },
+            {
+              "unversionedId": "react-advance/usereducer",
+              "id": "react-advance/usereducer",
+              "title": "Introducing useReducer",
+              "description": "⚓ useReducer Hook",
+              "source": "@site/docs/react-advance/usereducer.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/usereducer",
+              "permalink": "/react-advance/usereducer",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/usereducer.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
                 "title": "Introducing useEffect",
-                "permalink": "/react-advance/introducing-use-effect"
+                "permalink": "/react-basics/useeffect"
               },
               "next": {
                 "title": "Introducing React Context",
-                "permalink": "/react-advance/introducing-react-context"
+                "permalink": "/react-advance/react-context"
               }
             },
             {
@@ -550,11 +524,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Refs & Forward Refs",
-                "permalink": "/react-basics/refs-and-forward-refs"
+                "permalink": "/react-basics/useref-and-forwardrefs"
               },
               "next": {
                 "title": "Introducing useEffect",
-                "permalink": "/react-advance/introducing-use-effect"
+                "permalink": "/react-basics/useeffect"
               }
             },
             {
@@ -575,8 +549,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "useState Hook - Working with State",
-                "permalink": "/react-basics/usestate-hook"
+                "title": "Working with State - useState",
+                "permalink": "/react-basics/usestate"
               },
               "next": {
                 "title": "Styling React Components",
@@ -584,29 +558,29 @@
               }
             },
             {
-              "unversionedId": "react-basics/refs-and-forward-refs",
-              "id": "react-basics/refs-and-forward-refs",
-              "title": "Refs & Forward Refs",
-              "description": "What is Ref",
-              "source": "@site/docs/react-basics/refs-and-forward-refs.mdx",
+              "unversionedId": "react-basics/portals",
+              "id": "react-basics/portals",
+              "title": "Working with Portals",
+              "description": "React Fragments",
+              "source": "@site/docs/react-basics/portals.mdx",
               "sourceDirName": "react-basics",
-              "slug": "/react-basics/refs-and-forward-refs",
-              "permalink": "/react-basics/refs-and-forward-refs",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/refs-and-forward-refs.mdx",
+              "slug": "/react-basics/portals",
+              "permalink": "/react-basics/portals",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/portals.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 5
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Working with Portals",
-                "permalink": "/react-basics/working-with-portals"
+                "title": "Styling React Components",
+                "permalink": "/react-basics/styling-react-components"
               },
               "next": {
-                "title": "Forms in React",
-                "permalink": "/react-basics/forms-in-react"
+                "title": "Refs & Forward Refs",
+                "permalink": "/react-basics/useref-and-forwardrefs"
               }
             },
             {
@@ -632,19 +606,71 @@
               },
               "next": {
                 "title": "Working with Portals",
-                "permalink": "/react-basics/working-with-portals"
+                "permalink": "/react-basics/portals"
               }
             },
             {
-              "unversionedId": "react-basics/usestate-hook",
-              "id": "react-basics/usestate-hook",
-              "title": "useState Hook - Working with State",
-              "description": "初始化",
-              "source": "@site/docs/react-basics/usestate-hook.mdx",
+              "unversionedId": "react-basics/useeffect",
+              "id": "react-basics/useeffect",
+              "title": "Introducing useEffect",
+              "description": "Side Effect",
+              "source": "@site/docs/react-basics/useeffect.mdx",
               "sourceDirName": "react-basics",
-              "slug": "/react-basics/usestate-hook",
-              "permalink": "/react-basics/usestate-hook",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/usestate-hook.mdx",
+              "slug": "/react-basics/useeffect",
+              "permalink": "/react-basics/useeffect",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/useeffect.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Forms in React",
+                "permalink": "/react-basics/forms-in-react"
+              },
+              "next": {
+                "title": "Introducing useReducer",
+                "permalink": "/react-advance/usereducer"
+              }
+            },
+            {
+              "unversionedId": "react-basics/useref-and-forwardrefs",
+              "id": "react-basics/useref-and-forwardrefs",
+              "title": "Refs & Forward Refs",
+              "description": "What is Ref",
+              "source": "@site/docs/react-basics/useref-and-forwardrefs.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/useref-and-forwardrefs",
+              "permalink": "/react-basics/useref-and-forwardrefs",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/useref-and-forwardrefs.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Working with Portals",
+                "permalink": "/react-basics/portals"
+              },
+              "next": {
+                "title": "Forms in React",
+                "permalink": "/react-basics/forms-in-react"
+              }
+            },
+            {
+              "unversionedId": "react-basics/usestate",
+              "id": "react-basics/usestate",
+              "title": "Working with State - useState",
+              "description": "初始化",
+              "source": "@site/docs/react-basics/usestate.mdx",
+              "sourceDirName": "react-basics",
+              "slug": "/react-basics/usestate",
+              "permalink": "/react-basics/usestate",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/usestate.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -659,32 +685,6 @@
               "next": {
                 "title": "Lifting The State Up",
                 "permalink": "/react-basics/lifting-the-state-up"
-              }
-            },
-            {
-              "unversionedId": "react-basics/working-with-portals",
-              "id": "react-basics/working-with-portals",
-              "title": "Working with Portals",
-              "description": "React Fragments",
-              "source": "@site/docs/react-basics/working-with-portals.mdx",
-              "sourceDirName": "react-basics",
-              "slug": "/react-basics/working-with-portals",
-              "permalink": "/react-basics/working-with-portals",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/working-with-portals.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Styling React Components",
-                "permalink": "/react-basics/styling-react-components"
-              },
-              "next": {
-                "title": "Refs & Forward Refs",
-                "permalink": "/react-basics/refs-and-forward-refs"
               }
             },
             {
@@ -728,7 +728,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "react-basics/usestate-hook"
+                    "id": "react-basics/usestate"
                   },
                   {
                     "type": "doc",
@@ -740,15 +740,19 @@
                   },
                   {
                     "type": "doc",
-                    "id": "react-basics/working-with-portals"
+                    "id": "react-basics/portals"
                   },
                   {
                     "type": "doc",
-                    "id": "react-basics/refs-and-forward-refs"
+                    "id": "react-basics/useref-and-forwardrefs"
                   },
                   {
                     "type": "doc",
                     "id": "react-basics/forms-in-react"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-basics/useeffect"
                   }
                 ]
               },
@@ -760,31 +764,27 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "react-advance/introducing-use-effect"
+                    "id": "react-advance/usereducer"
                   },
                   {
                     "type": "doc",
-                    "id": "react-advance/introducing-use-reducer"
+                    "id": "react-advance/react-context"
                   },
                   {
                     "type": "doc",
-                    "id": "react-advance/introducing-react-context"
+                    "id": "react-advance/useimperativehandle"
                   },
                   {
                     "type": "doc",
-                    "id": "react-advance/introducing-use-imperative-handle"
+                    "id": "react-advance/react-memo"
                   },
                   {
                     "type": "doc",
-                    "id": "react-advance/introducing-react-memo"
+                    "id": "react-advance/usecallback"
                   },
                   {
                     "type": "doc",
-                    "id": "react-advance/introducing-use-callback"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "react-advance/introducing-use-memo"
+                    "id": "react-advance/usememo"
                   }
                 ]
               },

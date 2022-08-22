@@ -1,8 +1,8 @@
 {
   "unversionedId": "react-basics/portals",
   "id": "react-basics/portals",
-  "title": "React Portals",
-  "description": "Styled Components",
+  "title": "Working with Portals",
+  "description": "React Fragments",
   "source": "@site/docs/react-basics/portals.mdx",
   "sourceDirName": "react-basics",
   "slug": "/react-basics/portals",
@@ -20,7 +20,7 @@
     "permalink": "/react-basics/styling-react-components"
   },
   "next": {
-    "title": "閉包 (Closure)",
-    "permalink": "/functions-extras/closure"
+    "title": "Refs & Forward Refs",
+    "permalink": "/react-basics/useref-and-forwardrefs"
   }
 }

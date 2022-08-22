@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','ccd'),
+    component: ComponentCreator('/','9b7'),
     routes: [
       {
         path: '/',
@@ -126,44 +126,38 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-react-context',
-        component: ComponentCreator('/react-advance/introducing-react-context','785'),
+        path: '/react-advance/react-context',
+        component: ComponentCreator('/react-advance/react-context','104'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-react-memo',
-        component: ComponentCreator('/react-advance/introducing-react-memo','a17'),
+        path: '/react-advance/react-memo',
+        component: ComponentCreator('/react-advance/react-memo','9b9'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-use-callback',
-        component: ComponentCreator('/react-advance/introducing-use-callback','799'),
+        path: '/react-advance/usecallback',
+        component: ComponentCreator('/react-advance/usecallback','780'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-use-effect',
-        component: ComponentCreator('/react-advance/introducing-use-effect','352'),
+        path: '/react-advance/useimperativehandle',
+        component: ComponentCreator('/react-advance/useimperativehandle','747'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-use-imperative-handle',
-        component: ComponentCreator('/react-advance/introducing-use-imperative-handle','4ea'),
+        path: '/react-advance/usememo',
+        component: ComponentCreator('/react-advance/usememo','47b'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-advance/introducing-use-memo',
-        component: ComponentCreator('/react-advance/introducing-use-memo','cf8'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/react-advance/introducing-use-reducer',
-        component: ComponentCreator('/react-advance/introducing-use-reducer','323'),
+        path: '/react-advance/usereducer',
+        component: ComponentCreator('/react-advance/usereducer','2ce'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -180,8 +174,8 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-basics/refs-and-forward-refs',
-        component: ComponentCreator('/react-basics/refs-and-forward-refs','9db'),
+        path: '/react-basics/portals',
+        component: ComponentCreator('/react-basics/portals','843'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -192,14 +186,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-basics/usestate-hook',
-        component: ComponentCreator('/react-basics/usestate-hook','9d8'),
+        path: '/react-basics/useeffect',
+        component: ComponentCreator('/react-basics/useeffect','072'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-basics/working-with-portals',
-        component: ComponentCreator('/react-basics/working-with-portals','8eb'),
+        path: '/react-basics/useref-and-forwardrefs',
+        component: ComponentCreator('/react-basics/useref-and-forwardrefs','fd2'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/react-basics/usestate',
+        component: ComponentCreator('/react-basics/usestate','6a2'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

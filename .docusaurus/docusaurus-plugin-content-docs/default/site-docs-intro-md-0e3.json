@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "useState Hook - Working with State",
-    "permalink": "/react-basics/usestate-hook"
+    "title": "Working with State - useState",
+    "permalink": "/react-basics/usestate"
   }
 }

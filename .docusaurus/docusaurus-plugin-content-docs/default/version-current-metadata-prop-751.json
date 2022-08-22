@@ -22,9 +22,9 @@
         "items": [
           {
             "type": "link",
-            "label": "useState Hook - Working with State",
-            "href": "/react-basics/usestate-hook",
-            "docId": "react-basics/usestate-hook"
+            "label": "Working with State - useState",
+            "href": "/react-basics/usestate",
+            "docId": "react-basics/usestate"
           },
           {
             "type": "link",
@@ -41,20 +41,26 @@
           {
             "type": "link",
             "label": "Working with Portals",
-            "href": "/react-basics/working-with-portals",
-            "docId": "react-basics/working-with-portals"
+            "href": "/react-basics/portals",
+            "docId": "react-basics/portals"
           },
           {
             "type": "link",
             "label": "Refs & Forward Refs",
-            "href": "/react-basics/refs-and-forward-refs",
-            "docId": "react-basics/refs-and-forward-refs"
+            "href": "/react-basics/useref-and-forwardrefs",
+            "docId": "react-basics/useref-and-forwardrefs"
           },
           {
             "type": "link",
             "label": "Forms in React",
             "href": "/react-basics/forms-in-react",
             "docId": "react-basics/forms-in-react"
+          },
+          {
+            "type": "link",
+            "label": "Introducing useEffect",
+            "href": "/react-basics/useeffect",
+            "docId": "react-basics/useeffect"
           }
         ]
       },
@@ -66,45 +72,39 @@
         "items": [
           {
             "type": "link",
-            "label": "Introducing useEffect",
-            "href": "/react-advance/introducing-use-effect",
-            "docId": "react-advance/introducing-use-effect"
-          },
-          {
-            "type": "link",
             "label": "Introducing useReducer",
-            "href": "/react-advance/introducing-use-reducer",
-            "docId": "react-advance/introducing-use-reducer"
+            "href": "/react-advance/usereducer",
+            "docId": "react-advance/usereducer"
           },
           {
             "type": "link",
             "label": "Introducing React Context",
-            "href": "/react-advance/introducing-react-context",
-            "docId": "react-advance/introducing-react-context"
+            "href": "/react-advance/react-context",
+            "docId": "react-advance/react-context"
           },
           {
             "type": "link",
             "label": "Introducing useImperativeHandle",
-            "href": "/react-advance/introducing-use-imperative-handle",
-            "docId": "react-advance/introducing-use-imperative-handle"
+            "href": "/react-advance/useimperativehandle",
+            "docId": "react-advance/useimperativehandle"
           },
           {
             "type": "link",
             "label": "Introducing React.memo",
-            "href": "/react-advance/introducing-react-memo",
-            "docId": "react-advance/introducing-react-memo"
+            "href": "/react-advance/react-memo",
+            "docId": "react-advance/react-memo"
           },
           {
             "type": "link",
             "label": "Introducing useCallback",
-            "href": "/react-advance/introducing-use-callback",
-            "docId": "react-advance/introducing-use-callback"
+            "href": "/react-advance/usecallback",
+            "docId": "react-advance/usecallback"
           },
           {
             "type": "link",
             "label": "Introducing useMemo",
-            "href": "/react-advance/introducing-use-memo",
-            "docId": "react-advance/introducing-use-memo"
+            "href": "/react-advance/usememo",
+            "docId": "react-advance/usememo"
           }
         ]
       },
@@ -323,44 +323,38 @@
       "description": "這個網站是我的 React 學習筆記，將會持續紀錄這一路上的各種觀念與實際用法。",
       "sidebar": "tutorialSidebar"
     },
-    "react-advance/introducing-react-context": {
-      "id": "react-advance/introducing-react-context",
+    "react-advance/react-context": {
+      "id": "react-advance/react-context",
       "title": "Introducing React Context",
       "description": "React Context (Context API)",
       "sidebar": "tutorialSidebar"
     },
-    "react-advance/introducing-react-memo": {
-      "id": "react-advance/introducing-react-memo",
+    "react-advance/react-memo": {
+      "id": "react-advance/react-memo",
       "title": "Introducing React.memo",
       "description": "React.memo",
       "sidebar": "tutorialSidebar"
     },
-    "react-advance/introducing-use-callback": {
-      "id": "react-advance/introducing-use-callback",
+    "react-advance/usecallback": {
+      "id": "react-advance/usecallback",
       "title": "Introducing useCallback",
       "description": "⚓ useCallback Hook",
       "sidebar": "tutorialSidebar"
     },
-    "react-advance/introducing-use-effect": {
-      "id": "react-advance/introducing-use-effect",
-      "title": "Introducing useEffect",
-      "description": "Effect (Side Effect): the tasks happen outside of the normal component evaluation. For example, HTTP Request.",
-      "sidebar": "tutorialSidebar"
-    },
-    "react-advance/introducing-use-imperative-handle": {
-      "id": "react-advance/introducing-use-imperative-handle",
+    "react-advance/useimperativehandle": {
+      "id": "react-advance/useimperativehandle",
       "title": "Introducing useImperativeHandle",
       "description": "⚓ useImperativeHandle Hook",
       "sidebar": "tutorialSidebar"
     },
-    "react-advance/introducing-use-memo": {
-      "id": "react-advance/introducing-use-memo",
+    "react-advance/usememo": {
+      "id": "react-advance/usememo",
       "title": "Introducing useMemo",
       "description": "⚓ useMemo Hook",
       "sidebar": "tutorialSidebar"
     },
-    "react-advance/introducing-use-reducer": {
-      "id": "react-advance/introducing-use-reducer",
+    "react-advance/usereducer": {
+      "id": "react-advance/usereducer",
       "title": "Introducing useReducer",
       "description": "⚓ useReducer Hook",
       "sidebar": "tutorialSidebar"
@@ -377,10 +371,10 @@
       "description": "觀念近似 Vue 的 Emit (From Child to Parent)",
       "sidebar": "tutorialSidebar"
     },
-    "react-basics/refs-and-forward-refs": {
-      "id": "react-basics/refs-and-forward-refs",
-      "title": "Refs & Forward Refs",
-      "description": "What is Ref",
+    "react-basics/portals": {
+      "id": "react-basics/portals",
+      "title": "Working with Portals",
+      "description": "React Fragments",
       "sidebar": "tutorialSidebar"
     },
     "react-basics/styling-react-components": {
@@ -389,16 +383,22 @@
       "description": "Inline Style",
       "sidebar": "tutorialSidebar"
     },
-    "react-basics/usestate-hook": {
-      "id": "react-basics/usestate-hook",
-      "title": "useState Hook - Working with State",
-      "description": "初始化",
+    "react-basics/useeffect": {
+      "id": "react-basics/useeffect",
+      "title": "Introducing useEffect",
+      "description": "Side Effect",
       "sidebar": "tutorialSidebar"
     },
-    "react-basics/working-with-portals": {
-      "id": "react-basics/working-with-portals",
-      "title": "Working with Portals",
-      "description": "React Fragments",
+    "react-basics/useref-and-forwardrefs": {
+      "id": "react-basics/useref-and-forwardrefs",
+      "title": "Refs & Forward Refs",
+      "description": "What is Ref",
+      "sidebar": "tutorialSidebar"
+    },
+    "react-basics/usestate": {
+      "id": "react-basics/usestate",
+      "title": "Working with State - useState",
+      "description": "初始化",
       "sidebar": "tutorialSidebar"
     },
     "sending-http-request/using-the-star-wars-api": {

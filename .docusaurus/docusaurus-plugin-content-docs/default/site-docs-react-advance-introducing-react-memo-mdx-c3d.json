@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introducing useImperativeHandle",
-    "permalink": "/react-advance/introducing-use-imperative-handle"
+    "permalink": "/react-advance/useimperativehandle"
   },
   "next": {
     "title": "Introducing useCallback",
-    "permalink": "/react-advance/introducing-use-callback"
+    "permalink": "/react-advance/usecallback"
   }
 }

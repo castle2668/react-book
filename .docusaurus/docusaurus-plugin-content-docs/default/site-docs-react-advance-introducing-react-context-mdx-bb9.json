@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introducing useReducer",
-    "permalink": "/react-advance/introducing-use-reducer"
+    "permalink": "/react-advance/usereducer"
   },
   "next": {
     "title": "Introducing useImperativeHandle",
-    "permalink": "/react-advance/introducing-use-imperative-handle"
+    "permalink": "/react-advance/useimperativehandle"
   }
 }

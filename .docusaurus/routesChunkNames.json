@@ -25,7 +25,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-ccd": {
+  "/-9b7": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -81,33 +81,29 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---diving-into-redux-redux-with-functional-componentscfa-93b"
   },
-  "/react-advance/introducing-react-context-785": {
+  "/react-advance/react-context-104": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-react-contextbb-9-382"
+    "content": "content---react-advance-react-context-729-ada"
   },
-  "/react-advance/introducing-react-memo-a17": {
+  "/react-advance/react-memo-9b9": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-react-memoc-3-d-a48"
+    "content": "content---react-advance-react-memo-084-b0a"
   },
-  "/react-advance/introducing-use-callback-799": {
+  "/react-advance/usecallback-780": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-callbackb-92-638"
+    "content": "content---react-advance-usecallback-2-b-2-dfe"
   },
-  "/react-advance/introducing-use-effect-352": {
+  "/react-advance/useimperativehandle-747": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-effect-35-e-dbc"
+    "content": "content---react-advance-useimperativehandle-124-45c"
   },
-  "/react-advance/introducing-use-imperative-handle-4ea": {
+  "/react-advance/usememo-47b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-imperative-handle-16-d-c06"
+    "content": "content---react-advance-usememoaa-5-9c8"
   },
-  "/react-advance/introducing-use-memo-cf8": {
+  "/react-advance/usereducer-2ce": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-memob-82-18f"
-  },
-  "/react-advance/introducing-use-reducer-323": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-advance-introducing-use-reducer-7-af-c98"
+    "content": "content---react-advance-usereducer-2-e-6-c2a"
   },
   "/react-basics/forms-in-react-c76": {
     "component": "component---theme-doc-item-178-a40",
@@ -117,21 +113,25 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---react-basics-lifting-the-state-up-587-40f"
   },
-  "/react-basics/refs-and-forward-refs-9db": {
+  "/react-basics/portals-843": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-refs-and-forward-refs-5-ba-55e"
+    "content": "content---react-basics-portalsbe-3-1df"
   },
   "/react-basics/styling-react-components-b07": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---react-basics-styling-react-componentsacd-410"
   },
-  "/react-basics/usestate-hook-9d8": {
+  "/react-basics/useeffect-072": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-usestate-hooke-1-c-6df"
+    "content": "content---react-basics-useeffect-662-466"
   },
-  "/react-basics/working-with-portals-8eb": {
+  "/react-basics/useref-and-forwardrefs-fd2": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-working-with-portals-8-df-45f"
+    "content": "content---react-basics-useref-and-forwardrefs-32-e-530"
+  },
+  "/react-basics/usestate-6a2": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---react-basics-usestate-3-a-1-4e3"
   },
   "/sending-http-request/using-the-star-wars-api-71e": {
     "component": "component---theme-doc-item-178-a40",

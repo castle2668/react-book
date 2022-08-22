@@ -17,7 +17,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introducing useEffect",
-    "permalink": "/react-advance/introducing-use-effect"
+    "permalink": "/react-advance/useeffect"
   },
   "next": {
     "title": "Introducing React Context",

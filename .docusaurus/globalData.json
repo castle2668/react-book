@@ -76,38 +76,33 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-advance/introducing-react-context",
-              "path": "/react-advance/introducing-react-context",
+              "id": "react-advance/react-context",
+              "path": "/react-advance/react-context",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-advance/introducing-react-memo",
-              "path": "/react-advance/introducing-react-memo",
+              "id": "react-advance/react-memo",
+              "path": "/react-advance/react-memo",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-advance/introducing-use-callback",
-              "path": "/react-advance/introducing-use-callback",
+              "id": "react-advance/usecallback",
+              "path": "/react-advance/usecallback",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-advance/introducing-use-effect",
-              "path": "/react-advance/introducing-use-effect",
+              "id": "react-advance/useimperativehandle",
+              "path": "/react-advance/useimperativehandle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-advance/introducing-use-imperative-handle",
-              "path": "/react-advance/introducing-use-imperative-handle",
+              "id": "react-advance/usememo",
+              "path": "/react-advance/usememo",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-advance/introducing-use-memo",
-              "path": "/react-advance/introducing-use-memo",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "react-advance/introducing-use-reducer",
-              "path": "/react-advance/introducing-use-reducer",
+              "id": "react-advance/usereducer",
+              "path": "/react-advance/usereducer",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -121,8 +116,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-basics/refs-and-forward-refs",
-              "path": "/react-basics/refs-and-forward-refs",
+              "id": "react-basics/portals",
+              "path": "/react-basics/portals",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -131,13 +126,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-basics/usestate-hook",
-              "path": "/react-basics/usestate-hook",
+              "id": "react-basics/useeffect",
+              "path": "/react-basics/useeffect",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-basics/working-with-portals",
-              "path": "/react-basics/working-with-portals",
+              "id": "react-basics/useref-and-forwardrefs",
+              "path": "/react-basics/useref-and-forwardrefs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-basics/usestate",
+              "path": "/react-basics/usestate",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -17,7 +17,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introducing useMemo",
-    "permalink": "/react-advance/introducing-use-memo"
+    "permalink": "/react-advance/usememo"
   },
   "next": {
     "title": "The Component Lifecycle",
