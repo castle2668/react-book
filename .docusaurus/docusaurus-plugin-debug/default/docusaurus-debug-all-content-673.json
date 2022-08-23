@@ -41,45 +41,19 @@
               },
               "next": {
                 "title": "Introducing React Router v5",
-                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
+                "permalink": "/react-router/v5"
               }
             },
             {
-              "unversionedId": "an-alternativ-way-of-building-components/class-based-component-basic-usage",
-              "id": "an-alternativ-way-of-building-components/class-based-component-basic-usage",
-              "title": "Class-based Component Basic Usage",
-              "description": "Basic Usage",
-              "source": "@site/docs/an-alternativ-way-of-building-components/class-based-component-basic-usage.mdx",
-              "sourceDirName": "an-alternativ-way-of-building-components",
-              "slug": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
-              "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-building-components/class-based-component-basic-usage.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introducing useMemo",
-                "permalink": "/react-advance/usememo"
-              },
-              "next": {
-                "title": "The Component Lifecycle",
-                "permalink": "/an-alternativ-way-of-building-components/the-component-lifecycle"
-              }
-            },
-            {
-              "unversionedId": "an-alternativ-way-of-building-components/error-boundary",
-              "id": "an-alternativ-way-of-building-components/error-boundary",
+              "unversionedId": "class-based-components/error-boundary",
+              "id": "class-based-components/error-boundary",
               "title": "Error Boundary",
               "description": "錯誤邊界 (Error Boundary)",
-              "source": "@site/docs/an-alternativ-way-of-building-components/error-boundary.mdx",
-              "sourceDirName": "an-alternativ-way-of-building-components",
-              "slug": "/an-alternativ-way-of-building-components/error-boundary",
-              "permalink": "/an-alternativ-way-of-building-components/error-boundary",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-building-components/error-boundary.mdx",
+              "source": "@site/docs/class-based-components/error-boundary.mdx",
+              "sourceDirName": "class-based-components",
+              "slug": "/class-based-components/error-boundary",
+              "permalink": "/class-based-components/error-boundary",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/class-based-components/error-boundary.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -89,23 +63,49 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "The Component Lifecycle",
-                "permalink": "/an-alternativ-way-of-building-components/the-component-lifecycle"
+                "permalink": "/class-based-components/the-component-lifecycle"
               },
               "next": {
-                "title": "Using the Star Wars API",
-                "permalink": "/sending-http-request/using-the-star-wars-api"
+                "title": "Using Custom Hooks",
+                "permalink": "/code-reuse/custom-hooks"
               }
             },
             {
-              "unversionedId": "an-alternativ-way-of-building-components/the-component-lifecycle",
-              "id": "an-alternativ-way-of-building-components/the-component-lifecycle",
+              "unversionedId": "class-based-components/introduction",
+              "id": "class-based-components/introduction",
+              "title": "Introduction",
+              "description": "Basic Usage",
+              "source": "@site/docs/class-based-components/introduction.mdx",
+              "sourceDirName": "class-based-components",
+              "slug": "/class-based-components/introduction",
+              "permalink": "/class-based-components/introduction",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/class-based-components/introduction.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sending Http Requests",
+                "permalink": "/react-advance/sending-http-requests"
+              },
+              "next": {
+                "title": "The Component Lifecycle",
+                "permalink": "/class-based-components/the-component-lifecycle"
+              }
+            },
+            {
+              "unversionedId": "class-based-components/the-component-lifecycle",
+              "id": "class-based-components/the-component-lifecycle",
               "title": "The Component Lifecycle",
               "description": "The Component Lifecycle is Class-based Components Only!",
-              "source": "@site/docs/an-alternativ-way-of-building-components/the-component-lifecycle.mdx",
-              "sourceDirName": "an-alternativ-way-of-building-components",
-              "slug": "/an-alternativ-way-of-building-components/the-component-lifecycle",
-              "permalink": "/an-alternativ-way-of-building-components/the-component-lifecycle",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/an-alternativ-way-of-building-components/the-component-lifecycle.mdx",
+              "source": "@site/docs/class-based-components/the-component-lifecycle.mdx",
+              "sourceDirName": "class-based-components",
+              "slug": "/class-based-components/the-component-lifecycle",
+              "permalink": "/class-based-components/the-component-lifecycle",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/class-based-components/the-component-lifecycle.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -114,24 +114,24 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Class-based Component Basic Usage",
-                "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage"
+                "title": "Introduction",
+                "permalink": "/class-based-components/introduction"
               },
               "next": {
                 "title": "Error Boundary",
-                "permalink": "/an-alternativ-way-of-building-components/error-boundary"
+                "permalink": "/class-based-components/error-boundary"
               }
             },
             {
-              "unversionedId": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-              "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-              "title": "Introducing React Router v5",
-              "description": "SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。",
-              "source": "@site/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
-              "sourceDirName": "building-a-multi-page-spa-with-react-router",
-              "slug": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-              "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/introducing-react-router-v5.mdx",
+              "unversionedId": "code-reuse/custom-hooks",
+              "id": "code-reuse/custom-hooks",
+              "title": "Using Custom Hooks",
+              "description": "- Custom Hooks：可以使用 React Hooks 與 State 的函式",
+              "source": "@site/docs/code-reuse/custom-hooks.mdx",
+              "sourceDirName": "code-reuse",
+              "slug": "/code-reuse/custom-hooks",
+              "permalink": "/code-reuse/custom-hooks",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/code-reuse/custom-hooks.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -140,24 +140,24 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Asynchronous code in Redux",
-                "permalink": "/advanced-redux/asynchronous-code-in-redux"
+                "title": "Error Boundary",
+                "permalink": "/class-based-components/error-boundary"
               },
               "next": {
-                "title": "Upgrading To React Router v6",
-                "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+                "title": "Higher-Order Components",
+                "permalink": "/code-reuse/high-order-component"
               }
             },
             {
-              "unversionedId": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-              "id": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-              "title": "Upgrading To React Router v6",
-              "description": "React Router 第 6 版",
-              "source": "@site/docs/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6.mdx",
-              "sourceDirName": "building-a-multi-page-spa-with-react-router",
-              "slug": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-              "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6.mdx",
+              "unversionedId": "code-reuse/high-order-component",
+              "id": "code-reuse/high-order-component",
+              "title": "Higher-Order Components",
+              "description": "Higher-Order Components (HOC) 是一個函式，帶入一個元件作為參數，並回傳一個加強版的元件。",
+              "source": "@site/docs/code-reuse/high-order-component.mdx",
+              "sourceDirName": "code-reuse",
+              "slug": "/code-reuse/high-order-component",
+              "permalink": "/code-reuse/high-order-component",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/code-reuse/high-order-component.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -166,34 +166,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introducing React Router v5",
-                "permalink": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
-              },
-              "next": {
-                "title": "Upload Production Code to Server",
-                "permalink": "/deploying-react-apps/upload-production-code-to-server"
-              }
-            },
-            {
-              "unversionedId": "building-custom-react-hooks/using-custom-hooks",
-              "id": "building-custom-react-hooks/using-custom-hooks",
-              "title": "Using Custom Hooks",
-              "description": "Custom Hooks: 可以使用 React Hooks 與 State 的函式",
-              "source": "@site/docs/building-custom-react-hooks/using-custom-hooks.mdx",
-              "sourceDirName": "building-custom-react-hooks",
-              "slug": "/building-custom-react-hooks/using-custom-hooks",
-              "permalink": "/building-custom-react-hooks/using-custom-hooks",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/building-custom-react-hooks/using-custom-hooks.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Using the Star Wars API",
-                "permalink": "/sending-http-request/using-the-star-wars-api"
+                "title": "Using Custom Hooks",
+                "permalink": "/code-reuse/custom-hooks"
               },
               "next": {
                 "title": "Introducing Redux",
@@ -219,7 +193,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Upgrading To React Router v6",
-                "permalink": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+                "permalink": "/react-router/upgrade-to-v6"
               }
             },
             {
@@ -240,8 +214,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Using Custom Hooks",
-                "permalink": "/building-custom-react-hooks/using-custom-hooks"
+                "title": "Higher-Order Components",
+                "permalink": "/code-reuse/high-order-component"
               },
               "next": {
                 "title": "Redux with Functional Components",
@@ -330,7 +304,7 @@
               "unversionedId": "intro",
               "id": "intro",
               "title": "Getting Started",
-              "description": "這個網站是我的 React 學習筆記，將會持續紀錄這一路上的各種觀念與實際用法。",
+              "description": "About this book",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -402,10 +376,36 @@
               }
             },
             {
+              "unversionedId": "react-advance/sending-http-requests",
+              "id": "react-advance/sending-http-requests",
+              "title": "Sending Http Requests",
+              "description": "範例：串接 Star Wars API",
+              "source": "@site/docs/react-advance/sending-http-requests.mdx",
+              "sourceDirName": "react-advance",
+              "slug": "/react-advance/sending-http-requests",
+              "permalink": "/react-advance/sending-http-requests",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/sending-http-requests.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing useMemo",
+                "permalink": "/react-advance/usememo"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/class-based-components/introduction"
+              }
+            },
+            {
               "unversionedId": "react-advance/usecallback",
               "id": "react-advance/usecallback",
               "title": "Introducing useCallback",
-              "description": "⚓ useCallback Hook",
+              "description": "useCallback - React 官方文件",
               "source": "@site/docs/react-advance/usecallback.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/usecallback",
@@ -457,7 +457,7 @@
               "unversionedId": "react-advance/usememo",
               "id": "react-advance/usememo",
               "title": "Introducing useMemo",
-              "description": "⚓ useMemo Hook",
+              "description": "useMemo - React 官方文件",
               "source": "@site/docs/react-advance/usememo.mdx",
               "sourceDirName": "react-advance",
               "slug": "/react-advance/usememo",
@@ -475,8 +475,8 @@
                 "permalink": "/react-advance/usecallback"
               },
               "next": {
-                "title": "Class-based Component Basic Usage",
-                "permalink": "/an-alternativ-way-of-building-components/class-based-component-basic-usage"
+                "title": "Sending Http Requests",
+                "permalink": "/react-advance/sending-http-requests"
               }
             },
             {
@@ -523,8 +523,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Refs & Forward Refs",
-                "permalink": "/react-basics/useref-and-forwardrefs"
+                "title": "useRef & React.forwardRef",
+                "permalink": "/react-basics/useref-and-forwardref"
               },
               "next": {
                 "title": "Introducing useEffect",
@@ -535,7 +535,7 @@
               "unversionedId": "react-basics/lifting-the-state-up",
               "id": "react-basics/lifting-the-state-up",
               "title": "Lifting The State Up",
-              "description": "觀念近似 Vue 的 Emit (From Child to Parent)",
+              "description": "Props 的用途是讓父子元件之間傳遞狀態，使子元件也能使用到父元件定義的狀態。而子元件的狀態也能透過 Lifting State 的方式提升給父元件使用。",
               "source": "@site/docs/react-basics/lifting-the-state-up.mdx",
               "sourceDirName": "react-basics",
               "slug": "/react-basics/lifting-the-state-up",
@@ -579,8 +579,8 @@
                 "permalink": "/react-basics/styling-react-components"
               },
               "next": {
-                "title": "Refs & Forward Refs",
-                "permalink": "/react-basics/useref-and-forwardrefs"
+                "title": "useRef & React.forwardRef",
+                "permalink": "/react-basics/useref-and-forwardref"
               }
             },
             {
@@ -636,15 +636,15 @@
               }
             },
             {
-              "unversionedId": "react-basics/useref-and-forwardrefs",
-              "id": "react-basics/useref-and-forwardrefs",
-              "title": "Refs & Forward Refs",
+              "unversionedId": "react-basics/useref-and-forwardref",
+              "id": "react-basics/useref-and-forwardref",
+              "title": "useRef & React.forwardRef",
               "description": "What is Ref",
-              "source": "@site/docs/react-basics/useref-and-forwardrefs.mdx",
+              "source": "@site/docs/react-basics/useref-and-forwardref.mdx",
               "sourceDirName": "react-basics",
-              "slug": "/react-basics/useref-and-forwardrefs",
-              "permalink": "/react-basics/useref-and-forwardrefs",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/useref-and-forwardrefs.mdx",
+              "slug": "/react-basics/useref-and-forwardref",
+              "permalink": "/react-basics/useref-and-forwardref",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/useref-and-forwardref.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -688,15 +688,41 @@
               }
             },
             {
-              "unversionedId": "sending-http-request/using-the-star-wars-api",
-              "id": "sending-http-request/using-the-star-wars-api",
-              "title": "Using the Star Wars API",
-              "description": "- API: Application Programming Interface",
-              "source": "@site/docs/sending-http-request/using-the-star-wars-api.mdx",
-              "sourceDirName": "sending-http-request",
-              "slug": "/sending-http-request/using-the-star-wars-api",
-              "permalink": "/sending-http-request/using-the-star-wars-api",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sending-http-request/using-the-star-wars-api.mdx",
+              "unversionedId": "react-router/upgrade-to-v6",
+              "id": "react-router/upgrade-to-v6",
+              "title": "Upgrading To React Router v6",
+              "description": "React Router 第 6 版",
+              "source": "@site/docs/react-router/upgrade-to-v6.mdx",
+              "sourceDirName": "react-router",
+              "slug": "/react-router/upgrade-to-v6",
+              "permalink": "/react-router/upgrade-to-v6",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-router/upgrade-to-v6.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introducing React Router v5",
+                "permalink": "/react-router/v5"
+              },
+              "next": {
+                "title": "Upload Production Code to Server",
+                "permalink": "/deploying-react-apps/upload-production-code-to-server"
+              }
+            },
+            {
+              "unversionedId": "react-router/v5",
+              "id": "react-router/v5",
+              "title": "Introducing React Router v5",
+              "description": "SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。",
+              "source": "@site/docs/react-router/v5.mdx",
+              "sourceDirName": "react-router",
+              "slug": "/react-router/v5",
+              "permalink": "/react-router/v5",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-router/v5.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -705,12 +731,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Error Boundary",
-                "permalink": "/an-alternativ-way-of-building-components/error-boundary"
+                "title": "Asynchronous code in Redux",
+                "permalink": "/advanced-redux/asynchronous-code-in-redux"
               },
               "next": {
-                "title": "Using Custom Hooks",
-                "permalink": "/building-custom-react-hooks/using-custom-hooks"
+                "title": "Upgrading To React Router v6",
+                "permalink": "/react-router/upgrade-to-v6"
               }
             }
           ],
@@ -744,7 +770,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "react-basics/useref-and-forwardrefs"
+                    "id": "react-basics/useref-and-forwardref"
                   },
                   {
                     "type": "doc",
@@ -785,50 +811,46 @@
                   {
                     "type": "doc",
                     "id": "react-advance/usememo"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "An Alternative Way Of Building Components: Class-based Components",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "an-alternativ-way-of-building-components/class-based-component-basic-usage"
                   },
                   {
                     "type": "doc",
-                    "id": "an-alternativ-way-of-building-components/the-component-lifecycle"
+                    "id": "react-advance/sending-http-requests"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Class-based Components",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "class-based-components/introduction"
                   },
                   {
                     "type": "doc",
-                    "id": "an-alternativ-way-of-building-components/error-boundary"
+                    "id": "class-based-components/the-component-lifecycle"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "class-based-components/error-boundary"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Sending Http Requests",
+                "label": "Code Reuse",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "sending-http-request/using-the-star-wars-api"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Building Custom React Hooks",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
+                    "id": "code-reuse/custom-hooks"
+                  },
                   {
                     "type": "doc",
-                    "id": "building-custom-react-hooks/using-custom-hooks"
+                    "id": "code-reuse/high-order-component"
                   }
                 ]
               },
@@ -876,11 +898,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
+                    "id": "react-router/v5"
                   },
                   {
                     "type": "doc",
-                    "id": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+                    "id": "react-router/upgrade-to-v6"
                   }
                 ]
               },

@@ -4,14 +4,18 @@ sidebar_position: 2
 
 # Lifting The State Up
 
+Props 的用途是讓父子元件之間傳遞狀態，使子元件也能使用到父元件定義的狀態。而子元件的狀態也能透過 Lifting State 的方式提升給父元件使用。
+
 > 觀念近似 Vue 的 Emit (From Child to Parent)
 
 當 Parent component 需要取得由 Child component 生成的 data 時，我們可以使用 Lifting The State Up 的技巧。
 
-Step 1: 在 Parent component 建立一個函式，將它作為 Child component 的 Props (`onXxx`) 的 Value。
+## STEP 1：父元件傳遞一個函式給子元件
+
+在 Parent component 建立一個函式，這個函式 (`onXXX`) 會作為 props 傳遞給 Child。
 
 ```jsx
-// Inside of the "ParentComponent" component function
+// ParentComponent
 
 const xxxHandler = () => {
   // do something...
@@ -21,18 +25,22 @@ const xxxHandler = () => {
 <ChildComponent onXXX={xxxHandler} />;
 ```
 
-Step 2: 在 Child component 執行函式 `props.onXxx` 等同於執行了 Parent component 的 `xxxHandler` 函式，因為函式傳遞的是 **Pointer (By Reference)**。
+## STEP 2：子元件存取 Props 調用函式
+
+在 Child 裡面執行 `props.onXxx` 函式，就等同執行了 Parent 的 `xxxHandler` 函式，因為函式傳遞的是 **Pointer (By Reference)**。
 
 ```jsx
-// Inside of the "ChildComponent" component function
+// ChildComponent
 
 props.onXxx();
 ```
 
-Step 3: 從 Child component 放入參數傳回 Parent component，讓 Parent component 可以從參數獲得 Child component 的 data，這樣就完成 Lifting The State Up (Emit) 的動作了。
+## STEP 3：從子元件傳入參數，達到 State 提升
+
+從 Child 放入參數，透過呼叫函式來傳遞給 Parent。
 
 ```jsx
-// Inside of the "ChildComponent" component function
+// ChildComponent
 
 const childData = {
   title: 'Child Title',
@@ -42,8 +50,10 @@ const childData = {
 props.onXxx(childData);
 ```
 
+這時候 Parent 就可以從參數獲得 Child 的資料了，此時就完成了提升 State 的動作了。
+
 ```jsx
-// Inside of the "ParentComponent" component function
+// ParentComponent
 
 const xxxHandler = (enteredChildData) => {
   // do something...
@@ -55,11 +65,8 @@ const xxxHandler = (enteredChildData) => {
 <ChildComponent onXXX={xxxHandler} />;
 ```
 
-## 回顧
+## Recap
 
-看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
-
-- useState Hook
 - Lifting The State Up
 
 ## References

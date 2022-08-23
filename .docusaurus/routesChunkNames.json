@@ -25,7 +25,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-9b7": {
+  "/-9ea": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -37,29 +37,25 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---advanced-redux-asynchronous-code-in-redux-6-fe-560"
   },
-  "/an-alternativ-way-of-building-components/class-based-component-basic-usage-cec": {
+  "/class-based-components/error-boundary-45a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---an-alternativ-way-of-building-components-class-based-component-basic-usage-395-2be"
+    "content": "content---class-based-components-error-boundaryf-7-c-15e"
   },
-  "/an-alternativ-way-of-building-components/error-boundary-71b": {
+  "/class-based-components/introduction-17a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---an-alternativ-way-of-building-components-error-boundary-9-af-522"
+    "content": "content---class-based-components-introductionc-55-041"
   },
-  "/an-alternativ-way-of-building-components/the-component-lifecycle-b1e": {
+  "/class-based-components/the-component-lifecycle-2a3": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---an-alternativ-way-of-building-components-the-component-lifecycle-225-3f3"
+    "content": "content---class-based-components-the-component-lifecycle-37-b-a07"
   },
-  "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5-c60": {
+  "/code-reuse/custom-hooks-2e1": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---building-a-multi-page-spa-with-react-router-introducing-react-router-v-583-a-f1c"
+    "content": "content---code-reuse-custom-hookseaa-445"
   },
-  "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6-92f": {
+  "/code-reuse/high-order-component-f5c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---building-a-multi-page-spa-with-react-router-upgrading-to-react-router-v-6423-dac"
-  },
-  "/building-custom-react-hooks/using-custom-hooks-5eb": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---building-custom-react-hooks-using-custom-hooks-61-f-43a"
+    "content": "content---code-reuse-high-order-component-4-fc-b4e"
   },
   "/deploying-react-apps/upload-production-code-to-server-119": {
     "component": "component---theme-doc-item-178-a40",
@@ -88,6 +84,10 @@
   "/react-advance/react-memo-9b9": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---react-advance-react-memo-084-b0a"
+  },
+  "/react-advance/sending-http-requests-36d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---react-advance-sending-http-requests-9-c-2-207"
   },
   "/react-advance/usecallback-780": {
     "component": "component---theme-doc-item-178-a40",
@@ -125,16 +125,20 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---react-basics-useeffect-662-466"
   },
-  "/react-basics/useref-and-forwardrefs-fd2": {
+  "/react-basics/useref-and-forwardref-06d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---react-basics-useref-and-forwardrefs-32-e-530"
+    "content": "content---react-basics-useref-and-forwardref-442-323"
   },
   "/react-basics/usestate-6a2": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---react-basics-usestate-3-a-1-4e3"
   },
-  "/sending-http-request/using-the-star-wars-api-71e": {
+  "/react-router/upgrade-to-v6-824": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---sending-http-request-using-the-star-wars-api-5-f-9-68e"
+    "content": "content---react-router-upgrade-to-v-6886-507"
+  },
+  "/react-router/v5-9c4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---react-router-v-5-d-29-f7b"
   }
 }

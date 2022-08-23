@@ -20,7 +20,7 @@
     "permalink": "/react-basics/styling-react-components"
   },
   "next": {
-    "title": "Refs & Forward Refs",
-    "permalink": "/react-basics/useref-and-forwardrefs"
+    "title": "useRef & React.forwardRef",
+    "permalink": "/react-basics/useref-and-forwardref"
   }
 }

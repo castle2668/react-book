@@ -6,16 +6,19 @@ sidebar_position: 1
 
 SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。
 
-## Get Started: The BrowserRouter Component
+## HashRouter 與 BrowserRouter 的差異
 
-```jsx
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
-```
+BrowserRouter
+
+- 有比較乾淨的 URL
+- 在切換 URL 時會發送 request
+- 是使用 HTML5 History API (`pushState`, `replaceState`, `popState`) 去切換路由與畫面渲染
+
+HashRouter
+
+- 在頁面路徑的最前面會有個井字號 (#)
+- 切換時不會發送 request
+- 一直是維持在同一個 Location，是使用 `window.location.hash` 和 `hashchange` 事件來切換路由與呈現不同的渲染畫面
 
 ## The Route Component
 
@@ -101,13 +104,19 @@ const ProductDetail = () => {
 
 ## The Switch Component & Dynamic Routes
 
-`<Switch>` component：把它包在 `<Route>` 的外層，React Router 會由上而下尋找與網址相應的路由，一旦找到就會停止配對（沒有使用時，會檢查所有路由是否符合，並不會由上而下檢查），確保同一時間只會有一個路由被加載！
+### Router 使用 Switch 和不使用 Switch 的差異
 
-搭配 `<Route>` 的 `exact` prop，讓路由只有在完全匹配到的時候才會生效。
+使用 `<Switch>`，React Router 就會由上而下搜尋，使用第一個 match 的 `<Route>` 或 `<Redirect>`。
 
-加上 `exact` 前，網址為 `our-domain.com/products/book` 時，會進入率先找到的 `<Products>`，而非完全對應的動態路由 `<ProductDetail>`。
+如果沒有使用 `<Switch>`，React Router 會一次搜尋全部的 Routes，只要是符合的路由就會通通被渲染，全部都呈現到畫面上。
 
-加上 `exact` 後，就能正確匹配到相對應的路由。
+### 使用 exact 與不使用 exact 的差異
+
+使用 `<Route>` 的 `exact` 屬性，可以讓路由只有在「完全匹配」到的時候才會生效。
+
+如果沒加上 `exact`，當輸入網址 `domain.com/products/book` 時，會進入率先找到的 `<Products>`。
+
+加上 `exact` 後，就能正確匹配到完全對應的路由 `<ProductDetail>`。
 
 ```jsx
 <Switch>

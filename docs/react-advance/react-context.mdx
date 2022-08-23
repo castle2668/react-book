@@ -158,13 +158,45 @@ return (
 );
 ```
 
-### 用法 2: ⚓ useContext Hook
+### 👍 用法 2: ⚓ useContext Hook
 
 除了透過 Context.Consumer 來存取 Store 之外，我們也可以用 useContext 來取用 AuthContext。
 
-可以發現 useContext 的寫法真的簡潔優雅很多，大推 👍
+> [useContext - React 官方文件](https://zh-hant.reactjs.org/docs/hooks-reference.html#usecontext)
 
 ```jsx
+const value = useContext(MyContext);
+```
+
+`useContext` 會接收一個 context object（`React.createContext` 的回傳值）並回傳該 context 目前的值。Context 目前的值是取決於由上層 component 距離最近的 `<MyContext.Provider>` 的 `value` prop。
+
+> 要傳 String, Object, Function 都可以！
+
+```jsx
+// Provider
+
+return (
+  <AuthContext.Provider
+    value={{
+      isLoggedIn: isLoggedIn,
+      // Pass logoutHandler down to all components we consume this Context
+      onLogout: logoutHandler,
+    }}
+  >
+    <MainHeader />
+    <main>
+      {!isLoggedIn && <Login onLogin={loginHandler} />}
+      {isLoggedIn && <Home onLogout={logoutHandler} />}
+    </main>
+  </AuthContext.Provider>
+);
+```
+
+下面就是 `useContext` 的寫法，可以發現寫法真的簡潔優雅很多，大推 👍
+
+```jsx
+// useContext
+
 import React, { useContext } from 'react';
 
 import AuthContext from '../../store/auth-context';
@@ -199,31 +231,9 @@ const Navigation = (props) => {
 export default Navigation;
 ```
 
-> 除了傳遞 Values 像是 String 或 Object 之外，Context 也能傳遞 Function
-
-如果子元件有實際使用到函式，而非單純轉發的話，繼續使用 Props 來傳遞是完全沒有問題的。
-
-像是 Login 元件有用到 onLogin 函式，Home 元件也有實際使用到 onLogout 函式。
-
 ```jsx
-return (
-  <AuthContext.Provider
-    value={{
-      isLoggedIn: isLoggedIn,
-      // Pass logoutHandler down to all components we consume this Context
-      onLogout: logoutHandler,
-    }}
-  >
-    <MainHeader />
-    <main>
-      {!isLoggedIn && <Login onLogin={loginHandler} />}
-      {isLoggedIn && <Home onLogout={logoutHandler} />}
-    </main>
-  </AuthContext.Provider>
-);
-```
+// Use Navigation Component
 
-```jsx
 const Navigation = () => {
   const ctx = useContext(AuthContext);
 
@@ -242,17 +252,17 @@ const Navigation = () => {
 };
 ```
 
-> Props vs. Context?
+### Props vs. Context
 
-一般情況下我們使用 Props 居多，因為這樣才能讓組件具有複用性。
+這樣看起來，有些時候使用 Props 還是 Context 好像都能達到傳遞的效果，那它們兩個的使用時機該怎麼決定呢？
 
-因為如果使用 Context，那麼該組件就會永遠是那一個功能，便會失去它的複用性。
+其實在一般情況下，我們都使用 Props 居多，這樣才能讓組件具有「複用性」。
 
-通常只有當我們要轉發的資料，需要越過很多元件，或是該元件有一個明確、具體的作用時，我們才會使用到 Context。
+因為如果使用 Context，那麼該組件就會永遠是那一個功能，便會失去它的複用性。所以通常只有當我們要轉發的資料，需要越過很多元件時，或是該元件有一個明確、具體的作用時，我們才會使用到 Context。
 
-### (Optional) Better IDE support and autocomplete
+### Better IDE support and autocomplete
 
-只要有調用到，就要加進 Context 的默認值，像是函式就定義一個 Dummy Function 即可，如此一來像是 `ctx.` 就會出現輸入提示 `onLogout`。
+使用 Context 時，建議只要有調用到，就應該要加進 Context 的「默認值」，例如：函式可以定義一個 Dummy Function，如此一來，像是我們在輸入 `ctx.` 時，就會出現輸入提示 `onLogout`。
 
 ```jsx
 import React from 'react';
@@ -265,15 +275,17 @@ const AuthContext = React.createContext({
 export default AuthContext;
 ```
 
-### (Optional) 透過自定義的 Context Provider 提供 Global 狀態
+### 透過自定義的 Context Provider 提供 Global 狀態
 
-其實 Global 狀態可以放到更外層，這樣可以讓 App.js 的程式碼更單純，就是用來渲染 Web App 主體而已。
+如果是 Global 狀態，其實可以放到更外層，以便讓 App.js 的程式碼更單純，也就是單純用來渲染 Web App 主體而已。
 
 做法就是我們把 Context Provider 寫在 index.js 當中，在 `ReactDOM.render` 的時候就包覆 App。
 
 這麼做可以更集中狀態管理的部分，也能讓組件的邏輯集中，將不同的邏輯分離，算是一個滿推薦的做法。
 
 ```jsx
+// index.js
+
 export const AuthContextProvider = (props) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -308,11 +320,12 @@ ReactDOM.render(
 );
 ```
 
-## 回顧
+## Recap
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
 - React Context
+- useContext Hook
 
 ## References
 

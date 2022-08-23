@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "Getting Started",
-  "description": "這個網站是我的 React 學習筆記，將會持續紀錄這一路上的各種觀念與實際用法。",
+  "description": "About this book",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",

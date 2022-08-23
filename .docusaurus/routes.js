@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','9b7'),
+    component: ComponentCreator('/','9ea'),
     routes: [
       {
         path: '/',
@@ -60,38 +60,32 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/an-alternativ-way-of-building-components/class-based-component-basic-usage',
-        component: ComponentCreator('/an-alternativ-way-of-building-components/class-based-component-basic-usage','cec'),
+        path: '/class-based-components/error-boundary',
+        component: ComponentCreator('/class-based-components/error-boundary','45a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/an-alternativ-way-of-building-components/error-boundary',
-        component: ComponentCreator('/an-alternativ-way-of-building-components/error-boundary','71b'),
+        path: '/class-based-components/introduction',
+        component: ComponentCreator('/class-based-components/introduction','17a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/an-alternativ-way-of-building-components/the-component-lifecycle',
-        component: ComponentCreator('/an-alternativ-way-of-building-components/the-component-lifecycle','b1e'),
+        path: '/class-based-components/the-component-lifecycle',
+        component: ComponentCreator('/class-based-components/the-component-lifecycle','2a3'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/building-a-multi-page-spa-with-react-router/introducing-react-router-v5',
-        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/introducing-react-router-v5','c60'),
+        path: '/code-reuse/custom-hooks',
+        component: ComponentCreator('/code-reuse/custom-hooks','2e1'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6',
-        component: ComponentCreator('/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6','92f'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/building-custom-react-hooks/using-custom-hooks',
-        component: ComponentCreator('/building-custom-react-hooks/using-custom-hooks','5eb'),
+        path: '/code-reuse/high-order-component',
+        component: ComponentCreator('/code-reuse/high-order-component','f5c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -134,6 +128,12 @@ export default [
       {
         path: '/react-advance/react-memo',
         component: ComponentCreator('/react-advance/react-memo','9b9'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/react-advance/sending-http-requests',
+        component: ComponentCreator('/react-advance/sending-http-requests','36d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -192,8 +192,8 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/react-basics/useref-and-forwardrefs',
-        component: ComponentCreator('/react-basics/useref-and-forwardrefs','fd2'),
+        path: '/react-basics/useref-and-forwardref',
+        component: ComponentCreator('/react-basics/useref-and-forwardref','06d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -204,8 +204,14 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/sending-http-request/using-the-star-wars-api',
-        component: ComponentCreator('/sending-http-request/using-the-star-wars-api','71e'),
+        path: '/react-router/upgrade-to-v6',
+        component: ComponentCreator('/react-router/upgrade-to-v6','824'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/react-router/v5',
+        component: ComponentCreator('/react-router/v5','9c4'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

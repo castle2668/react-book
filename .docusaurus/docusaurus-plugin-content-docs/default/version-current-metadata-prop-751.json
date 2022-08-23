@@ -46,9 +46,9 @@
           },
           {
             "type": "link",
-            "label": "Refs & Forward Refs",
-            "href": "/react-basics/useref-and-forwardrefs",
-            "docId": "react-basics/useref-and-forwardrefs"
+            "label": "useRef & React.forwardRef",
+            "href": "/react-basics/useref-and-forwardref",
+            "docId": "react-basics/useref-and-forwardref"
           },
           {
             "type": "link",
@@ -105,60 +105,58 @@
             "label": "Introducing useMemo",
             "href": "/react-advance/usememo",
             "docId": "react-advance/usememo"
+          },
+          {
+            "type": "link",
+            "label": "Sending Http Requests",
+            "href": "/react-advance/sending-http-requests",
+            "docId": "react-advance/sending-http-requests"
           }
         ]
       },
       {
         "type": "category",
-        "label": "An Alternative Way Of Building Components: Class-based Components",
+        "label": "Class-based Components",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Class-based Component Basic Usage",
-            "href": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
-            "docId": "an-alternativ-way-of-building-components/class-based-component-basic-usage"
+            "label": "Introduction",
+            "href": "/class-based-components/introduction",
+            "docId": "class-based-components/introduction"
           },
           {
             "type": "link",
             "label": "The Component Lifecycle",
-            "href": "/an-alternativ-way-of-building-components/the-component-lifecycle",
-            "docId": "an-alternativ-way-of-building-components/the-component-lifecycle"
+            "href": "/class-based-components/the-component-lifecycle",
+            "docId": "class-based-components/the-component-lifecycle"
           },
           {
             "type": "link",
             "label": "Error Boundary",
-            "href": "/an-alternativ-way-of-building-components/error-boundary",
-            "docId": "an-alternativ-way-of-building-components/error-boundary"
+            "href": "/class-based-components/error-boundary",
+            "docId": "class-based-components/error-boundary"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Sending Http Requests",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Using the Star Wars API",
-            "href": "/sending-http-request/using-the-star-wars-api",
-            "docId": "sending-http-request/using-the-star-wars-api"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Building Custom React Hooks",
+        "label": "Code Reuse",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Using Custom Hooks",
-            "href": "/building-custom-react-hooks/using-custom-hooks",
-            "docId": "building-custom-react-hooks/using-custom-hooks"
+            "href": "/code-reuse/custom-hooks",
+            "docId": "code-reuse/custom-hooks"
+          },
+          {
+            "type": "link",
+            "label": "Higher-Order Components",
+            "href": "/code-reuse/high-order-component",
+            "docId": "code-reuse/high-order-component"
           }
         ]
       },
@@ -217,14 +215,14 @@
           {
             "type": "link",
             "label": "Introducing React Router v5",
-            "href": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-            "docId": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5"
+            "href": "/react-router/v5",
+            "docId": "react-router/v5"
           },
           {
             "type": "link",
             "label": "Upgrading To React Router v6",
-            "href": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-            "docId": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6"
+            "href": "/react-router/upgrade-to-v6",
+            "docId": "react-router/upgrade-to-v6"
           }
         ]
       },
@@ -251,40 +249,34 @@
       "description": "在元件中可處理非同步，Reducer 只處理同步",
       "sidebar": "tutorialSidebar"
     },
-    "an-alternativ-way-of-building-components/class-based-component-basic-usage": {
-      "id": "an-alternativ-way-of-building-components/class-based-component-basic-usage",
-      "title": "Class-based Component Basic Usage",
-      "description": "Basic Usage",
-      "sidebar": "tutorialSidebar"
-    },
-    "an-alternativ-way-of-building-components/error-boundary": {
-      "id": "an-alternativ-way-of-building-components/error-boundary",
+    "class-based-components/error-boundary": {
+      "id": "class-based-components/error-boundary",
       "title": "Error Boundary",
       "description": "錯誤邊界 (Error Boundary)",
       "sidebar": "tutorialSidebar"
     },
-    "an-alternativ-way-of-building-components/the-component-lifecycle": {
-      "id": "an-alternativ-way-of-building-components/the-component-lifecycle",
+    "class-based-components/introduction": {
+      "id": "class-based-components/introduction",
+      "title": "Introduction",
+      "description": "Basic Usage",
+      "sidebar": "tutorialSidebar"
+    },
+    "class-based-components/the-component-lifecycle": {
+      "id": "class-based-components/the-component-lifecycle",
       "title": "The Component Lifecycle",
       "description": "The Component Lifecycle is Class-based Components Only!",
       "sidebar": "tutorialSidebar"
     },
-    "building-a-multi-page-spa-with-react-router/introducing-react-router-v5": {
-      "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-      "title": "Introducing React Router v5",
-      "description": "SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。",
-      "sidebar": "tutorialSidebar"
-    },
-    "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6": {
-      "id": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-      "title": "Upgrading To React Router v6",
-      "description": "React Router 第 6 版",
-      "sidebar": "tutorialSidebar"
-    },
-    "building-custom-react-hooks/using-custom-hooks": {
-      "id": "building-custom-react-hooks/using-custom-hooks",
+    "code-reuse/custom-hooks": {
+      "id": "code-reuse/custom-hooks",
       "title": "Using Custom Hooks",
-      "description": "Custom Hooks: 可以使用 React Hooks 與 State 的函式",
+      "description": "- Custom Hooks：可以使用 React Hooks 與 State 的函式",
+      "sidebar": "tutorialSidebar"
+    },
+    "code-reuse/high-order-component": {
+      "id": "code-reuse/high-order-component",
+      "title": "Higher-Order Components",
+      "description": "Higher-Order Components (HOC) 是一個函式，帶入一個元件作為參數，並回傳一個加強版的元件。",
       "sidebar": "tutorialSidebar"
     },
     "deploying-react-apps/upload-production-code-to-server": {
@@ -320,7 +312,7 @@
     "intro": {
       "id": "intro",
       "title": "Getting Started",
-      "description": "這個網站是我的 React 學習筆記，將會持續紀錄這一路上的各種觀念與實際用法。",
+      "description": "About this book",
       "sidebar": "tutorialSidebar"
     },
     "react-advance/react-context": {
@@ -335,10 +327,16 @@
       "description": "React.memo",
       "sidebar": "tutorialSidebar"
     },
+    "react-advance/sending-http-requests": {
+      "id": "react-advance/sending-http-requests",
+      "title": "Sending Http Requests",
+      "description": "範例：串接 Star Wars API",
+      "sidebar": "tutorialSidebar"
+    },
     "react-advance/usecallback": {
       "id": "react-advance/usecallback",
       "title": "Introducing useCallback",
-      "description": "⚓ useCallback Hook",
+      "description": "useCallback - React 官方文件",
       "sidebar": "tutorialSidebar"
     },
     "react-advance/useimperativehandle": {
@@ -350,7 +348,7 @@
     "react-advance/usememo": {
       "id": "react-advance/usememo",
       "title": "Introducing useMemo",
-      "description": "⚓ useMemo Hook",
+      "description": "useMemo - React 官方文件",
       "sidebar": "tutorialSidebar"
     },
     "react-advance/usereducer": {
@@ -368,7 +366,7 @@
     "react-basics/lifting-the-state-up": {
       "id": "react-basics/lifting-the-state-up",
       "title": "Lifting The State Up",
-      "description": "觀念近似 Vue 的 Emit (From Child to Parent)",
+      "description": "Props 的用途是讓父子元件之間傳遞狀態，使子元件也能使用到父元件定義的狀態。而子元件的狀態也能透過 Lifting State 的方式提升給父元件使用。",
       "sidebar": "tutorialSidebar"
     },
     "react-basics/portals": {
@@ -389,9 +387,9 @@
       "description": "Side Effect",
       "sidebar": "tutorialSidebar"
     },
-    "react-basics/useref-and-forwardrefs": {
-      "id": "react-basics/useref-and-forwardrefs",
-      "title": "Refs & Forward Refs",
+    "react-basics/useref-and-forwardref": {
+      "id": "react-basics/useref-and-forwardref",
+      "title": "useRef & React.forwardRef",
       "description": "What is Ref",
       "sidebar": "tutorialSidebar"
     },
@@ -401,10 +399,16 @@
       "description": "初始化與重新渲染",
       "sidebar": "tutorialSidebar"
     },
-    "sending-http-request/using-the-star-wars-api": {
-      "id": "sending-http-request/using-the-star-wars-api",
-      "title": "Using the Star Wars API",
-      "description": "- API: Application Programming Interface",
+    "react-router/upgrade-to-v6": {
+      "id": "react-router/upgrade-to-v6",
+      "title": "Upgrading To React Router v6",
+      "description": "React Router 第 6 版",
+      "sidebar": "tutorialSidebar"
+    },
+    "react-router/v5": {
+      "id": "react-router/v5",
+      "title": "Introducing React Router v5",
+      "description": "SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。",
       "sidebar": "tutorialSidebar"
     }
   }

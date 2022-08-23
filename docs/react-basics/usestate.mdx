@@ -6,10 +6,14 @@ sidebar_position: 1
 
 ## 初始化與重新渲染
 
+> [useState - React 官方文件](https://zh-hant.reactjs.org/docs/hooks-reference.html#usestate)
+
 - 初始化 (Initialization)：State 只會在第一次載入時初始化，除非 DOM 移除，否則 `useState` 管理的 State 都不會重新初始化
-- 重新渲染 (Re-rendering)：狀態改變會導致元件重新繪製，不過只會更改該狀態，不會進行初始化（然而會執行初始化的行為，算是小坑，本文最後會提到）
+- 重新渲染 (Re-rendering)：某狀態改變會導致元件重新繪製，不過只會更改該一狀態，其他狀態不會進行初始化（但是會執行初始化行為，算是小坑，本文最後會提到）
 
 如果是第一次 Render，State 的值會是 initialState，但如果是後續的 Re-render，initialState 將不會被使用，State 會維持是最近一次更新的 State 值。
+
+這是 React 保證的，也是為什麼後續 `useEffect` 不必把 State 放入 Dependencies。
 
 ## 更改狀態
 
@@ -56,10 +60,6 @@ setUserInput((prevObject) => {
 
 ## Lazy State Initialization
 
-> [Hooks API Reference – React](https://reactjs.org/docs/hooks-reference.html#lazy-initial-state)
-
-> [useState lazy initialization and function updates](https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates#usestate-lazy-initialization)
-
 當一個元件裡的狀態被改變時，就會重新渲染那個元件，而在做 re-render 時 `useState` 的 initial value 雖然是沒用的，但是其實每次 re-render 時還是會再跑一次 initial value。
 
 聽起來影響不大是嗎？畢竟沒影響到畫面呈現？
@@ -100,7 +100,3 @@ const [notes, setNotes] = React.useState(
 ## References
 
 - [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
-
-```
-
-```

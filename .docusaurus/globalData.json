@@ -16,33 +16,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "an-alternativ-way-of-building-components/class-based-component-basic-usage",
-              "path": "/an-alternativ-way-of-building-components/class-based-component-basic-usage",
+              "id": "class-based-components/error-boundary",
+              "path": "/class-based-components/error-boundary",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "an-alternativ-way-of-building-components/error-boundary",
-              "path": "/an-alternativ-way-of-building-components/error-boundary",
+              "id": "class-based-components/introduction",
+              "path": "/class-based-components/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "an-alternativ-way-of-building-components/the-component-lifecycle",
-              "path": "/an-alternativ-way-of-building-components/the-component-lifecycle",
+              "id": "class-based-components/the-component-lifecycle",
+              "path": "/class-based-components/the-component-lifecycle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
-              "path": "/building-a-multi-page-spa-with-react-router/introducing-react-router-v5",
+              "id": "code-reuse/custom-hooks",
+              "path": "/code-reuse/custom-hooks",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-              "path": "/building-a-multi-page-spa-with-react-router/upgrading-to-react-router-v6",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "building-custom-react-hooks/using-custom-hooks",
-              "path": "/building-custom-react-hooks/using-custom-hooks",
+              "id": "code-reuse/high-order-component",
+              "path": "/code-reuse/high-order-component",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -83,6 +78,11 @@
             {
               "id": "react-advance/react-memo",
               "path": "/react-advance/react-memo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-advance/sending-http-requests",
+              "path": "/react-advance/sending-http-requests",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -131,8 +131,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "react-basics/useref-and-forwardrefs",
-              "path": "/react-basics/useref-and-forwardrefs",
+              "id": "react-basics/useref-and-forwardref",
+              "path": "/react-basics/useref-and-forwardref",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -141,8 +141,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "sending-http-request/using-the-star-wars-api",
-              "path": "/sending-http-request/using-the-star-wars-api",
+              "id": "react-router/upgrade-to-v6",
+              "path": "/react-router/upgrade-to-v6",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-router/v5",
+              "path": "/react-router/v5",
               "sidebar": "tutorialSidebar"
             }
           ],

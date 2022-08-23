@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Using Custom Hooks",
-    "permalink": "/building-custom-react-hooks/using-custom-hooks"
+    "title": "Higher-Order Components",
+    "permalink": "/code-reuse/high-order-component"
   },
   "next": {
     "title": "Redux with Functional Components",

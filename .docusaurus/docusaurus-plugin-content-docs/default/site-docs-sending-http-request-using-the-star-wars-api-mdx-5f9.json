@@ -17,7 +17,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Error Boundary",
-    "permalink": "/an-alternativ-way-of-building-components/error-boundary"
+    "permalink": "/class-based-components/error-boundary"
   },
   "next": {
     "title": "Using Custom Hooks",

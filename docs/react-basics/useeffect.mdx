@@ -8,9 +8,9 @@ sidebar_position: 7
 
 > Effect (Side Effect): the tasks happen outside of the normal component evaluation. For example, HTTP Request.
 
-React 是透過操作 DOM 去完成 UI 渲染，每當元件的 State 改變，React 就會重新渲染那個元件，讓畫面產生改變。但是有些東西是 React 無法 Handle 的，因為這些東西不是 React 負責的，所以會產生一些 Side Effect，如果沒處理好的話，可能會發生像是重複渲染等問題使得網頁效能變差。
+React 是透過操作 DOM 去完成 UI 渲染，每當元件的 State 改變，React 就會重新渲染那個元件，讓畫面產生改變。但是有些東西是 React 無法 Handle 的，因為這些東西不是 React 負責的，所以會產生一些 Side Effect，如果沒處理好的話，可能會有重複渲染等問題使得網頁效能變差。
 
-哪些是 (Out)side effects 呢？
+有哪些東西是 (Out)side effects 呢？
 
 - Local Storage
 - API
@@ -18,18 +18,26 @@ React 是透過操作 DOM 去完成 UI 渲染，每當元件的 State 改變，R
 - 同步兩個不同的 State
 - ⋯⋯ 所有 React 不掌管的事物
 
-因此，如果今天遇到這些 Effects，我們就會需要透過 `useEffect()` 來處理哩。
+如果今天遇到這些 Effects，我們都會需要透過 `useEffect()` 來處理喔。
 
 ## ⚓ useEffect Hook
+
+> [useEffect - React 官方文件](https://zh-hant.reactjs.org/docs/hooks-reference.html#useeffect)
+
+useEffect 用來處理 Side Effects，常見如 HTTP Request，會根據 Dependencies 的不同，有不同的運作方式，例如放入變數就可以監聽變數更改時，去執行裡面的函式。
+
+另外可以 return 一個函式，又稱為 Cleanup Function，會在元件從畫面離開 (unmounted) 之前執行這個清除函式裡的動作，常見的像是用來清除 Timer、Event Listener 等等，以避免 Memory Leak 發生。
+
+### Dependencies Array
 
 根據 `useEffect` 的依賴項目，它的運行方式會有所不同：
 
 - 沒有 Dependency array：會在每一次 Component 被渲染時執行（每一次 State 或 Props 改變時）
-  - 基本上就跟沒寫 `useEffect()`，直接放在最外面一樣
+  - 基本上就跟沒寫 useEffect 直接放在最外面一樣
 - Dependency array 是空陣列：只在初始渲染 Component 時執行一次
-  - 就只會 Run 那麼一次，之後其他 State 更動都不會再執行這裡的行為哩
+  - 真的就只會 Run 那麼一次，之後其他 State 更動都不會再執行這邊的行為了
 - Dependency array 裡面有某些值：當這些值更改時，就會觸發 `useEffect`
-  - 初始會跑一次，之後會監聽 State 的改變，如果有更改就會執行
+  - 初始時跑一次之外，還會監聽 State 的改變，如果有更改就會執行
 
 範例：只有當指定依賴項發生變化時，才會執行副作用代碼，而不是當元件重新渲染時就執行。
 

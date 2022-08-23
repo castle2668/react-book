@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Using the Star Wars API",
-    "permalink": "/sending-http-request/using-the-star-wars-api"
+    "title": "Error Boundary",
+    "permalink": "/class-based-components/error-boundary"
   },
   "next": {
     "title": "Introducing Redux",
