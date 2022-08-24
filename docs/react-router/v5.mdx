@@ -6,7 +6,24 @@ sidebar_position: 1
 
 SPA 使頁面 URL 切換時不必重新 Fetch 新的 HTML 檔案，而是會阻止瀏覽器的默認行為，直接去更新畫面上的內容。藉由 React Router 我們就能根據 Route 的更改，呈現出不同的組件。
 
-## HashRouter 與 BrowserRouter 的差異
+> https://v5.reactrouter.com/web/guides/primary-components
+
+There are **three primary categories of components** in React Router:
+
+- routers: `<BrowserRouter>` and `<HashRouter>`
+- route matchers: `<Route>` and `<Switch>`
+- navigation: `<Link>`, `<NavLink>`, and `<Redirect>`
+
+We also like to think of the navigation components as “route changers”.
+
+All of the components that you use in a web application should be imported from react-router-dom.
+
+## Primary Components - Routers
+
+- BrowserRouter
+- HashRouter
+
+### BrowserRouter 與 HashRouter 的差異
 
 BrowserRouter
 
@@ -20,9 +37,14 @@ HashRouter
 - 切換時不會發送 request
 - 一直是維持在同一個 Location，是使用 `window.location.hash` 和 `hashchange` 事件來切換路由與呈現不同的渲染畫面
 
-## The Route Component
+## Primary Components - Route Mathers
 
-`<Route>` component: Rigister pages, Dynamic routes
+- Route
+- Switch
+
+### Route
+
+`<Route>` 用於註冊頁面、動態路由。
 
 ```jsx
 function App() {
@@ -49,9 +71,38 @@ function App() {
 // our-domain.com/products/anyValue
 ```
 
-## The Link Component
+### 使用 Switch
 
-`<Link>` component: 導引到其他頁面的連結，會被 render 成 `<a>` 標籤
+`<Router>` 使用 `<Switch>` 和不使用 `<Switch>` 的差異：
+
+- 使用 `<Switch>`，React Router 就會由上而下搜尋，使用第一個 match 的 `<Route>` 或 `<Redirect>`
+- 如果沒有使用 `<Switch>`，React Router 會一次搜尋全部的 Routes，只要是符合的路由就會通通被渲染，全部都呈現到畫面上
+
+### Route 加上 exact 屬性
+
+使用 `<Route>` 的 `exact` 屬性，可以讓路由只有在「完全匹配」到的時候才會生效。
+
+`<Route>` 使用 `exact` 與不使用 `exact` 的差異：
+
+- 如果沒加上 `exact`，當輸入網址 `domain.com/products/book` 時，會進入率先找到的 `<Products>`
+- 加上 `exact` 後，就能正確匹配到完全對應的路由 `<ProductDetail>`
+
+```jsx
+<Switch>
+  <Route path="/products" exact>
+    <Products />
+  </Route>
+  <Route path="/products/:productId">
+    <ProductDetail />
+  </Route>
+</Switch>
+```
+
+## Primary Components - Navigation (or Route Changers)
+
+### Link
+
+`<Link>` component，導引到其他頁面的連結，會被 render 成 `<a>` 標籤。
 
 ```jsx
 const MainHeader = () => {
@@ -72,7 +123,7 @@ const MainHeader = () => {
 };
 ```
 
-## The NavLink Component
+### NavLink
 
 `<NavLink>` 與 `<Link>` 一樣都是 Router Link，且最後都會被 render 成 `<a>` 標籤。
 
@@ -84,54 +135,9 @@ const MainHeader = () => {
 </NavLink>
 ```
 
-## ⚓️ useParam Hook
+### Redirect
 
-`useParam` Hook 會回傳一個含有「網址參數」的物件，存取的 Key 就是註冊動態路由時的參數名稱。
-
-例如：`/products/:productId` 就是取用 `productId`。
-
-```jsx
-// ourdomain.com/products/p1
-import { useParams } from 'react-router-dom';
-
-const ProductDetail = () => {
-  const params = useParams();
-  console.log(params); // Object
-  console.log(params.productId); // p1
-  // ...
-};
-```
-
-## The Switch Component & Dynamic Routes
-
-### Router 使用 Switch 和不使用 Switch 的差異
-
-使用 `<Switch>`，React Router 就會由上而下搜尋，使用第一個 match 的 `<Route>` 或 `<Redirect>`。
-
-如果沒有使用 `<Switch>`，React Router 會一次搜尋全部的 Routes，只要是符合的路由就會通通被渲染，全部都呈現到畫面上。
-
-### 使用 exact 與不使用 exact 的差異
-
-使用 `<Route>` 的 `exact` 屬性，可以讓路由只有在「完全匹配」到的時候才會生效。
-
-如果沒加上 `exact`，當輸入網址 `domain.com/products/book` 時，會進入率先找到的 `<Products>`。
-
-加上 `exact` 後，就能正確匹配到完全對應的路由 `<ProductDetail>`。
-
-```jsx
-<Switch>
-  <Route path="/products" exact>
-    <Products />
-  </Route>
-  <Route path="/products/:productId">
-    <ProductDetail />
-  </Route>
-</Switch>
-```
-
-## The Redirect Component
-
-`<Redirect>` component: Redirect the users to somewhere else
+`<Redirect>` component: Redirect the users to somewhere else.
 
 例如：當訪問到 `/<nothing>` 這個路由時，React 就會渲染 `<Redirect>` 這個元件，而這個元件只要被渲染，就會執行路由的重新導向，也就是前往 `/welcome` 這個頁面。
 
@@ -199,7 +205,27 @@ const params = useParams();
 </Switch>
 ```
 
-## ⚓️ useHistory Hook
+## Hooks
+
+### ⚓️ useParams Hook
+
+`useParams` Hook 會回傳一個含有「網址參數」的物件，存取的 Key 就是註冊動態路由時的參數名稱。
+
+例如：`/products/:productId` 就是取用 `productId`。
+
+```jsx
+// ourdomain.com/products/p1
+import { useParams } from 'react-router-dom';
+
+const ProductDetail = () => {
+  const params = useParams();
+  console.log(params); // Object
+  console.log(params.productId); // p1
+  // ...
+};
+```
+
+### ⚓️ useHistory Hook
 
 用於更改瀏覽器的歷史紀錄，提供 `push` 與 `replace` 等方法，前者可以返回上一頁，後者則無法。
 
@@ -223,7 +249,7 @@ history.push({
 });
 ```
 
-## ⚓️ useLocation Hook
+### ⚓️ useLocation Hook
 
 `useLocation` Hook 可以取得當前載入的頁面的訊息，而且是不可變的 (immutable)。
 
@@ -251,11 +277,12 @@ Q: Why do we need useLocation? Isn't everything from useLocation included in use
 
 A: There is a difference which might be relevant in a specific situation, or might not. The [docs](https://reactrouter.com/web/api/location) say:
 
-_"It is also found on `history.location` but you shouldn’t use that because it’s mutable. You can read more about that in the [history](https://v5.reactrouter.com/web/api/history) doc. A `location` object is never mutated so you can use it in the lifecycle hooks to determine when navigation happens, this is really useful for data fetching and animation."_
+_"It is also found on `history.location` but you shouldn’t use that because it’s mutable. You can read more about that in the [history](https://v5.reactrouter.com/web/api/history) doc._  
+_A `location` object is never mutated so you can use it in the lifecycle hooks to determine when navigation happens, this is really useful for data fetching and animation."_
 
-## ⚓️ useMatch Hook
+### ⚓️ useRouteMatch Hook
 
-useMatch Hook 可以取得當前所在的路徑，適合用於取代 hard-coded 的動態路徑，這樣如果最外面註冊的路由修改名稱，不用修改內部一個個的巢狀路由。
+useRouteMatch Hook 可以取得當前所在的路徑，適合用於取代 hard-coded 的動態路徑，這樣如果最外面註冊的路由修改名稱，不用修改內部一個個的巢狀路由。
 
 ```jsx
 // ourdomain.com/quotes/q2/comments
@@ -279,8 +306,8 @@ console.log(match);
 - `path`: The path pattern used to match. Useful for building nested `<Route>`
 - `url`: The matched portion of the URL. Useful for building nested `<Link>`
 
-> `match.path` is the path written for the router. - "/users/:userId"
-> `match.url` is the actual path in the browser URL. - "/users/5"
+> `match.path` is the path written for the router. - "/users/:userId"  
+> `match.url` is the actual path in the browser URL. - "/users/5"  
 > Check this article: [All About React Router 4 | CSS-Tricks](https://css-tricks.com/react-router-4/#aa-which-to-choose)
 
 ```jsx
@@ -308,7 +335,7 @@ console.log(match);
 
 特別注意 `message` 的值是一個 Function，預設帶有 `location` 這個參數，並且最後要回傳一段字串，作為 User 想要離開時會看到的訊息。
 
-## 回顧
+## Recap
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 

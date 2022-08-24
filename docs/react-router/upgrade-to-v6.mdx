@@ -18,12 +18,12 @@ React Router 第 6 版
 - 移除 useHistory 改用 useNavigate 執行程式化導航
 - Prompt 直接移除，沒有替代方案
 
-## 將 Switch 替換成 Routes
+## 將 Switch 替換成 Routes，改用 element 屬性指定渲染元件
 
-第一個變化，就是 React Router 版本 6 將原本的 `<Switch>` 更改為 `<Routes>`，這只是單純地更改名字，用法沒有改變。
+第一個變化，就是 React Router 版本 6 將原本的 `<Switch>` 更改為 `<Routes>`，這只是單純地更改名字，用法沒有改變。  
 使用上，一樣是要用 `<BrowserRouter>` 包住 `<App>` 來指定要在 `<App>` 底下規劃路由。
 
-但是註冊路由元件的方式就不一樣了，原先 V5 我們是在 `<Route>` 的子層放入 Page Component。
+但是註冊路由元件的方式就不一樣了，原先 V5 我們是在 `<Route>` 的子層放入 Page Component。  
 但到了 V6，則改用 `<Route>` 元件的 `element` 屬性來指定要渲染的頁面元件等 JSX 程式碼。
 
 ### 把 Route 用 Routes 包起來
@@ -34,12 +34,13 @@ React Router 第 6 版
 
 ### 不再需要 exact 屬性
 
-在 V5 我們需要使用 `exact` 確保配對完全符合的路徑，才不會說只要前半段符合就通通出現。
+在 V5 我們需要使用 `exact` 確保配對完全符合的路徑，才不會說只要前半段符合就通通出現。  
 但是到了 V6，我們不需要再加 `exact`，因為已經預設所有的 `<Route>` 都會套用 `exact` 的效果。
 
 這麼做的好處是，我們不用那麼在意註冊路由時的「順序」。
 
 之前在 V5，如果有使用到動態路由，我們需要記得把動態路由放到較後面的順序註冊，因為如果底下還有其他路徑（像是 `/products/edit`），Router 會永遠無法進入那一頁，因為它會被上面的動態路徑 `/products/:productId` 攔截。
+
 升級到 V6 後，React Router 會幫我們自動匹配最佳的路由。
 
 結合以上所述，我們現在可以透過以下寫法來定義路由：
@@ -57,6 +58,7 @@ React Router 第 6 版
 ### 加上米字號來配對子元件中的 Routes
 
 如果你有巢狀路由，例如 `/welcome` 與 `/welcome/new-user`，他們都會顯示 `<Welcome>` 這個 Page Component，因為是巢狀的關係。
+
 在 React Router V6，如果子元件裡面有 `<Routes><Route /></Routes>`，我們就必須使用 `/welcome/*` 讓 Router 可以訪問到子路由，而不是只能與 `/welcome` 這一個路由配對。
 
 > [v6 docs](https://reactrouter.com/docs/en/v6/upgrading/v5#relative-routes-and-links): Routes with descendant routes (defined in other components) use a trailing `*` in their path to indicate they match deeply.
@@ -69,10 +71,11 @@ React Router 第 6 版
 
 ### 子組件的路徑寫法
 
-巢狀路由不用再撰寫上層的路徑，因為 V6 會幫我們自動判斷加入，所以 `/welcome/*` 底下的巢狀子路由，就可以將 `/welcome/new-user` 替換成 `new-user` 囉！
+V6 巢狀路由不用再撰寫上層的路徑，因為 V6 會幫我們自動判斷加入，所以 `/welcome/*` 底下的巢狀子路由，就可以將 `/welcome/new-user` 替換成 `new-user` 囉！
+
 如果使用 `<Link>` 也是一樣，可以省略前面的路由。
 
-特別注意，如果要這樣寫，最前方「不能加上斜線」，否則會直接成為第一層路由。
+然後特別注意，如果要這樣寫，最前方「不能加上斜線」，否則會直接成為第一層路由。
 
 ```jsx
 const Welcome = () => {
@@ -88,12 +91,13 @@ const Welcome = () => {
 };
 ```
 
-### 集中定義 Routes 搭配 Outlet Component，且無需米字號
+### V6 集中定義 Routes，搭配 Outlet 元件，不再需要米字號
 
 React Router V6 全新支援將 Nested Routes 集中於 App.js 中定義，更方便我們管理巢狀路由，而非分散在各個組件當中。
+
 另外，使用這個定義方式的話，父層的 Route 可以不用加上米字號！
 
-> [v6 docs](https://reactrouter.com/docs/en/v6/upgrading/v5#advantages-of-route-element):
+> [v6 docs](https://reactrouter.com/docs/en/v6/upgrading/v5#advantages-of-route-element):  
 > Notice how `<Route>` elements nest naturally inside a `<Routes>` element. Nested routes build their path by adding to the parent route's path. We didn't need a trailing `*` on `<Route path="users">` this time because when the routes are defined in one spot the router is able to see all your nested routes.
 >
 > You'll only need the trailing `*` when there is another `<Routes>` somewhere in that route's descendant tree. In that case, the descendant `<Routes>` will match on the portion of the pathname that remains (see the previous example for what this looks like in practice).
@@ -104,10 +108,10 @@ React Router V6 全新支援將 Nested Routes 集中於 App.js 中定義，更�
 </Route>
 ```
 
-> 這個做法並不是強制的，只是更推薦這樣處理囉。
+> 這個做法並不是強制的，只是更推薦這樣處理囉 👍
 
-定義完成後，事情還沒結束，我們還需要指定子路由要渲染的 JSX 要放在哪裡。
-這邊會使用到 V6 新增的 `<Outlet />` 元件，它只是一個 Placeholder，用來表示要在哪裡插入 JSX 內容。
+定義完成後，事情還沒結束，我們還需要指定子路由要渲染的 JSX 要放在哪裡。  
+這邊會使用到 V6 新增的 `<Outlet>` 元件，它只是一個 Placeholder，用來表示要在哪裡插入 JSX 內容。
 
 ```jsx
 const Welcome = () => {
@@ -121,7 +125,7 @@ const Welcome = () => {
 };
 ```
 
-## NavLink 的 activeClassName 移除，請改用 ClassName
+## NavLink 的 activeClassName 已移除，請改用 ClassName
 
 在 V5 時，我們想要加個 `active` 的 Class 都這樣加，但現在這個屬性直接掰了。
 
@@ -131,10 +135,12 @@ const Welcome = () => {
 </NavLink>
 ```
 
-取而代之的是，在 `ClassName` 用一個特殊的方式來實作，V6 的 `ClassName` 現在可以放一個函式，你沒看錯，就是 Function。
+取而代之的是，在 `ClassName` 用一個特殊的方式來實作：
+
+V6 的 `ClassName` 現在可以放一個函式！  
 這個函式有一個參數 `navData`，它是一個物件，裡面有一個名為 `isActive` 的屬性，這個屬性在該 NavLink 正被造訪，處於活動狀態 (Active) 時，其值就會是 true。
 
-如何使用它？我們透過箭頭函式會 Return Value 這一點，通過動態地判斷 `navData.isActive` 的值，若為 true 即回傳 `classes.active`，否則回傳空字串。
+如何使用它呢？我們透過箭頭函式會 Return Value 這一點，通過動態地判斷 `navData.isActive` 的值，若為 true 即回傳 `classes.active`，否則回傳空字串。
 
 ```jsx
 <NavLink
@@ -145,9 +151,9 @@ const Welcome = () => {
 </NavLink>
 ```
 
-## 將 Redirect 替換成 Navigate
+## Redirect 改名叫 Navigate，而且能用 replace
 
-V5 使用 `<Redirect>` 進行重新導向，V6 則更換成 `<Navigate>` 元件。
+V5 使用 `<Redirect>` 進行重新導向。
 
 ```jsx
 <Switch>
@@ -157,7 +163,9 @@ V5 使用 `<Redirect>` 進行重新導向，V6 則更換成 `<Navigate>` 元件�
 </Switch>
 ```
 
-V6 的 `<Navigate>` 若加上 `replace` 屬性，則重新導向時會使用「取代」的方式，如果拿掉就會是預設的「Push」的導向方式。
+V6 則更換成 `<Navigate>` 元件。
+
+若加上 `replace` 屬性，則重新導向時會使用「取代」的方式，如果拿掉就會是預設的「Push」的導向方式。
 
 ```jsx
 <Routes>
@@ -170,7 +178,7 @@ V6 的 `<Navigate>` 若加上 `replace` 屬性，則重新導向時會使用「�
 
 ## 移除 useHistory 改用 useNavigate 執行程式化導航
 
-第 6 版把 useHistory 移除了，取而代之的是 useNavigate，它擁有 Push、Replace、前後導向等功能。
+第 6 版把 useHistory 移除了，取而代之的是 useNavigate，它一樣擁有 Push、Replace、前後導向等功能，但是在寫法上看起來更簡單囉。
 
 ```javascript
 const navigate = useNavigate();
@@ -189,8 +197,10 @@ navigate(-2);
 navigate(1);
 ```
 
-除此之外，useNavigate 也支援物件形式，適合處理比較複雜的路徑。
-甚至更進一步，我們可以使用 `createSearchParams` 幫我們自動將 Params 物件轉為 URL 字串，喔對了！要記得在最前面加上一個 `?` 喔。
+除此之外，useNavigate 同樣也能支援物件形式，可以處理比較複雜的路徑。
+
+甚至更進一步，我們可以使用 `createSearchParams` 幫我們自動將 Params 物件轉為 URL 字串！  
+喔對了，search 要記得在最前面加上一個 `?` 喔
 
 ```javascript
 // 支援物件形式
@@ -211,15 +221,17 @@ navigate({
 
 這個是缺點，目前還沒有替代方案，只能自己搞定 ⋯⋯React Router 團隊給點方法吧，真的是哭啊！
 
-## Optimize code with Lazy Loading
+## Optimize code with Lazy Loading and Suspense fallback
 
 - React.memo
 - Lazy Loading - Load code only when it's needed.
 
 進入頁面前，Browser 會載入我們打包的整個 Bundle，涵蓋所有的 React Code，讓我們進入後可以看到渲染的頁面，以及 Reactive 的各種狀態。
+
 這也代表著進入頁面的 Users 必須等待下載 Code 的過程，直到我們的 Web App 準備完畢為止。
 
 因此，我們想要做的是儘量減少 Users 初次載入頁面的等待時間，透過把大包的 Bundle 切分成一小包一小包 (chunk) 的方式，並且只有在訪問到該頁面時，才去下載該頁面的 Code。
+
 例如：初始進入的頁面是 All Quotes 頁面 (`ourdomain.com/quotes`)，此時就不需要載入 New Quote 頁面 (`ourdomain.com/new-quote`) 的程式碼。
 
 ```jsx
@@ -264,7 +276,7 @@ function App() {
 }
 ```
 
-## 回顧
+## Recap
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
