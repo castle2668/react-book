@@ -304,7 +304,7 @@
               "unversionedId": "intro",
               "id": "intro",
               "title": "Getting Started",
-              "description": "About this book",
+              "description": "這個網站是我的 React 學習筆記，我會持續整理所有我遇過的，與 React 相關的基礎至進階的觀念在這邊，讓自己之後複習起來能更有效率。",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -315,7 +315,8 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "slug": "/",
-                "sidebar_position": 1
+                "sidebar_position": 1,
+                "description": "這個網站是我的 React 學習筆記，我會持續整理所有我遇過的，與 React 相關的基礎至進階的觀念在這邊，讓自己之後複習起來能更有效率。"
               },
               "sidebar": "tutorialSidebar",
               "next": {
@@ -545,7 +546,8 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 2,
+                "description": "Props 的用途是讓父子元件之間傳遞狀態，使子元件也能使用到父元件定義的狀態。而子元件的狀態也能透過 Lifting State 的方式提升給父元件使用。"
               },
               "sidebar": "tutorialSidebar",
               "previous": {

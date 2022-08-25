@@ -1,6 +1,7 @@
 ---
 slug: /
 sidebar_position: 1
+description: '這個網站是我的 React 學習筆記，我會持續整理所有我遇過的，與 React 相關的基礎至進階的觀念在這邊，讓自己之後複習起來能更有效率。'
 ---
 
 # Getting Started
