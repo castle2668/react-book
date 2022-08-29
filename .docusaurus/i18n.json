@@ -3,12 +3,15 @@
   "locales": [
     "zh-Hant-TW"
   ],
+  "path": "i18n",
   "currentLocale": "zh-Hant-TW",
   "localeConfigs": {
     "zh-Hant-TW": {
       "label": "繁體中文（台灣）",
       "direction": "ltr",
-      "htmlLang": "zh-Hant-TW"
+      "htmlLang": "zh-Hant-TW",
+      "calendar": "gregory",
+      "path": "zh-Hant-TW"
     }
   }
 }

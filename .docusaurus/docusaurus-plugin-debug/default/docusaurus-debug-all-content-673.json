@@ -4,14 +4,14 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "className": "docs-version-current",
+          "path": "/",
           "tagsPath": "/tags",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/zh-Hant-TW/docusaurus-plugin-content-docs/current",
-          "versionBanner": null,
-          "versionBadge": false,
-          "versionClassName": "docs-version-current",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/zh-Hant-TW/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/sean/Desktop/Sealman/react-book/sidebars.js",
@@ -27,6 +27,7 @@
               "sourceDirName": "advanced-redux",
               "slug": "/advanced-redux/asynchronous-code-in-redux",
               "permalink": "/advanced-redux/asynchronous-code-in-redux",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/advanced-redux/asynchronous-code-in-redux.mdx",
               "tags": [],
               "version": "current",
@@ -53,6 +54,7 @@
               "sourceDirName": "class-based-components",
               "slug": "/class-based-components/error-boundary",
               "permalink": "/class-based-components/error-boundary",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/class-based-components/error-boundary.mdx",
               "tags": [],
               "version": "current",
@@ -79,6 +81,7 @@
               "sourceDirName": "class-based-components",
               "slug": "/class-based-components/introduction",
               "permalink": "/class-based-components/introduction",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/class-based-components/introduction.mdx",
               "tags": [],
               "version": "current",
@@ -105,6 +108,7 @@
               "sourceDirName": "class-based-components",
               "slug": "/class-based-components/the-component-lifecycle",
               "permalink": "/class-based-components/the-component-lifecycle",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/class-based-components/the-component-lifecycle.mdx",
               "tags": [],
               "version": "current",
@@ -131,6 +135,7 @@
               "sourceDirName": "code-reuse",
               "slug": "/code-reuse/custom-hooks",
               "permalink": "/code-reuse/custom-hooks",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/code-reuse/custom-hooks.mdx",
               "tags": [],
               "version": "current",
@@ -157,6 +162,7 @@
               "sourceDirName": "code-reuse",
               "slug": "/code-reuse/high-order-component",
               "permalink": "/code-reuse/high-order-component",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/code-reuse/high-order-component.mdx",
               "tags": [],
               "version": "current",
@@ -183,6 +189,7 @@
               "sourceDirName": "deploying-react-apps",
               "slug": "/deploying-react-apps/upload-production-code-to-server",
               "permalink": "/deploying-react-apps/upload-production-code-to-server",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/deploying-react-apps/upload-production-code-to-server.mdx",
               "tags": [],
               "version": "current",
@@ -205,6 +212,7 @@
               "sourceDirName": "diving-into-redux",
               "slug": "/diving-into-redux/introducing-redux",
               "permalink": "/diving-into-redux/introducing-redux",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/introducing-redux.mdx",
               "tags": [],
               "version": "current",
@@ -231,6 +239,7 @@
               "sourceDirName": "diving-into-redux",
               "slug": "/diving-into-redux/introducing-redux-toolkit",
               "permalink": "/diving-into-redux/introducing-redux-toolkit",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/introducing-redux-toolkit.mdx",
               "tags": [],
               "version": "current",
@@ -257,6 +266,7 @@
               "sourceDirName": "diving-into-redux",
               "slug": "/diving-into-redux/redux-with-class-based-components",
               "permalink": "/diving-into-redux/redux-with-class-based-components",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/redux-with-class-based-components.mdx",
               "tags": [],
               "version": "current",
@@ -283,6 +293,7 @@
               "sourceDirName": "diving-into-redux",
               "slug": "/diving-into-redux/redux-with-functional-components",
               "permalink": "/diving-into-redux/redux-with-functional-components",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/redux-with-functional-components.mdx",
               "tags": [],
               "version": "current",
@@ -309,6 +320,7 @@
               "sourceDirName": ".",
               "slug": "/",
               "permalink": "/",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -333,6 +345,7 @@
               "sourceDirName": "react-advance",
               "slug": "/react-advance/react-context",
               "permalink": "/react-advance/react-context",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/react-context.mdx",
               "tags": [],
               "version": "current",
@@ -359,6 +372,7 @@
               "sourceDirName": "react-advance",
               "slug": "/react-advance/react-memo",
               "permalink": "/react-advance/react-memo",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/react-memo.mdx",
               "tags": [],
               "version": "current",
@@ -385,6 +399,7 @@
               "sourceDirName": "react-advance",
               "slug": "/react-advance/sending-http-requests",
               "permalink": "/react-advance/sending-http-requests",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/sending-http-requests.mdx",
               "tags": [],
               "version": "current",
@@ -411,6 +426,7 @@
               "sourceDirName": "react-advance",
               "slug": "/react-advance/usecallback",
               "permalink": "/react-advance/usecallback",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/usecallback.mdx",
               "tags": [],
               "version": "current",
@@ -437,6 +453,7 @@
               "sourceDirName": "react-advance",
               "slug": "/react-advance/useimperativehandle",
               "permalink": "/react-advance/useimperativehandle",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/useimperativehandle.mdx",
               "tags": [],
               "version": "current",
@@ -463,6 +480,7 @@
               "sourceDirName": "react-advance",
               "slug": "/react-advance/usememo",
               "permalink": "/react-advance/usememo",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/usememo.mdx",
               "tags": [],
               "version": "current",
@@ -489,6 +507,7 @@
               "sourceDirName": "react-advance",
               "slug": "/react-advance/usereducer",
               "permalink": "/react-advance/usereducer",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-advance/usereducer.mdx",
               "tags": [],
               "version": "current",
@@ -515,6 +534,7 @@
               "sourceDirName": "react-basics",
               "slug": "/react-basics/forms-in-react",
               "permalink": "/react-basics/forms-in-react",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/forms-in-react.mdx",
               "tags": [],
               "version": "current",
@@ -541,6 +561,7 @@
               "sourceDirName": "react-basics",
               "slug": "/react-basics/lifting-the-state-up",
               "permalink": "/react-basics/lifting-the-state-up",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/lifting-the-state-up.mdx",
               "tags": [],
               "version": "current",
@@ -568,6 +589,7 @@
               "sourceDirName": "react-basics",
               "slug": "/react-basics/portals",
               "permalink": "/react-basics/portals",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/portals.mdx",
               "tags": [],
               "version": "current",
@@ -594,6 +616,7 @@
               "sourceDirName": "react-basics",
               "slug": "/react-basics/styling-react-components",
               "permalink": "/react-basics/styling-react-components",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/styling-react-components.mdx",
               "tags": [],
               "version": "current",
@@ -620,6 +643,7 @@
               "sourceDirName": "react-basics",
               "slug": "/react-basics/useeffect",
               "permalink": "/react-basics/useeffect",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/useeffect.mdx",
               "tags": [],
               "version": "current",
@@ -646,6 +670,7 @@
               "sourceDirName": "react-basics",
               "slug": "/react-basics/useref-and-forwardref",
               "permalink": "/react-basics/useref-and-forwardref",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/useref-and-forwardref.mdx",
               "tags": [],
               "version": "current",
@@ -672,6 +697,7 @@
               "sourceDirName": "react-basics",
               "slug": "/react-basics/usestate",
               "permalink": "/react-basics/usestate",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basics/usestate.mdx",
               "tags": [],
               "version": "current",
@@ -698,6 +724,7 @@
               "sourceDirName": "react-router",
               "slug": "/react-router/upgrade-to-v6",
               "permalink": "/react-router/upgrade-to-v6",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-router/upgrade-to-v6.mdx",
               "tags": [],
               "version": "current",
@@ -724,6 +751,7 @@
               "sourceDirName": "react-router",
               "slug": "/react-router/v5",
               "permalink": "/react-router/v5",
+              "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-router/v5.mdx",
               "tags": [],
               "version": "current",
@@ -742,6 +770,7 @@
               }
             }
           ],
+          "drafts": [],
           "sidebars": {
             "tutorialSidebar": [
               {
@@ -921,9 +950,7 @@
                 ]
               }
             ]
-          },
-          "mainDocId": "intro",
-          "categoryGeneratedIndices": []
+          }
         }
       ]
     }
@@ -942,10 +969,8 @@
       }
     ]
   },
-  "docusaurus-plugin-debug": {
-    "default": null
-  },
-  "docusaurus-theme-classic": {
-    "default": null
-  }
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
 }

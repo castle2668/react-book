@@ -7,6 +7,7 @@
   "sourceDirName": "diving-into-redux",
   "slug": "/diving-into-redux/redux-with-functional-components",
   "permalink": "/diving-into-redux/redux-with-functional-components",
+  "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diving-into-redux/redux-with-functional-components.mdx",
   "tags": [],
   "version": "current",
