@@ -969,6 +969,7 @@
       }
     ]
   },
+  "docusaurus-plugin-google-analytics": {},
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
   "docusaurus-bootstrap-plugin": {},
