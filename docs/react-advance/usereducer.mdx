@@ -10,7 +10,9 @@ sidebar_position: 1
 
 更強大的狀態管理，但使用起來也更為複雜，適合用於資料有較複雜的處理時，但一般而言，多數情況下使用 useState 就足夠哩。
 
-如果有學過 Vuex，其實 useReducer 有著類似 Vuex 的觀念，不過 useReducer 沒辦法像 Vuex 一樣建立全局的資料狀態，它建立的仍然是當前 Component 的 State 而已。
+如果有學過 Vuex，其實 useReducer 有著類似 Vuex 的觀念，它跟 Redux 更是 87% 像，都擁有 Action、Reducer、Store 這幾個傳遞資料的觀念。
+
+不過 useReducer 沒辦法像 Vuex 或是 Redux 一樣建立起全局的資料狀態，它建立的仍然是當前 Component 的 State 而已，但是我們還是可以透過搭配 useContext 做到類似輕量 Redux 的功能喔。
 
 ### **使用方式** INIT (≈ State in Vuex)
 
@@ -78,7 +80,26 @@ const emailReducer = (state, action) => {
 };
 ```
 
-## 回顧
+## Why useReducer
+
+到這裡，我們已經把原本在元件中的邏輯抽離到 reducer 裡面了。
+
+這麼做的好處在於，一旦元件裡的 State 邏輯複雜時，我們不會在閱讀元件程式碼的同時，還被各種 setState 搞亂自己思緒。
+
+除此之外，如果我們要把 Callback 作為 Props 傳給子元件，通常都會加上 useCallback 記憶函式，避免重新渲染。  
+而使用 useReducer 後，因為 dispatch 不會因爲 Re-rendering 而被重新分配記憶體位置，所以它被當作 Props 傳遞時，不加上 useMemo 也沒問題。
+
+## 無法完全取代 Redux
+
+雖然 useReducer 可以搭配 useContext 做到類似 Redux 的狀態管理機制，但是他們仍然無法取代 Redux。
+
+因為 Redux 能透過 Action-Creator-Thunk 這種 Middleware 來處理資料串接，以及 Side Effect 的處理，這個部分即使是 useReducer + useContext 也仍然沒辦法做到的。
+
+另外，使用 useContext 最大的硬傷就是 Re-rendering 的問題，一旦 Provider 傳遞的值改變，所有用到的元件都會重新被渲染。
+
+所以基於以上兩點，他們無法完全取代 Redux。不過如果只是想要尋求 Props Drilling 的解決方案，那麼 useReducer 加上 useContext 就會是一個很適合的做法哩。
+
+## Recap
 
 看完這篇文章，我們到底有什麼收穫呢？藉由本文可以理解到…
 
