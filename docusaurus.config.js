@@ -28,8 +28,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/sealman234/react-book/',
         },
         blog: false,
         theme: {
@@ -51,6 +50,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: 'keywords',
+          content: 'sealman, react, book, blog',
+        },
+      ],
       navbar: {
         title: 'React Book',
         logo: {
