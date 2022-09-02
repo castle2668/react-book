@@ -57,7 +57,7 @@ const config = {
         },
       ],
       navbar: {
-        title: 'React Book',
+        title: "Sealman's React Book",
         logo: {
           alt: 'My Site Logo',
           src: 'img/icon.png',
