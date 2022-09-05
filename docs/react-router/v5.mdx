@@ -43,9 +43,11 @@ HashRouter
 - Route
 - Switch
 
-### Route
+### Route and render methods
 
-`<Route>` 用於註冊頁面、動態路由。
+`<Route>` 可以用來註冊頁面，或是製作動態路由。
+
+最常見的用法為 Children 方式，寫法如下：每個 Route 底下都有一個元件，當路徑符合時就會渲染該元件，當路徑不符合時則會渲染出 `null`。
 
 ```jsx
 function App() {
@@ -71,6 +73,16 @@ function App() {
 // our-domain.com/products => Products Component
 // our-domain.com/products/anyValue
 ```
+
+除了以上寫法 React Router 還有支援以下三種渲染方式，這三種方式還會傳遞三個 props `match`、`location`、`history` 到路由元件中。
+
+- `<Route component>`
+- `<Route render>`
+- `<Route children>` function
+
+這裡建議使用 `<Route children>` 的方式，它是 Children 的進階用法，推薦使用的原因是方便之後銜接 V6 寫法。
+
+> 注意，這三種方式之中，我們一個 `<Route>` 一次只能使用其中一種。
 
 ### 使用 Switch
 
