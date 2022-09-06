@@ -80,10 +80,6 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: "Sealman's JavaScript Book",
-                href: 'https://javascript.sealman.tw',
-              },
-              {
                 label: "Sealman's React Book",
                 to: '/',
               },
